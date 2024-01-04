@@ -11,7 +11,7 @@ services:
   - name: "New Work"
     description: >
                 Legal structure of a workplace with a future
-    icon: "ti-pencil-alt"
+    icon: "ti-direction-alt"
   - name: "Family law"
     description: >
                 Marriage and family law, but also legal advice for dealing with child and adult protection authorities. I advise and litigate

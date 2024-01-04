@@ -11,7 +11,7 @@ services:
   - name: "New Work"
     description: >
                 Rechtliche Ausgestaltung eines Arbeitsplatzes mit Zukunft
-    icon: "ti-pencil-alt"
+    icon: "ti-direction-alt"
   - name: "Familienrecht"
     description: >
                 Ehe- und Familienrecht, aber auch Rechtsbeistand gegenüber Kindes- und Erwachsenenschutzbehörden. Ich berate und prozessiere
