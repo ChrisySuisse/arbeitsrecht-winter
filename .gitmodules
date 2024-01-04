@@ -1,0 +1,6 @@
+[submodule "themes/coHub"]
+	path = themes/coHub
+	url = https://github.com/StaticMania/hugo-coHub.git
+[submodule "themes/osm"]
+	path = themes/osm
+	url = https://github.com/Hanzei/hugo-component-osm.git

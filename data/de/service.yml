@@ -1,0 +1,20 @@
+---
+enable: true
+title: "Meine Leistungen"
+subtitle: >
+          Ich berate Sie gern in allen Fragen des Arbeits- und Familienrechts, kompetent und individuell.
+services:
+  - name: "Arbeitsrecht"
+    description: >
+                Arbeitsverträge, Reglemente, Kündigungen, Aufhebungsvereinbarungen, Mobbing am Arbeitsplatz, Arbeitsunfähigkeit, strittige Arbeitszeugnissen, Berufsunfälle oder anderen Schwierigkeiten – beratend und prozessierend.
+    icon: "ti-agenda"
+  - name: "New Work"
+    description: >
+                Rechtliche Ausgestaltung eines Arbeitsplatzes mit Zukunft
+    icon: "ti-pencil-alt"
+  - name: "Familienrecht"
+    description: >
+                Ehe- und Familienrecht, aber auch Rechtsbeistand gegenüber Kindes- und Erwachsenenschutzbehörden. Ich berate und prozessiere
+                in allen genannten Aspekten.
+    icon: "ti-user"
+---

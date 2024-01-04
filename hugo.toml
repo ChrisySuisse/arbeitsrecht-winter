@@ -1,0 +1,150 @@
+baseURL = 'https://chrisysuisse.github.io/'
+paginate = 6
+theme= ["osm", "coHub"]
+#title = 'Arbeitsrecht Winter'
+
+
+defaultContentLanguage = 'de'
+defaultContentLanguageInSubdir = false
+[languages]
+  [languages.de]
+    contentDir = 'content/de'
+    disabled = false
+    languageCode = 'de-ch'
+    languageDirection = 'ltr'
+    languageName = 'Deutsch'
+    title = 'Arbeitsrecht Winter'
+    weight = 1
+    [languages.de.params]
+      flag = "🇨🇭"
+#      subtitle = 'Referenz, Tutorials und Erklärungen'
+  [languages.en]
+    contentDir = 'content/en'
+    disabled = false
+    languageCode = 'en-US'
+    languageDirection = 'ltr'
+    languageName = 'English'
+    title = 'Legal Winter'
+    weight = 2
+    [languages.en.params]
+      flag = "🇬🇧"
+#      subtitle = 'Reference, Tutorials, and Explanations'
+
+
+ 
+
+  # Main Menu
+  [[menu.Main]]
+  name = "Leistungen"
+  url= "#service"
+  weight = 1
+  [[menu.Main]]
+  name = "Arbeitsrecht"
+  url= "/labour/"
+  weight = 2
+  [[menu.Main]]
+  name = "Familienrecht"
+  url= "/family/"
+  weight = 3
+#  [[menu.Main]]
+#  name = "Medien"
+#  url= "#blog"
+#  weight = 4
+  [[menu.Main]]
+  name = "Über mich"
+  url= "/about/"
+  weight = 5
+  [[menu.Main]]
+  name = "FAQ"
+  url= "#faq"
+  weight = 6
+  [[menu.Main]]
+  name = "Kontakt"
+  url= "#contact"
+  weight = 7
+  
+  
+  # Main Menu English
+  [[languages.en.menu.Main]]
+  name = "Services"
+  url= "#service"
+  weight = 1
+#  [[languages.en.menu.Main]]
+#  name = "Media"
+#  url= "#blog"
+#  weight = 3
+  [[languages.en.menu.Main]]
+  name = "Labour"
+  url= "/en/labour/"
+  weight = 2
+  [[languages.en.menu.Main]]
+  name = "Family"
+  url= "/en/family/"
+  weight = 3
+  [[languages.en.menu.Main]]
+  name = "About"
+  url= "/en/about/"
+  weight = 4
+  [[languages.en.menu.Main]]
+  name = "FAQ"
+  url= "#faq"
+  weight = 5
+  [[languages.en.menu.Main]]
+  name = "Contact"
+  url= "#contact"
+  weight = 6
+
+  # Sitemap Menu
+  [[menu.sitemap]]
+  name = "Datenschutzerklärung"
+  url = "/privacy/"
+  weight = 1
+  [[menu.sitemap]]
+  name = "Impressum"
+  url = "/impressum/"
+  weight = 2
+  
+  # Sitemap Menu
+  [[languages.en.menu.sitemap]]
+  name = "Privacy Policy"
+  url = "/en/privacy/"
+  weight = 1
+  [[languages.en.menu.sitemap]]
+  name = "Impressum"
+  url = "/en/impressum/"
+  weight = 2
+
+
+[params]
+  # theme_overrides = "css/overrides.css"
+  aboutPageURL = "blog"
+  contactLink = "contact"
+  copyright = "© {year} Arbeitsrecht Winter"
+#  fabFormURL =  "https://fabform.io/f/u00kv3-"
+#  googleAnalytics = "G-JZ95FEWF9K"
+  logo = "logo/logo_only.png"
+  footerlogo = "logo/logo.png"
+  footerDescription = "Kanzlei Christina Winter"
+
+  [params.address]
+  address = "Münchensteinerstrasse 220 <br> CH-4053 Basel"
+  email = "christina.winter@arbeitsrecht-winter.ch"
+#  openingDesc = "Kontaktieren Sie uns gern"
+#  openingHours = "We are open from 7am — 7pm week days."
+  phone = "+41 76 778 97 01"
+
+  [params.map]
+  #APIkey = "AIzaSyC9rV6yesIygoVKTD6QLf_iCa9eiIIHqZ0"
+  #latitude = "47.53843"
+  #longitude = "7.60673"
+  #{{< openstreetmap mapName="Arbeitsrecht_Winter_Anfahrt" searchControl="false" datalayersControl="false" embedControl="false" tilelayersControl="false" moreControl="false" >}}
+  pinImage = "images/pin.png"
+
+  # Social icons
+  [[params.social]]
+  icon = "ti-linkedin"
+  url = "https://www.linkedin.com/in/christina-winter-42b105110/"
+  weight = 1
+  
+  
+  

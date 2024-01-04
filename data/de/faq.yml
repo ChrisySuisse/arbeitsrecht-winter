@@ -1,0 +1,14 @@
+---
+enable: true
+title: "Frequently Asked Questions"
+faq:
+  - question: "Wie kann ich die Kanzlei erreichen?"
+    answer: >
+            Buchen Sie am besten einen Termin über das Buchungstool oder schreiben Sie mir eine E-Mail. Die erste unverbindliche Kontaktaufnahme ist selbstverständlich kostenlos.
+  - question: "Wo kann ich Sie überall vertreten?"
+    answer: >
+            Ich bin als eingetragene Anwältin im Basler Anwaltsregister und Mitglied des Schweizer und Basler Anwaltsverbandes zur rechtlichen Vertretung vor allen Gerichten und Behörden der Schweiz zugelassen.
+  - question: "Wozu dient das erste Klientengespräch?"
+    answer: >
+            Bei einem ersten Kontakt klären wir die gegenseitigen Erwartungen. Am besten schildern Sie mir den Sachverhalt und das angestrebte Ziel. Ich kann Ihnen dann eine persönliche Einschätzung der Erfolgsaussichten auf der Grundlage der von Ihnen geschilderten Fakten geben und die Konditionen erläutern, unter denen ich den Auftrag übernehmen kann. Für meine Arbeit ist es unerlässlich, ein Gefühl für die Interessen und die Denkweise des Mandanten zu entwickeln. Dazu ist ein erstes Gespräch erforderlich. Dieses kann persönlich oder per Videokonferenz stattfinden. Ich biete auch Gesprächstermine zu Randzeiten an.
+---
