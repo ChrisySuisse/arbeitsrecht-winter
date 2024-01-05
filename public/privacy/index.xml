@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Datenschutzerklärung on Arbeitsrecht Winter</title>
-    <link>http://arbeitsrecht-winter.ch/privacy/</link>
+    <link>https://arbeitsrecht-winter.ch/privacy/</link>
     <description>Recent content in Datenschutzerklärung on Arbeitsrecht Winter</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-ch</language>
     <lastBuildDate>Sat, 08 Jan 2022 12:51:52 +0600</lastBuildDate>
-    <atom:link href="http://arbeitsrecht-winter.ch/privacy/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://arbeitsrecht-winter.ch/privacy/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

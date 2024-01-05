@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Legal Winter</title>
-    <link>http://arbeitsrecht-winter.ch/en/</link>
+    <link>https://arbeitsrecht-winter.ch/en/</link>
     <description>Recent content on Legal Winter</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Sat, 08 Jan 2022 12:52:02 +0600</lastBuildDate>
-    <atom:link href="http://arbeitsrecht-winter.ch/en/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://arbeitsrecht-winter.ch/en/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -1,4 +1,4 @@
-baseURL = 'http://arbeitsrecht-winter.ch/'
+baseURL = 'https://arbeitsrecht-winter.ch/'
 paginate = 6
 theme= ["osm", "coHub"]
 #title = 'Arbeitsrecht Winter'

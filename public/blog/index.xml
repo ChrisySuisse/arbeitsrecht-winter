@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Medien und Öffentlichkeitsarbeit on Arbeitsrecht Winter</title>
-    <link>http://arbeitsrecht-winter.ch/blog/</link>
+    <link>https://arbeitsrecht-winter.ch/blog/</link>
     <description>Recent content in Medien und Öffentlichkeitsarbeit on Arbeitsrecht Winter</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-ch</language>
-    <atom:link href="http://arbeitsrecht-winter.ch/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://arbeitsrecht-winter.ch/blog/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
