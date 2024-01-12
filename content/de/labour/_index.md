@@ -1,6 +1,8 @@
 ---
 title: "Arbeitsrecht"
 date: 2023-11-08T10:41:03+06:00
+slideImage:
+  - image: "images/Art_321_OR.jpg"
 ---
 
 ## Arbeitsrecht für Arbeitnehmende

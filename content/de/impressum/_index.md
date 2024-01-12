@@ -13,7 +13,4 @@ CH-4053 Basel
 
 christina.winter@arbeitsrecht-winter.ch
 
-## Credits
-
-Titelbild: © [Mikhail Nilov](https://www.pexels.com/photo/a-person-holding-a-black-pen-7731402/)
 

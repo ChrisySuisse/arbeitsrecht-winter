@@ -1,8 +1,8 @@
 ---
 title: "About"
 date: 2022-01-08T10:41:03+06:00
-sliderImage:
-  - image: "images/about/Bild_CW_1.jpg"
+slideImage:
+  - image: "images/about/Foto_CW_About2.jpg"
 ---
 
 My name ist Christina Winter, born in 1991 in Bern, married and a mother of two. I have successfully completed my legal education at 

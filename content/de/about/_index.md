@@ -1,8 +1,8 @@
 ---
 title: "Über mich"
 date: 2022-01-08T10:41:03+06:00
-sliderImage:
-  - image: "../images/about/Bild_CW_1.jpg"
+slideImage:
+  - image: "images/about/Foto_CW_About2.jpg"
 ---
 
 Mein Name ist Christina Winter, ich wurde 1991 in Bern geboren, bin verheiratet und Mutter zweier Söhne. Meine juristische Ausbildung habe ich an der Universitäten St. Gallen, Basel, Zürich und Maastricht (NL) genossen.
