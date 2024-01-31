@@ -10,13 +10,13 @@ defaultContentLanguageInSubdir = false
   [languages.de]
     contentDir = 'content/de'
     disabled = false
-    languageCode = 'de-ch'
+    languageCode = 'de-CH'
     languageDirection = 'ltr'
     languageName = 'Deutsch'
     title = 'Arbeitsrecht Winter'
     weight = 1
     [languages.de.params]
-      flag = "🇨🇭"
+      flag = "DE"
 #      subtitle = 'Referenz, Tutorials und Erklärungen'
   [languages.en]
     contentDir = 'content/en'
@@ -27,7 +27,7 @@ defaultContentLanguageInSubdir = false
     title = 'Legal Winter'
     weight = 2
     [languages.en.params]
-      flag = "🇬🇧"
+      flag = "ENG"
 #      subtitle = 'Reference, Tutorials, and Explanations'
 
 
@@ -46,10 +46,10 @@ defaultContentLanguageInSubdir = false
   name = "Familienrecht"
   url= "/family/"
   weight = 3
-#  [[menu.Main]]
-#  name = "Medien"
-#  url= "#blog"
-#  weight = 4
+  [[menu.Main]]
+  name = "Medien"
+  url= "#blog"
+  weight = 4
   [[menu.Main]]
   name = "Über mich"
   url= "/about/"
@@ -69,10 +69,6 @@ defaultContentLanguageInSubdir = false
   name = "Services"
   url= "#service"
   weight = 1
-#  [[languages.en.menu.Main]]
-#  name = "Media"
-#  url= "#blog"
-#  weight = 3
   [[languages.en.menu.Main]]
   name = "Labour"
   url= "/en/labour/"
@@ -82,17 +78,21 @@ defaultContentLanguageInSubdir = false
   url= "/en/family/"
   weight = 3
   [[languages.en.menu.Main]]
+  name = "Media"
+  url= "#blog"
+  weight = 4
+  [[languages.en.menu.Main]]
   name = "About"
   url= "/en/about/"
-  weight = 4
+  weight = 5
   [[languages.en.menu.Main]]
   name = "FAQ"
   url= "#faq"
-  weight = 5
+  weight = 6
   [[languages.en.menu.Main]]
   name = "Contact"
   url= "#contact"
-  weight = 6
+  weight = 7
 
   # Sitemap Menu
   [[menu.sitemap]]

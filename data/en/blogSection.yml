@@ -1,7 +1,7 @@
 ---
-enable: false
+enable: true
 title: "Media and PR"
 subtitle: >
-          Some of our publications.
-buttonTarget: blog
+          Some of my publications.
+buttonTarget: en/blog
 ---

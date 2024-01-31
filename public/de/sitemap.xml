@@ -11,7 +11,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="de-ch"
+                hreflang="de-CH"
                 href="https://arbeitsrecht-winter.ch/labour/"
                 />
   </url><url>
@@ -24,8 +24,53 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="de-ch"
+                hreflang="de-CH"
                 href="https://arbeitsrecht-winter.ch/"
+                />
+  </url><url>
+    <loc>https://arbeitsrecht-winter.ch/tags/arbeitsrecht/</loc>
+    <lastmod>2023-01-16T11:16:38+06:00</lastmod>
+  </url><url>
+    <loc>https://arbeitsrecht-winter.ch/blog/</loc>
+    <lastmod>2023-01-16T11:16:38+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://arbeitsrecht-winter.ch/en/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-CH"
+                href="https://arbeitsrecht-winter.ch/blog/"
+                />
+  </url><url>
+    <loc>https://arbeitsrecht-winter.ch/tags/sozialplan/</loc>
+    <lastmod>2023-01-16T11:16:38+06:00</lastmod>
+  </url><url>
+    <loc>https://arbeitsrecht-winter.ch/blog/20230116-festschrift-von-kaenel/</loc>
+    <lastmod>2023-01-16T11:16:38+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://arbeitsrecht-winter.ch/en/blog/20230116-festschrift-von-kaenel/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-CH"
+                href="https://arbeitsrecht-winter.ch/blog/20230116-festschrift-von-kaenel/"
+                />
+  </url><url>
+    <loc>https://arbeitsrecht-winter.ch/tags/</loc>
+    <lastmod>2023-01-16T11:16:38+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://arbeitsrecht-winter.ch/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-CH"
+                href="https://arbeitsrecht-winter.ch/tags/"
                 />
   </url><url>
     <loc>https://arbeitsrecht-winter.ch/family/</loc>
@@ -37,7 +82,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="de-ch"
+                hreflang="de-CH"
                 href="https://arbeitsrecht-winter.ch/family/"
                 />
   </url><url>
@@ -50,7 +95,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="de-ch"
+                hreflang="de-CH"
                 href="https://arbeitsrecht-winter.ch/impressum/"
                 />
   </url><url>
@@ -63,7 +108,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="de-ch"
+                hreflang="de-CH"
                 href="https://arbeitsrecht-winter.ch/privacy/"
                 />
   </url><url>
@@ -76,7 +121,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="de-ch"
+                hreflang="de-CH"
                 href="https://arbeitsrecht-winter.ch/contact/"
                 />
   </url><url>
@@ -89,7 +134,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="de-ch"
+                hreflang="de-CH"
                 href="https://arbeitsrecht-winter.ch/about/"
                 />
   </url><url>
@@ -101,32 +146,8 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="de-ch"
+                hreflang="de-CH"
                 href="https://arbeitsrecht-winter.ch/categories/"
-                />
-  </url><url>
-    <loc>https://arbeitsrecht-winter.ch/blog/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="https://arbeitsrecht-winter.ch/en/blog/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de-ch"
-                href="https://arbeitsrecht-winter.ch/blog/"
-                />
-  </url><url>
-    <loc>https://arbeitsrecht-winter.ch/tags/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="https://arbeitsrecht-winter.ch/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de-ch"
-                href="https://arbeitsrecht-winter.ch/tags/"
                 />
   </url>
 </urlset>

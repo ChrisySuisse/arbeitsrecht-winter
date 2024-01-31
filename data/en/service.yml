@@ -8,13 +8,16 @@ services:
     description: >
                 Employment contracts, regulations, dismissals, termination agreements, workplace bullying, incapacity for work, disputed employment references, occupational accidents or other difficulties - in an advisory and litigation capacity.
     icon: "ti-agenda"
+    link: "/en/labour"
   - name: "New Work"
     description: >
                 Legal structure of a workplace with a future
     icon: "ti-direction-alt"
+    link: "/en/labour"
   - name: "Family law"
     description: >
                 Marriage and family law, but also legal advice for dealing with child and adult protection authorities. I advise and litigate
                 in all the aspects mentioned.
     icon: "ti-user"
+    link: "/en/family"
 ---

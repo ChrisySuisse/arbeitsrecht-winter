@@ -8,13 +8,16 @@ services:
     description: >
                 Arbeitsverträge, Reglemente, Kündigungen, Aufhebungsvereinbarungen, Mobbing am Arbeitsplatz, Arbeitsunfähigkeit, strittige Arbeitszeugnissen, Berufsunfälle oder anderen Schwierigkeiten – beratend und prozessierend.
     icon: "ti-agenda"
+    link: "/labour"
   - name: "New Work"
     description: >
                 Rechtliche Ausgestaltung eines Arbeitsplatzes mit Zukunft
     icon: "ti-direction-alt"
+    link: "/labour"
   - name: "Familienrecht"
     description: >
                 Ehe- und Familienrecht, aber auch Rechtsbeistand gegenüber Kindes- und Erwachsenenschutzbehörden. Ich berate und prozessiere
                 in allen genannten Aspekten.
     icon: "ti-user"
+    link: "/family"
 ---
