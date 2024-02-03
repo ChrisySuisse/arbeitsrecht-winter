@@ -60,7 +60,7 @@ defaultContentLanguageInSubdir = false
   weight = 6
   [[menu.Main]]
   name = "Kontakt"
-  url= "#contact"
+  url= "contact"
   weight = 7
   
   
