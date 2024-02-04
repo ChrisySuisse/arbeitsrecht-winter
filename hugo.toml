@@ -91,7 +91,7 @@ defaultContentLanguageInSubdir = false
   weight = 6
   [[languages.en.menu.Main]]
   name = "Contact"
-  url= "#contact"
+  url= "/en/contact"
   weight = 7
 
   # Sitemap Menu
