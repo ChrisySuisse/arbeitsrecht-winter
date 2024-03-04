@@ -58,6 +58,8 @@ jobs:
     needs: build
     steps:
       - name: Deploy to Website
+        env:
+          HOST_PSSWRD: ${{ secrets.HOST_PSSWRD }}
         id: deployment
         run: |
-          rsync -avz --delete --password-file=HOST_PSSWRD public/ paziwedu@sl239.web.hostpoint.ch:/home/paziwedu/www/arbeitsrecht-winter.ch/ # this will delete everything on the server that's not in the local public folder
+          rsync -avz --delete --password-file=$HOST_PSSWRD public/ paziwedu@sl239.web.hostpoint.ch:/home/paziwedu/www/arbeitsrecht-winter.ch/ # this will delete everything on the server that's not in the local public folder
