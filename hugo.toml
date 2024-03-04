@@ -4,6 +4,8 @@ theme= ["coHub"]
 #title = 'Arbeitsrecht Winter'
 
 
+
+
 defaultContentLanguage = 'de'
 defaultContentLanguageInSubdir = false
 [languages]
@@ -146,5 +148,9 @@ defaultContentLanguageInSubdir = false
   url = "https://www.linkedin.com/in/christina-winter-42b105110/"
   weight = 1
   
-  
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true  
   
