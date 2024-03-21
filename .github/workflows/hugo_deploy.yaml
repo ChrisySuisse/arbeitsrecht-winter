@@ -59,10 +59,9 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
-      - name: Change Working directory
-        run: cd ../..
       - name: Deploy to Website
         uses: up9cloud/action-rsync@master
+        run: cd ../..
         env:
           HOST: sl239.web.hostpoint.ch
           USER: paziwedu
