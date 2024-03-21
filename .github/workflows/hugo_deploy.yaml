@@ -66,4 +66,6 @@ jobs:
           USER: paziwedu
           KEY: ${{secrets.SSH_DEPLOY_KEY}}
           TARGET: /home/paziwedu/www/arbeitsrecht-winter.ch/
-          SOURCE: ~/public/
+          SOURCE: public/
+
+          PRE_SCRIPT: cd ../..
