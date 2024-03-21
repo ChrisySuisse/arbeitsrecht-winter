@@ -61,10 +61,9 @@ jobs:
     steps:
       - name: Deploy to Website
         uses: up9cloud/action-rsync@master
-        run: cd ../..
         env:
           HOST: sl239.web.hostpoint.ch
           USER: paziwedu
           KEY: ${{secrets.SSH_DEPLOY_KEY}}
           TARGET: /home/paziwedu/www/arbeitsrecht-winter.ch/
-          SOURCE: public/
+          SOURCE: ~/public/
