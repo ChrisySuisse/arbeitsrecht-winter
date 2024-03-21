@@ -68,4 +68,5 @@ jobs:
           TARGET: /home/paziwedu/www/arbeitsrecht-winter.ch/
           SOURCE: public/
 
+          RUN_SCRIPT_ON: source
           PRE_SCRIPT: cd ../..
