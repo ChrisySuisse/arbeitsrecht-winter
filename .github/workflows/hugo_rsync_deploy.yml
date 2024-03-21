@@ -1,0 +1,25 @@
+name: 'Generate and deploy with hugo-rsync-deployment'
+
+on:
+  push:
+    branches: 
+      - main
+
+jobs:
+  deploy-website:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Do a git checkout including submodules
+        uses: actions/checkout@master
+        with:
+          submodules: true
+
+      - name: Generate and deploy website
+        uses: ronvanderheijden/hugo-rsync-deployment@master
+        env:
+          VPS_DEPLOY_KEY: ${{ secrets.SSH_DEPLOY_KEY }}
+          VPS_DEPLOY_HOST: sl239.web.hostpoint.ch
+          VPS_DEPLOY_DEST: /home/paziwedu/www/arbeitsrecht-winter.ch/
+        with:
+          hugo-arguments: '--gc --minify'
+          rsync-arguments: '-avz --delete'
