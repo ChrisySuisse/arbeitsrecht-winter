@@ -47,4 +47,5 @@ jobs:
           path: public/
           remote_path: /home/paziwedu/www/arbeitsrecht-winter.ch/
           remote_host: sl239.web.hostpoint.ch
+          remote_user: paziwedu
           remote_key: ${{ secrets.SSH_DEPLOY_KEY }}
