@@ -56,15 +56,13 @@ jobs:
 
   # Deployment job
   deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     needs: build
     steps:
       - name: Deploy to Website
+        uses: up9cloud/action-rsync@master
         env:
-          HOST_PSSWRD: ${{ secrets.HOST_PSSWRD }}
-        id: deployment
-        run: |
-          rsync -avz --delete --password-file=$HOST_PSSWRD public/ paziwedu@sl239.web.hostpoint.ch:/home/paziwedu/www/arbeitsrecht-winter.ch/ # this will delete everything on the server that's not in the local public folder
+          HOST: sl239.web.hostpoint.ch
+          USER: paziwedu
+          KEY: ${{secrets.SSH_DEPLOY_KEY}}
+          TARGET: /home/paziwedu/www/arbeitsrecht-winter.ch/
