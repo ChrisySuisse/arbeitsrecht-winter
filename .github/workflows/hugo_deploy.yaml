@@ -59,6 +59,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
+      - uses: actions/checkout@v4
       - name: Deploy to Website
         uses: up9cloud/action-rsync@master
         env:
@@ -66,7 +67,4 @@ jobs:
           USER: paziwedu
           KEY: ${{secrets.SSH_DEPLOY_KEY}}
           TARGET: /home/paziwedu/www/arbeitsrecht-winter.ch/
-          SOURCE: public/
-
-          RUN_SCRIPT_ON: source
-          PRE_SCRIPT: cd ../..
+          SOURCE: ./public/
