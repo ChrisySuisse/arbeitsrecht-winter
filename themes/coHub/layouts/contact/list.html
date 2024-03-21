@@ -1,0 +1,25 @@
+{{define "main"}}
+<section class="contact-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto col-md-12">
+        <div class="page-header">
+          <h2> {{ .Title }}</h2>
+          <p>{{.Params.subTitle | safeHTML}}</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <div class="contact-form">
+          <h2>{{ i18n "BookingRequest" }}</h2>
+          <!-- Calendly Inline-Widget Beginn -->
+<div class="calendly-inline-widget" data-url="https://calendly.com/arbeitsrecht-winter/30min" style="min-width:320px;height:700px;"></div>
+<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+<!-- Calendly Inline-Widget Ende -->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{end}}

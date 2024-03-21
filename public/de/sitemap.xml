@@ -2,6 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://arbeitsrecht-winter.ch/</loc>
+    <lastmod>2024-02-06T21:35:41+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://arbeitsrecht-winter.ch/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-CH"
+                href="https://arbeitsrecht-winter.ch/"
+                />
+  </url><url>
+    <loc>https://arbeitsrecht-winter.ch/blog/</loc>
+    <lastmod>2024-02-06T21:35:41+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://arbeitsrecht-winter.ch/en/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-CH"
+                href="https://arbeitsrecht-winter.ch/blog/"
+                />
+  </url><url>
     <loc>https://arbeitsrecht-winter.ch/labour/</loc>
     <lastmod>2023-11-08T10:41:03+06:00</lastmod>
     <xhtml:link
@@ -15,34 +41,8 @@
                 href="https://arbeitsrecht-winter.ch/labour/"
                 />
   </url><url>
-    <loc>https://arbeitsrecht-winter.ch/</loc>
-    <lastmod>2023-11-08T10:41:03+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="https://arbeitsrecht-winter.ch/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de-CH"
-                href="https://arbeitsrecht-winter.ch/"
-                />
-  </url><url>
     <loc>https://arbeitsrecht-winter.ch/tags/arbeitsrecht/</loc>
     <lastmod>2023-01-16T11:16:38+06:00</lastmod>
-  </url><url>
-    <loc>https://arbeitsrecht-winter.ch/blog/</loc>
-    <lastmod>2023-01-16T11:16:38+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="https://arbeitsrecht-winter.ch/en/blog/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de-CH"
-                href="https://arbeitsrecht-winter.ch/blog/"
-                />
   </url><url>
     <loc>https://arbeitsrecht-winter.ch/tags/sozialplan/</loc>
     <lastmod>2023-01-16T11:16:38+06:00</lastmod>
