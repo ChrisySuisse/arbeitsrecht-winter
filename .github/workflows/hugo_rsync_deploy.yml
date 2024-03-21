@@ -1,25 +1,50 @@
-name: 'Generate and deploy with hugo-rsync-deployment'
+name: Continuous Deployment
 
+# Controls when the workflow will run
 on:
+  # Triggers the workflow on push events but only for the main branch
   push:
-    branches: 
-      - main
+    branches: [main]
 
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  deploy-website:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
     runs-on: ubuntu-latest
-    steps:
-      - name: Do a git checkout including submodules
-        uses: actions/checkout@master
-        with:
-          submodules: true
 
-      - name: Generate and deploy website
-        uses: ronvanderheijden/hugo-rsync-deployment@master
-        env:
-          VPS_DEPLOY_KEY: ${{ secrets.SSH_DEPLOY_KEY }}
-          VPS_DEPLOY_HOST: sl239.web.hostpoint.ch
-          VPS_DEPLOY_DEST: /home/paziwedu/www/arbeitsrecht-winter.ch/
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+
+      # Runs the Hugo command to build public directory
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
         with:
-          hugo-arguments: '--gc --minify'
-          rsync-arguments: '-avz --delete'
+          hugo-version: "0.121.2"
+          extended: true
+
+      # Setup node and npm
+      - uses: actions/setup-node@v2
+        with:
+          node-version: "15"
+
+      # Build the Hugo web site
+      - name: Hugo build
+        run: |
+          cd $GITHUB_WORKSPACE
+          hugo -v
+
+      # Copy build folder to remote using rsync
+      - name: Rsync Deployments Action
+        uses: Burnett01/rsync-deployments@5.2
+        with:
+          switches: -avz --delete
+          path: public/
+          remote_path: /home/paziwedu/www/arbeitsrecht-winter.ch/
+          remote_host: sl239.web.hostpoint.ch
+          remote_key: ${{ secrets.SSH_DEPLOY_KEY }}
