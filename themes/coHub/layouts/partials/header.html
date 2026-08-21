@@ -24,7 +24,7 @@
           </li>
           {{end}}
         </ul>
-        {{ if .Site.IsMultiLingual }}
+        {{ if hugo.IsMultilingual }}
         <ul class="navbar-nav ml-auto language-list">
             {{ $pageLang := .Page.Lang}}
             {{ range .Site.Home.AllTranslations }}

@@ -12,9 +12,9 @@ defaultContentLanguageInSubdir = false
   [languages.de]
     contentDir = 'content/de'
     disabled = false
-    languageCode = 'de-CH'
-    languageDirection = 'ltr'
-    languageName = 'Deutsch'
+    locale = 'de-CH'
+    direction = 'ltr'
+    label = 'Deutsch'
     title = 'Arbeitsrecht Winter'
     weight = 1
     [languages.de.params]
@@ -23,9 +23,9 @@ defaultContentLanguageInSubdir = false
   [languages.en]
     contentDir = 'content/en'
     disabled = false
-    languageCode = 'en-US'
-    languageDirection = 'ltr'
-    languageName = 'English'
+    locale = 'en-US'
+    direction = 'ltr'
+    label = 'English'
     title = 'Legal Winter'
     weight = 2
     [languages.en.params]
@@ -129,18 +129,16 @@ defaultContentLanguageInSubdir = false
   footerDescription = "Kanzlei Christina Winter"
 
   [params.address]
-  address = "Münchensteinerstrasse 220 <br> CH-4053 Basel"
+  address = "Steinenbachgässlein 27 <br> CH-4051 Basel"
   email = "christina.winter@arbeitsrecht-winter.ch"
 #  openingDesc = "Kontaktieren Sie uns gern"
 #  openingHours = "We are open from 7am — 7pm week days."
   phone = "+41 76 778 97 01"
 
   [params.map]
-  #APIkey = "AIzaSyC9rV6yesIygoVKTD6QLf_iCa9eiIIHqZ0"
-  #latitude = "47.53843"
-  #longitude = "7.60673"
-  #{{< openstreetmap mapName="Arbeitsrecht_Winter_Anfahrt" searchControl="false" datalayersControl="false" embedControl="false" tilelayersControl="false" moreControl="false" >}}
-  pinImage = "images/pin.png"
+  latitude = 47.552891
+  longitude = 7.588235
+  zoom = 16
 
   # Social icons
   [[params.social]]

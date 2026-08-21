@@ -58,10 +58,11 @@
     }
   }
   #map {
-    height: 100%;
+    width: 100%;
+    height: 400px;
 
     @include desktop {
-      height: 500px;
+      height: 400px;
     }
     @include tablet {
       height: 400px;
@@ -102,4 +103,24 @@
       }
     }
   }
+}
+.office-marker-pin {
+  width: 30px;
+  height: 30px;
+  background: #52c3be;
+  border: 3px solid white;
+  border-radius: 50% 50% 50% 0;
+  transform: rotate(-45deg);
+  box-shadow: 0 2px 8px rgba(0,0,0,.3);
+}
+
+.office-marker-pin::after {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background: white;
+  border-radius: 50%;
+  top: 8px;
+  left: 8px;
 }

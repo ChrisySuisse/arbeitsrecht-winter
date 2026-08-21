@@ -52,20 +52,54 @@
 </section>
 
 
-{{ "<!-- Non Critical CSS -->" | safeHTML }}
-{{$style :=  resources.Get "scss/non-critical.scss" | resources.ToCSS | resources.Minify }}
-<link href="{{ $style.Permalink }}" rel="stylesheet" />
-<!-- <script src="https://maps.googleapis.com/maps/api/js?key={{ .Site.Params.Map.APIkey }}&libraries=geometry">
-</script> -->
-{{ "<!-- VENDOR JS -->" | safeHTML }}
-<script src="{{"vendor/jQuery/jquery.min.js" | absURL }}"></script>
-<script src="{{"vendor/bootstrap/bootstrap.min.js" | absURL }}"></script>
-<script src="{{"vendor/slick/slick.min.js" | absURL}}"></script>
-<script src="{{"vendor/aos/aos.js" | absURL}}"></script>
-<script src="{{"vendor/match-height/match-height.js" | absURL}}"></script>
-<script src="{{"vendor/magnific-popup/magnific-popup.min.js" | absURL}}"></script>
-<script src="{{"vendor/g-map/gmap.js" | absURL}}"></script>
-<!-- {{ $formhandler := resources.Get "js/formhandler.js" | minify}} 
-<script src="{{ $formhandler.Permalink}}"></script> -->
-{{ $script := resources.Get "js/script.js" | minify}} 
-<script src="{{ $script.Permalink}}"></script>
+<!-- Non-critical CSS -->
+{{ $style := resources.Get "scss/non-critical.scss" | css.Sass | minify }}
+<link href="{{ $style.RelPermalink }}" rel="stylesheet">
+
+<!-- Vendor JS -->
+<script src="{{ "vendor/jQuery/jquery.min.js" | relURL }}"></script>
+<script src="{{ "vendor/bootstrap/bootstrap.min.js" | relURL }}"></script>
+<script src="{{ "vendor/slick/slick.min.js" | relURL }}"></script>
+<script src="{{ "vendor/aos/aos.js" | relURL }}"></script>
+<script src="{{ "vendor/match-height/match-height.js" | relURL }}"></script>
+<script src="{{ "vendor/magnific-popup/magnific-popup.min.js" | relURL }}"></script>
+
+<!-- Leaflet -->
+<script src="{{ "leaflet/leaflet.js" | relURL }}"></script>
+
+<script>
+  const mapElement = document.getElementById('map');
+
+  if (mapElement) {
+    const lat = parseFloat(mapElement.dataset.lat);
+    const lng = parseFloat(mapElement.dataset.lng);
+    const zoom = parseInt(mapElement.dataset.zoom, 10);
+
+    const map = L.map('map', {
+      scrollWheelZoom: true
+    }).setView([lat, lng], zoom);
+
+    const officeIcon = L.divIcon({
+      className: 'office-marker',
+      html: '<div class="office-marker-pin"></div>',
+      iconSize: [36, 36],
+      iconAnchor: [18, 36]
+    });
+
+    L.tileLayer(
+      'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+      {
+        maxZoom: 19,
+        attribution: '&copy; OpenStreetMap contributors'
+      }
+    ).addTo(map);
+
+    L.marker([lat, lng], {
+      icon: officeIcon
+    }).addTo(map);
+  }
+</script>
+
+<!-- Main JS -->
+{{ $script := resources.Get "js/script.js" | minify }}
+<script src="{{ $script.RelPermalink }}"></script>

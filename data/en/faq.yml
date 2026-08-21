@@ -3,16 +3,22 @@ enable: true
 title: "Frequently Asked Questions"
 faq:
   - question: "Q. How can contact the law firm?"
-    answer: >
+    answer: |
             The best way to book an appointment is to use the <a href="/contact">booking tool</a> or send me an <a href="mailto:christina.winter@arbeitsrecht-winter.ch">e-mail</a>. I can also be reached by <a href="tel:+41767789701">phone or Whatsapp</a>. The first non-binding contact is of course free of charge.
   - question: "Q. Where can I represent you?"
-    answer: >
+    answer: |
             I am a registered attorney in the Basel Bar Register and a member of the Swiss and Basel Bar Associations and admitted to represent clients before all courts and authorities in Switzerland.
   - question: "Q. What is the purpose of the first client meeting?"
-    answer: >
+    answer: |
             We will clarify our mutual expectations during our first contact. The best way to do this is to describe the facts of the case and the desired objective. I can then give you a personal assessment of the chances of success based on the facts you have described and explain the conditions under which I can take on the assignment. It is essential for my work to develop a feeling for the client's interests and way of thinking. This requires an initial meeting. This can take place in person or by video conference. I also offer appointments at off-peak times.
   - question: "Q. What are the costs?"
-    answer: >
-            It is important to me that the legal fees are transparent and fair so that you feel you are in good hands. As a rule, I charge for the time spent on the mandate. The amount of time spent naturally depends on the complexity and difficulty of your case. My usual rate is between CHF 250 and 280 per hour. If necessary, I am also happy to take your financial capacity into account. If you would like a rough estimate of the expected costs, I am available at any time and can give you an estimate based on my current level of knowledge.
-            Please bear in mind that, particularly in the area of employment law, legal expenses insurance often covers a large part of the legal fees. Before we meet for an initial consultation, I recommend that you clarify this with your insurance company. If you need assistance with this, I will be happy to help you.
+    answer: |
+            It is important to me that my legal fees are transparent and fair, and that you feel well supported with your matter. Before you decide to instruct me, I generally offer a free initial consultation to provide a first assessment of your situation and discuss the appropriate next steps.
+
+            As a rule, I charge for the time spent working on your case. Depending on the area of law, the complexity of the matter, and its urgency, my hourly rate ranges from CHF 270 to CHF 300 net. In addition, an expense allowance of 1% to 3% is charged, depending on the amount of work involved. The actual costs depend on the specific circumstances of each individual case. In justified situations, I also take your financial circumstances into account.
+
+            I aim to make the expected costs as predictable as possible. Based on the current stage of the proceedings and the information available to me, I will provide you with the most realistic estimate possible of the anticipated legal fees.
+
+            Particularly in employment law matters, legal expenses insurance often covers a substantial portion of legal costs. It is therefore advisable to clarify any available insurance coverage before formally engaging legal representation. I would be happy to assist you with this process.
+
 ---

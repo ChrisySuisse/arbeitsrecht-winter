@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Impressum &amp; Credits on Legal Winter</title>
-    <link>https://arbeitsrecht-winter.ch/en/impressum/</link>
-    <description>Recent content in Impressum &amp; Credits on Legal Winter</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <lastBuildDate></lastBuildDate>
-    <atom:link href="https://arbeitsrecht-winter.ch/en/impressum/index.xml" rel="self" type="application/rss+xml" />
-  </channel>
+	<channel>
+		<title>Impressum &amp; Credits on Legal Winter</title>
+		<link>http://localhost:1313/en/impressum/</link>
+		<description>Recent content in Impressum &amp; Credits on Legal Winter</description>
+		<generator>Hugo</generator>
+		<language>en-US</language>
+		
+		
+		
+		
+			<lastBuildDate></lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/en/impressum/index.xml" rel="self" type="application/rss+xml" />
+	</channel>
 </rss>

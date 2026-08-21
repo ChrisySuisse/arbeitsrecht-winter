@@ -1,4 +1,4 @@
-{{with .Site.Data.faq}}
+{{with hugo.Data.faq}}
 {{if .enable}}
 <section class="faq" id="faq">
   <div class="container">
@@ -14,9 +14,9 @@
           <div class="col-lg-6">
             <div class="faq-content">
               <h3>{{.question}}</h3>
-              <p>
-                  {{.answer | safeHTML }}
-              </p>
+              <div class="faq-answer">
+                {{ .answer | markdownify }}
+              </div>
             </div>
           </div>
           {{end}}

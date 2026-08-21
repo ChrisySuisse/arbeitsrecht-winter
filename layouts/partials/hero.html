@@ -1,4 +1,4 @@
-{{ with index .Site.Data .Language.Lang "hero"}}
+{{ with index hugo.Data .Language.Lang "hero"}}
 {{if .enable}}
   <section class="hero" style="background-image: url( {{ .heroBGimg }} );">
     <div class="container">

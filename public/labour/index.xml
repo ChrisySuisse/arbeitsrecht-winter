@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Arbeitsrecht on Arbeitsrecht Winter</title>
-    <link>https://arbeitsrecht-winter.ch/labour/</link>
-    <description>Recent content in Arbeitsrecht on Arbeitsrecht Winter</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>de-CH</language>
-    <lastBuildDate></lastBuildDate>
-    <atom:link href="https://arbeitsrecht-winter.ch/labour/index.xml" rel="self" type="application/rss+xml" />
-  </channel>
+	<channel>
+		<title>Arbeitsrecht on Arbeitsrecht Winter</title>
+		<link>http://localhost:1313/labour/</link>
+		<description>Recent content in Arbeitsrecht on Arbeitsrecht Winter</description>
+		<generator>Hugo</generator>
+		<language>de-CH</language>
+		
+		
+		
+		
+			<lastBuildDate></lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/labour/index.xml" rel="self" type="application/rss+xml" />
+	</channel>
 </rss>
