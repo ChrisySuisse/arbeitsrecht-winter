@@ -19,19 +19,14 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v7
 
       # Runs the Hugo command to build public directory
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
+        uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: "0.121.2"
           extended: true
-
-      # Setup node and npm
-      - uses: actions/setup-node@v2
-        with:
-          node-version: "15"
 
       # Build the Hugo web site
       - name: Hugo build
@@ -41,7 +36,7 @@ jobs:
 
       # Copy build folder to remote using rsync
       - name: Rsync Deployments Action
-        uses: Burnett01/rsync-deployments@5.2
+        uses: Burnett01/rsync-deployments@v9
         with:
           switches: -avz --delete
           path: public/
