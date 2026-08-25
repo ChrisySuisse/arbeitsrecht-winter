@@ -1,4 +1,4 @@
-{{ with hugo.Data.investor}}
+{{  with index hugo.Data .Language.Lang "investor"}}
 {{ if .enable}}
 <section class="team">
   <div class="container">

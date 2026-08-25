@@ -1,4 +1,4 @@
-{{ with hugo.Data.testimonial}}
+{{ with index hugo.Data .Language.Lang "testimonial"}}
 {{ if .enable}}
 <section class="quotes">
   <div class="container">

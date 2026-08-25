@@ -1,4 +1,4 @@
-{{ with hugo.Data.pricing}}
+{{ with index hugo.Data .Language.Lang "pricing"}}
 {{ if .enable}}
 <section class="pricing" id="pricing">
   <div class="container">

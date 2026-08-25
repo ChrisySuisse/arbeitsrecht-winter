@@ -1,4 +1,4 @@
-{{with hugo.Data.cta}}
+{{ with index hugo.Data .Language.Lang "cta"}}
 {{ if .enable }}
 <section class="cta">
   <div class="container">

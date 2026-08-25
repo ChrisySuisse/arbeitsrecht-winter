@@ -1,7 +1,5 @@
 ---
-#title : "<h1>STAY PRODUCTIVE WITH 
-#            <br> MODERN WORKSPACE</h1>"
-title : '<img width="60%" src="/logo/logo.png" alt="Logo"/>'
+logo: "/logo/logo.png"
 enable: true
-heroBGimg: "../images/hero/hero_background_winter.jpg"
+heroBGimg: "images/hero_background_winter.jpg"
 ---

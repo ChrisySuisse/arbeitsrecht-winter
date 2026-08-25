@@ -1,4 +1,4 @@
-{{ with hugo.Data.service}}
+{{ with index hugo.Data .Language.Lang "service"}}
 {{ if .enable}}
 <section class="service" id="service">
   <div class="container">

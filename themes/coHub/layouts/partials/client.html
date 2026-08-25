@@ -1,4 +1,4 @@
-{{ with hugo.Data.clients}}
+{{ with index hugo.Data .Language.Lang "clients"}}
 {{ if .enable}}
 <section class="clients">
   <div class="container">
