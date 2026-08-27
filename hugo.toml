@@ -1,6 +1,5 @@
 baseURL = 'https://arbeitsrecht-winter.ch/'
 paginate = 6
-theme= ["coHub"]
 #title = 'Arbeitsrecht Winter'
 
 
