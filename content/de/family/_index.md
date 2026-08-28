@@ -1,8 +1,7 @@
 ---
 title: "Familienrecht"
 date: 2023-01-08T10:41:03+06:00
-slideImage:
-  - image: "images/Zusammenarbeitsbild.jpg"
+sideImage: "images/Zusammenarbeitsbild.jpg"
 ---
 
 Nichts ist belastender und schmerzhafter als Brüche, unversöhnliche Konflikte und die damit verbundene Unsicherheiten im familiären Umfeld. Sensible Lebenssituationen erfordern ein sensibles, umsichtiges und zugleich professionelles und rasches Handeln. Gerade weil familiäre Konflikte oft existenziell sehr belastend sind, lohnt es sich, die eigenen Interessen in erfahrene und besonnene Hände zu legen.

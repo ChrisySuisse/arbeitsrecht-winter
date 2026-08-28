@@ -1,7 +1,6 @@
 ---
 title: "Sozialpläne – Aktuelle Entwicklungen"
 date: 2023-01-16T11:16:38+06:00
-featureImage: images/blog/Foto_Medien_Publikation.jpg
 tags: [ "Arbeitsrecht", "Sozialplan"]
 ---
 

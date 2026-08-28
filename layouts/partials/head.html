@@ -42,9 +42,13 @@
 
   <meta property="og:url" content="{{ .Permalink }}">
 
-  {{ with .Site.Params.images }}
-    {{ with index . 0 }}
-      <meta property="og:image" content="{{ . | absURL }}">
+  {{ with .Params.featureImage }}
+    <meta property="og:image" content="{{ . | absURL }}">
+  {{ else }}
+    {{ with .Site.Params.defaultSocialImage }}
+      {{ with index . 0 }}
+        <meta property="og:image" content="{{ . | absURL }}">
+      {{ end }}
     {{ end }}
   {{ end }}
 

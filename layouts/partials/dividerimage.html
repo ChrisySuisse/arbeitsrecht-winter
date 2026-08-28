@@ -1,18 +1,34 @@
-{{ with index hugo.Data .Language.Lang "feedback"}}
-{{if .enable}}
-<section class="testimonial"  style="background-image: url( {{ .backgroundImage }} );">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-6">
-        <div class="testimonial-content">
-          <h3>{{ .title}}</h3>
-          <blockquote>
-            {{ .feedback}}
-            <cite>{{ .feedbackAuthor }}</cite>
-          </blockquote>
+{{ with index hugo.Data .Language.Lang "feedback" }}
+  {{ if .enable }}
+
+    {{ $background := resources.Get .backgroundImage }}
+
+    {{ if $background }}
+      {{ $backgroundOptimized := $background.Resize "1920x webp q80" }}
+
+      <section
+        class="testimonial"
+        style="background-image: url('{{ $backgroundOptimized.RelPermalink }}');">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="testimonial-content">
+                <h3>{{ .title }}</h3>
+                <blockquote>
+                  {{ .feedback }}
+                  <cite>{{ .feedbackAuthor }}</cite>
+                </blockquote>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-</section>
-{{end}}
-{{end}}
+
+      </section>
+
+    {{ else }}
+      {{ errorf "Background image not found: %s" .backgroundImage }}
+    {{ end }}
+
+  {{ end }}
+{{ end }}

@@ -1,26 +1,52 @@
-{{define "main"}}
+{{ define "main" }}
+{{ $page := . }}
+
 <article class="post">
   <div class="container">
     <div class="row">
       <div class="col-lg-10 mx-auto">
+
         <div class="post-title">
-          <h2>{{.Title}}</h2>
+          <h2>{{ $page.Title }}</h2>
         </div>
+
         <div class="post-meta">
-          <p><span>{{ .Date | time.Format ":date_long" }}</span> in 
-            {{ range (.GetTerms "tags") }}
+          <p>
+            <span>{{ $page.Date | time.Format ":date_long" }}</span> in
+            {{ range ($page.GetTerms "tags") }}
               <a class="tags" href="{{ .Permalink }}">{{ .LinkTitle }}</a>
             {{ end }}
           </p>
         </div>
-        <div class="post-image">
-          <img src="{{ .Params.featureImage | absURL}}" alt="feature-image">
-        </div>
+
+        {{ $imagePath := $page.Params.featureImage | default $page.Site.Params.defaultBlogImage }}
+        {{ $image := resources.Get $imagePath }}
+
+        {{ with $image }}
+          {{ $medium := .Resize "900x webp q80" }}
+          {{ $large := .Resize "1400x webp q80" }}
+          {{ $xlarge := .Resize "1800x webp q80" }}
+
+          <div class="post-image">
+            <img
+              src="{{ $large.RelPermalink }}"
+              srcset="
+                {{ $medium.RelPermalink }} 900w,
+                {{ $large.RelPermalink }} 1400w,
+                {{ $xlarge.RelPermalink }} 1800w"
+              sizes="(max-width: 991px) 100vw, 83vw"
+              width="{{ $large.Width }}"
+              height="{{ $large.Height }}"
+              alt="{{ $page.Title }}">
+          </div>
+        {{ end }}
+
         <div class="post-body">
-          {{ .Content }}
+          {{ $page.Content }}
         </div>
+
       </div>
     </div>
   </div>
 </article>
-{{end}}
+{{ end }}

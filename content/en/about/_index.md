@@ -1,8 +1,7 @@
 ---
 title: "About"
-date: 2022-01-08T10:41:03+06:00
-slideImage:
-  - image: "images/about/Foto_CW_About2.jpg"
+date: 2023-01-08T10:41:03+06:00
+sideImage: "images/about        2.jpg"
 ---
 
 My name ist Christina Winter, born in 1991 in Bern, married and a mother of two. I have successfully completed my legal education at the Universities of St. Gallen, Basel, Zurich and Maastricht (NL).

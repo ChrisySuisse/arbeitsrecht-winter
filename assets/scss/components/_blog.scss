@@ -10,11 +10,17 @@
   }
   &-post {
     margin-bottom: 30px;
+
     @include mobile {
       margin-bottom: 15px;
     }
+
     img {
+      display: block;
       width: 100%;
+      height: auto;
+      aspect-ratio: 3 / 2;
+      object-fit: cover;
       border-radius: 5px 5px 0 0;
       transition: all 0.3s ease-in-out;
 
@@ -39,7 +45,6 @@
         font-size: 18px;
         line-height: 26px;
         color: $text-color-dark;
-        text-transform: capitalize;
 
         @include mobile-xs {
           font-size: 15px;
@@ -148,9 +153,11 @@
     }
   }
 
-  &-image {
+  .post-image {
     img {
-      max-width: 100%;
+      display: block;
+      width: 100%;
+      height: auto;
       border-radius: 6px;
     }
   }

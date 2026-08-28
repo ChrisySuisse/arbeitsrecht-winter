@@ -1,43 +1,60 @@
-{{ define "main"}}
+{{ define "main" }}
+{{ $page := . }}
+
 <section class="about">
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
         <div class="page-header">
-          <h2>{{ .Title}}</h2>
-          <p>{{ .Params.subTitle }}</p>
+          <h2>{{ $page.Title }}</h2>
+          <p>{{ $page.Params.subTitle }}</p>
         </div>
       </div>
     </div>
   </div>
 </section>
+
 <section class="story">
   <div class="container">
     <div class="row align-items-center">
+
       <div class="col-lg-6">
         <div class="story-content">
-          {{.Content}}
+          {{ $page.Content }}
         </div>
       </div>
+
       <div class="col-lg-6">
-        {{ with .Params.slideImage }}
-        <div class="story-slider">
-          {{range . }}
-            <div class="slider-item">
-              <img src="{{ .image | absURL }}" alt="images">
+        {{ with $page.Params.sideImage }}
+          {{ $image := resources.Get . }}
+
+          {{ with $image }}
+            {{ $medium := .Fill "800x600 webp q82" }}
+            {{ $large := .Fill "1200x900 webp q82" }}
+
+            <div class="story-image">
+              <img
+                src="{{ $medium.RelPermalink }}"
+                srcset="
+                  {{ $medium.RelPermalink }} 800w,
+                  {{ $large.RelPermalink }} 1200w"
+                sizes="(max-width: 991px) 100vw, 50vw"
+                width="{{ $medium.Width }}"
+                height="{{ $medium.Height }}"
+                alt="{{ $page.Title }}">
             </div>
-          {{end}}
-        </div>
+          {{ end }}
         {{ end }}
       </div>
+
     </div>
   </div>
 </section>
+
 {{ partial "gallery.html" . }}
 {{ partial "testimonial.html" . }}
 {{ partial "client.html" . }}
 {{ partial "investor.html" . }}
 {{ partial "contactAddress.html" . }}
 
-
-{{end}}
+{{ end }}

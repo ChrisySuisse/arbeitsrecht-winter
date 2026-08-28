@@ -2,21 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/labour/</loc>
-    <lastmod>2023-11-08T10:41:03+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de-CH"
-                href="http://localhost:1313/labour/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/en/labour/"
-                />
+    <loc>http://localhost:1313/tags/arbeitsrecht/</loc>
+    <lastmod>2026-08-27T11:00:00+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2023-11-08T10:41:03+06:00</lastmod>
+    <lastmod>2026-08-27T11:00:00+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de-CH"
@@ -28,11 +18,17 @@
                 href="http://localhost:1313/en/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/arbeitsrecht/</loc>
-    <lastmod>2023-01-16T11:16:38+06:00</lastmod>
+    <loc>http://localhost:1313/tags/arbeitsvertrag/</loc>
+    <lastmod>2026-08-27T11:00:00+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/20260827-auftrag-vs-arbeitsverh%C3%A4ltnis/</loc>
+    <lastmod>2026-08-27T11:00:00+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/auftragsrecht/</loc>
+    <lastmod>2026-08-27T11:00:00+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/</loc>
-    <lastmod>2023-01-16T11:16:38+06:00</lastmod>
+    <lastmod>2026-08-27T11:00:00+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de-CH"
@@ -42,6 +38,35 @@
                 rel="alternate"
                 hreflang="en-US"
                 href="http://localhost:1313/en/blog/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/tags/new-work/</loc>
+    <lastmod>2026-08-27T11:00:00+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-08-27T11:00:00+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-CH"
+                href="http://localhost:1313/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/en/tags/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/labour/</loc>
+    <lastmod>2023-11-08T10:41:03+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-CH"
+                href="http://localhost:1313/labour/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/en/labour/"
                 />
   </url><url>
     <loc>http://localhost:1313/tags/sozialplan/</loc>
@@ -60,19 +85,6 @@
                 href="http://localhost:1313/en/blog/20230116-festschrift-von-kaenel/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2023-01-16T11:16:38+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de-CH"
-                href="http://localhost:1313/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/en/tags/"
-                />
-  </url><url>
     <loc>http://localhost:1313/family/</loc>
     <lastmod>2023-01-08T10:41:03+06:00</lastmod>
     <xhtml:link
@@ -84,6 +96,19 @@
                 rel="alternate"
                 hreflang="en-US"
                 href="http://localhost:1313/en/family/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/about/</loc>
+    <lastmod>2023-01-08T10:41:03+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-CH"
+                href="http://localhost:1313/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/en/about/"
                 />
   </url><url>
     <loc>http://localhost:1313/impressum/</loc>
@@ -123,19 +148,6 @@
                 rel="alternate"
                 hreflang="en-US"
                 href="http://localhost:1313/en/contact/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/about/</loc>
-    <lastmod>2022-01-08T10:41:03+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de-CH"
-                href="http://localhost:1313/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/en/about/"
                 />
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
