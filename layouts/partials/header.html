@@ -18,25 +18,75 @@
         <ul class="navbar-nav ml-auto">
           {{ $currentPage := . }}
           {{ $menu := .Site.Menus.main}}
-          {{range $index, $element := $menu}}
-          <li class="nav-item {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{ end }}">
-             <a class="nav-link scroll-to" href="{{ .URL | relURL }}">{{.Name}}</a>
+          {{ range $index, $element := $menu }}
+
+          <li class="nav-item {{ if .HasChildren }}has-dropdown{{ end }} {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}active{{ end }}">
+
+            <a class="nav-link {{ if not .HasChildren }}scroll-to{{ end }}"
+              href="{{ .URL | relURL }}">
+              {{ .Name }}
+            </a>
+
+            {{ if .HasChildren }}
+            <ul class="nav-dropdown">
+              {{ range .Children }}
+              <li class="nav-dropdown-item">
+                <a class="nav-dropdown-link" href="{{ .URL | relURL }}">
+                  {{ .Name }}
+                </a>
+              </li>
+              {{ end }}
+            </ul>
+            {{ end }}
+
           </li>
-          {{end}}
+
+          {{ end }}
         </ul>
         {{ if hugo.IsMultilingual }}
+
         <ul class="navbar-nav ml-auto language-list">
-            {{ $pageLang := .Page.Lang}}
-            {{ range .Site.Home.AllTranslations }}
-            {{ if ne $pageLang .Lang }}
-            <li class="nav-item">
-              <a class="nav-link scroll-to" href="{{ .Permalink }}">
-                {{ .Site.Params.flag }}
-              </a>
-            </li>
+
+          {{ $currentPage := . }}
+
+          {{ range hugo.Sites }}
+
+            {{ if ne .Language.Lang $currentPage.Lang }}
+
+              {{ $targetLang := .Language.Lang }}
+              {{ $targetSite := . }}
+              {{ $targetPage := false }}
+
+              {{ range $currentPage.AllTranslations }}
+                {{ if eq .Lang $targetLang }}
+                  {{ $targetPage = . }}
+                {{ end }}
+              {{ end }}
+
+              <li class="nav-item">
+
+                {{ if $targetPage }}
+
+                  <a class="nav-link" href="{{ $targetPage.RelPermalink }}">
+                    {{ $targetPage.Site.Params.flag }}
+                  </a>
+
+                {{ else }}
+
+                  <a class="nav-link" href="{{ $targetSite.Home.RelPermalink }}">
+                    {{ $targetSite.Params.flag }}
+                  </a>
+
+                {{ end }}
+
+              </li>
+
             {{ end }}
-            {{ end }}
+
+          {{ end }}
+
         </ul>
+
         {{ end }}
       </div>
     </div>

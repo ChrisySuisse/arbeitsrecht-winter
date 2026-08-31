@@ -7,93 +7,277 @@ paginate = 6
 
 defaultContentLanguage = 'de'
 defaultContentLanguageInSubdir = false
+
 [languages]
+
   [languages.de]
-    contentDir = 'content/de'
+    contentDir = 'content'
     disabled = false
     locale = 'de-CH'
     direction = 'ltr'
     label = 'Deutsch'
     title = 'Arbeitsrecht Winter'
     weight = 1
+
     [languages.de.params]
       flag = "DE"
-#      subtitle = 'Referenz, Tutorials und Erklärungen'
+
   [languages.en]
-    contentDir = 'content/en'
+    contentDir = 'content'
     disabled = false
     locale = 'en-US'
     direction = 'ltr'
     label = 'English'
     title = 'Legal Winter'
     weight = 2
+
     [languages.en.params]
       flag = "ENG"
-#      subtitle = 'Reference, Tutorials, and Explanations'
-
-
  
 
-  # Main Menu
-  [[menu.Main]]
-  name = "Leistungen"
-  url= "#service"
-  weight = 1
-  [[menu.Main]]
-  name = "Arbeitsrecht"
-  url= "/labour/"
-  weight = 2
-  [[menu.Main]]
-  name = "Familienrecht"
-  url= "/family/"
-  weight = 3
-  [[menu.Main]]
-  name = "Medien"
-  url= "#blog"
-  weight = 4
-  [[menu.Main]]
-  name = "Über mich"
-  url= "/about/"
-  weight = 5
-  [[menu.Main]]
-  name = "FAQ"
-  url= "#faq"
-  weight = 6
-  [[menu.Main]]
-  name = "Kontakt"
-  url= "contact"
-  weight = 7
-  
-  
-  # Main Menu English
-  [[languages.en.menu.Main]]
-  name = "Services"
-  url= "#service"
-  weight = 1
-  [[languages.en.menu.Main]]
-  name = "Labour"
-  url= "/en/labour/"
-  weight = 2
-  [[languages.en.menu.Main]]
-  name = "Family"
-  url= "/en/family/"
-  weight = 3
-  [[languages.en.menu.Main]]
-  name = "Media"
-  url= "#blog"
-  weight = 4
-  [[languages.en.menu.Main]]
-  name = "About"
-  url= "/en/about/"
-  weight = 5
-  [[languages.en.menu.Main]]
-  name = "FAQ"
-  url= "#faq"
-  weight = 6
-  [[languages.en.menu.Main]]
-  name = "Contact"
-  url= "/en/contact"
-  weight = 7
+# Main Menu German
+
+[[menu.Main]]
+name = "Leistungen"
+url = "#service"
+weight = 1
+
+
+# Arbeitsrecht
+
+[[menu.Main]]
+name = "Arbeitsrecht"
+identifier = "arbeitsrecht"
+url = "/labour/"
+weight = 2
+
+[[menu.Main]]
+name = "Kündigungen"
+parent = "arbeitsrecht"
+url = "/labour/dismissals/"
+weight = 21
+
+[[menu.Main]]
+name = "Arbeitsverträge"
+parent = "arbeitsrecht"
+url = "/labour/employment-contracts/"
+weight = 22
+
+[[menu.Main]]
+name = "Sozialversicherungsrecht"
+parent = "arbeitsrecht"
+url = "/labour/social-security-law/"
+weight = 23
+
+[[menu.Main]]
+name = "Austrittsverhandlungen"
+parent = "arbeitsrecht"
+url = "/labour/exit-negotiations/"
+weight = 24
+
+[[menu.Main]]
+name = "Arbeitszeugnisse"
+parent = "arbeitsrecht"
+url = "/labour/employment-references/"
+weight = 25
+
+[[menu.Main]]
+name = "Grenzgängerfragen"
+parent = "arbeitsrecht"
+url = "/labour/cross-border-employment/"
+weight = 26
+
+[[menu.Main]]
+name = "Gleichstellungsrecht"
+parent = "arbeitsrecht"
+url = "/labour/equality/"
+weight = 27
+
+[[menu.Main]]
+name = "Mobbing"
+parent = "arbeitsrecht"
+url = "/labour/mobbing/"
+weight = 28
+
+
+# Familienrecht
+
+[[menu.Main]]
+name = "Familienrecht"
+identifier = "familienrecht"
+url = "/family/"
+weight = 3
+
+[[menu.Main]]
+name = "Unterhaltsfragen"
+parent = "familienrecht"
+url = "/family/maintenance/"
+weight = 31
+
+[[menu.Main]]
+name = "Kindesschutzrecht"
+parent = "familienrecht"
+url = "/family/child-protection-law/"
+weight = 32
+
+[[menu.Main]]
+name = "Rechte von Vätern"
+parent = "familienrecht"
+url = "/family/fathers-rights/"
+weight = 33
+
+[[menu.Main]]
+name = "Scheidungen"
+parent = "familienrecht"
+url = "/family/divorce/"
+weight = 34
+
+
+# Weitere Menüpunkte
+
+[[menu.Main]]
+name = "Medien"
+url = "/blog/"
+weight = 4
+
+[[menu.Main]]
+name = "Über mich"
+url = "/about/"
+weight = 5
+
+[[menu.Main]]
+name = "FAQ"
+url = "#faq"
+weight = 6
+
+[[menu.Main]]
+name = "Kontakt"
+url = "/contact/"
+weight = 7
+
+
+
+# ============================================================
+# Main Menu English
+# ============================================================
+
+[[languages.en.menu.Main]]
+name = "Services"
+url = "/en/#service"
+weight = 1
+
+
+# Labour Law
+
+[[languages.en.menu.Main]]
+name = "Labour"
+identifier = "labour"
+url = "/en/labour/"
+weight = 2
+
+[[languages.en.menu.Main]]
+name = "Dismissals"
+parent = "labour"
+url = "/en/labour/dismissals/"
+weight = 21
+
+[[languages.en.menu.Main]]
+name = "Employment Contracts"
+parent = "labour"
+url = "/en/labour/employment-contracts/"
+weight = 22
+
+[[languages.en.menu.Main]]
+name = "Social Security Law"
+parent = "labour"
+url = "/en/labour/social-security-law/"
+weight = 23
+
+[[languages.en.menu.Main]]
+name = "Exit Negotiations"
+parent = "labour"
+url = "/en/labour/exit-negotiations/"
+weight = 24
+
+[[languages.en.menu.Main]]
+name = "Employment References"
+parent = "labour"
+url = "/en/labour/employment-references/"
+weight = 25
+
+[[languages.en.menu.Main]]
+name = "Cross-Border Employment"
+parent = "labour"
+url = "/en/labour/cross-border-employment/"
+weight = 26
+
+[[languages.en.menu.Main]]
+name = "Equality Law"
+parent = "labour"
+url = "/en/labour/equality/"
+weight = 27
+
+[[languages.en.menu.Main]]
+name = "Workplace Mobbing"
+parent = "labour"
+url = "/en/labour/mobbing/"
+weight = 28
+
+
+# Family Law
+
+[[languages.en.menu.Main]]
+name = "Family"
+identifier = "family"
+url = "/en/family/"
+weight = 3
+
+[[languages.en.menu.Main]]
+name = "Maintenance"
+parent = "family"
+url = "/en/family/maintenance/"
+weight = 31
+
+[[languages.en.menu.Main]]
+name = "Child Protection Law"
+parent = "family"
+url = "/en/family/child-protection-law/"
+weight = 32
+
+[[languages.en.menu.Main]]
+name = "Fathers' Rights"
+parent = "family"
+url = "/en/family/fathers-rights/"
+weight = 33
+
+[[languages.en.menu.Main]]
+name = "Divorce"
+parent = "family"
+url = "/en/family/divorce/"
+weight = 34
+
+
+# Other menu items
+
+[[languages.en.menu.Main]]
+name = "Media"
+url = "/en/blog/"
+weight = 4
+
+[[languages.en.menu.Main]]
+name = "About"
+url = "/en/about/"
+weight = 5
+
+[[languages.en.menu.Main]]
+name = "FAQ"
+url = "/en/#faq"
+weight = 6
+
+[[languages.en.menu.Main]]
+name = "Contact"
+url = "/en/contact/"
+weight = 7
 
   # Sitemap Menu
   [[menu.sitemap]]

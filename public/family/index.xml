@@ -10,8 +10,36 @@
 		
 		
 		
-			<lastBuildDate></lastBuildDate>
+			<lastBuildDate>Mon, 31 Aug 2026 11:23:00 +0200</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/family/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Kindesschutzrecht</title>
+				<link>http://localhost:1313/family/child-protection-law/</link>
+				<pubDate>Mon, 31 Aug 2026 11:23:00 +0200</pubDate>
+				<guid>http://localhost:1313/family/child-protection-law/</guid>
+				<description>&lt;h1 id=&#34;kindesschutzrecht&#34;&gt;Kindesschutzrecht&lt;/h1&gt;</description>
+			</item>
+			<item>
+				<title>Rechte von Vätern</title>
+				<link>http://localhost:1313/family/fathers-rights/</link>
+				<pubDate>Mon, 31 Aug 2026 11:23:00 +0200</pubDate>
+				<guid>http://localhost:1313/family/fathers-rights/</guid>
+				<description>&lt;h1 id=&#34;rechte-von-vätern&#34;&gt;Rechte von Vätern&lt;/h1&gt;</description>
+			</item>
+			<item>
+				<title>Scheidungen</title>
+				<link>http://localhost:1313/family/divorce/</link>
+				<pubDate>Mon, 31 Aug 2026 11:23:00 +0200</pubDate>
+				<guid>http://localhost:1313/family/divorce/</guid>
+				<description>&lt;h1 id=&#34;scheidungen&#34;&gt;Scheidungen&lt;/h1&gt;</description>
+			</item>
+			<item>
+				<title>Unterhaltsfragen</title>
+				<link>http://localhost:1313/family/maintenance/</link>
+				<pubDate>Mon, 31 Aug 2026 11:23:00 +0200</pubDate>
+				<guid>http://localhost:1313/family/maintenance/</guid>
+				<description>&lt;h1 id=&#34;unterhaltsfragen&#34;&gt;Unterhaltsfragen&lt;/h1&gt;</description>
+			</item>
 	</channel>
 </rss>

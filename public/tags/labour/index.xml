@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Labour on Arbeitsrecht Winter</title>
+		<link>http://localhost:1313/tags/labour/</link>
+		<description>Recent content in Labour on Arbeitsrecht Winter</description>
+		<generator>Hugo</generator>
+		<language>de-CH</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 16 Jan 2023 11:16:38 +0600</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/labour/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>&#39;Sozialpläne&#39; in Swiss Law – Recent Developments</title>
+				<link>http://localhost:1313/en/blog/20230116-festschrift-von-kaenel/</link>
+				<pubDate>Mon, 16 Jan 2023 11:16:38 +0600</pubDate>
+				<guid>http://localhost:1313/en/blog/20230116-festschrift-von-kaenel/</guid>
+				<description>&lt;p&gt;An article by Christian Gersbach and myself has been published in Festschrift for Adrian von Kaenel,&#xA;in which we trace current developments in social plans in Swiss Law. You can access a preview here&#xA;(article in German):&lt;/p&gt;&#xA;&lt;p&gt;&lt;i class=&#34;fa fa-envelope&#34;&gt;&lt;/i&gt; &lt;a href=&#34;../../documents/12_FS_von_Kaenel_GERSBACH_WINTER_Vorschau.pdf&#34;&gt;Gersbach/Winter: Sozialpläne – Aktuelle Entwicklungen&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;If you have any questions about employment law in general or social compensation plans in particular, &lt;a href=&#34;http://localhost:1313/#contact&#34;&gt;feel free to contact me!&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

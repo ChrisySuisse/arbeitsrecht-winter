@@ -10,9 +10,93 @@
 		
 		
 		
-			<lastBuildDate>Thu, 27 Aug 2026 11:00:00 +0200</lastBuildDate>
+			<lastBuildDate>Mon, 31 Aug 2026 11:23:00 +0200</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Kindesschutzrecht</title>
+				<link>http://localhost:1313/family/child-protection-law/</link>
+				<pubDate>Mon, 31 Aug 2026 11:23:00 +0200</pubDate>
+				<guid>http://localhost:1313/family/child-protection-law/</guid>
+				<description>&lt;h1 id=&#34;kindesschutzrecht&#34;&gt;Kindesschutzrecht&lt;/h1&gt;</description>
+			</item>
+			<item>
+				<title>Rechte von Vätern</title>
+				<link>http://localhost:1313/family/fathers-rights/</link>
+				<pubDate>Mon, 31 Aug 2026 11:23:00 +0200</pubDate>
+				<guid>http://localhost:1313/family/fathers-rights/</guid>
+				<description>&lt;h1 id=&#34;rechte-von-vätern&#34;&gt;Rechte von Vätern&lt;/h1&gt;</description>
+			</item>
+			<item>
+				<title>Scheidungen</title>
+				<link>http://localhost:1313/family/divorce/</link>
+				<pubDate>Mon, 31 Aug 2026 11:23:00 +0200</pubDate>
+				<guid>http://localhost:1313/family/divorce/</guid>
+				<description>&lt;h1 id=&#34;scheidungen&#34;&gt;Scheidungen&lt;/h1&gt;</description>
+			</item>
+			<item>
+				<title>Unterhaltsfragen</title>
+				<link>http://localhost:1313/family/maintenance/</link>
+				<pubDate>Mon, 31 Aug 2026 11:23:00 +0200</pubDate>
+				<guid>http://localhost:1313/family/maintenance/</guid>
+				<description>&lt;h1 id=&#34;unterhaltsfragen&#34;&gt;Unterhaltsfragen&lt;/h1&gt;</description>
+			</item>
+			<item>
+				<title>Arbeitsverträge</title>
+				<link>http://localhost:1313/labour/employment-contracts/</link>
+				<pubDate>Mon, 31 Aug 2026 10:42:03 +0200</pubDate>
+				<guid>http://localhost:1313/labour/employment-contracts/</guid>
+				<description>&lt;h1 id=&#34;arbeitsverträge&#34;&gt;Arbeitsverträge&lt;/h1&gt;</description>
+			</item>
+			<item>
+				<title>Arbeitszeugnisse</title>
+				<link>http://localhost:1313/labour/employment-references/</link>
+				<pubDate>Mon, 31 Aug 2026 10:42:03 +0200</pubDate>
+				<guid>http://localhost:1313/labour/employment-references/</guid>
+				<description>&lt;h1 id=&#34;arbeitszeugnisse&#34;&gt;Arbeitszeugnisse&lt;/h1&gt;</description>
+			</item>
+			<item>
+				<title>Austrittsverhandlungen</title>
+				<link>http://localhost:1313/labour/exit-negotiations/</link>
+				<pubDate>Mon, 31 Aug 2026 10:42:03 +0200</pubDate>
+				<guid>http://localhost:1313/labour/exit-negotiations/</guid>
+				<description>&lt;h1 id=&#34;austrittsverhandlungen&#34;&gt;Austrittsverhandlungen&lt;/h1&gt;</description>
+			</item>
+			<item>
+				<title>Gleichstellungsrecht</title>
+				<link>http://localhost:1313/labour/equality/</link>
+				<pubDate>Mon, 31 Aug 2026 10:42:03 +0200</pubDate>
+				<guid>http://localhost:1313/labour/equality/</guid>
+				<description>&lt;h1 id=&#34;gleichstellungsrecht&#34;&gt;Gleichstellungsrecht&lt;/h1&gt;</description>
+			</item>
+			<item>
+				<title>Grenzgängerfragen</title>
+				<link>http://localhost:1313/labour/cross-border-employment/</link>
+				<pubDate>Mon, 31 Aug 2026 10:42:03 +0200</pubDate>
+				<guid>http://localhost:1313/labour/cross-border-employment/</guid>
+				<description>&lt;h1 id=&#34;grenzgängerfragen&#34;&gt;Grenzgängerfragen&lt;/h1&gt;</description>
+			</item>
+			<item>
+				<title>Mobbing</title>
+				<link>http://localhost:1313/labour/mobbing/</link>
+				<pubDate>Mon, 31 Aug 2026 10:42:03 +0200</pubDate>
+				<guid>http://localhost:1313/labour/mobbing/</guid>
+				<description>&lt;h1 id=&#34;mobbing&#34;&gt;Mobbing&lt;/h1&gt;</description>
+			</item>
+			<item>
+				<title>Sozialversicherungsrecht</title>
+				<link>http://localhost:1313/labour/social-security-law/</link>
+				<pubDate>Mon, 31 Aug 2026 10:42:03 +0200</pubDate>
+				<guid>http://localhost:1313/labour/social-security-law/</guid>
+				<description>&lt;h1 id=&#34;sozialversicherungsrecht&#34;&gt;Sozialversicherungsrecht&lt;/h1&gt;</description>
+			</item>
+			<item>
+				<title>Kündigungen</title>
+				<link>http://localhost:1313/labour/dismissals/</link>
+				<pubDate>Sun, 30 Aug 2026 10:42:03 +0600</pubDate>
+				<guid>http://localhost:1313/labour/dismissals/</guid>
+				<description></description>
+			</item>
 			<item>
 				<title>Auftrag oder Arbeitsverhältnis? Abgrenzung bei neuen Arbeitsformen</title>
 				<link>http://localhost:1313/blog/20260827-auftrag-vs-arbeitsverh%C3%A4ltnis/</link>

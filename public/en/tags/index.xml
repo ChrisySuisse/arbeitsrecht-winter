@@ -10,9 +10,37 @@
 		
 		
 		
-			<lastBuildDate>Mon, 16 Jan 2023 11:16:38 +0600</lastBuildDate>
+			<lastBuildDate>Thu, 27 Aug 2026 11:00:00 +0200</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/en/tags/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Contract Law</title>
+				<link>http://localhost:1313/en/tags/contract-law/</link>
+				<pubDate>Thu, 27 Aug 2026 11:00:00 +0200</pubDate>
+				<guid>http://localhost:1313/en/tags/contract-law/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Employment Contract</title>
+				<link>http://localhost:1313/en/tags/employment-contract/</link>
+				<pubDate>Thu, 27 Aug 2026 11:00:00 +0200</pubDate>
+				<guid>http://localhost:1313/en/tags/employment-contract/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Employment Law</title>
+				<link>http://localhost:1313/en/tags/employment-law/</link>
+				<pubDate>Thu, 27 Aug 2026 11:00:00 +0200</pubDate>
+				<guid>http://localhost:1313/en/tags/employment-law/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>New Work</title>
+				<link>http://localhost:1313/en/tags/new-work/</link>
+				<pubDate>Thu, 27 Aug 2026 11:00:00 +0200</pubDate>
+				<guid>http://localhost:1313/en/tags/new-work/</guid>
+				<description></description>
+			</item>
 			<item>
 				<title>Labour</title>
 				<link>http://localhost:1313/en/tags/labour/</link>
