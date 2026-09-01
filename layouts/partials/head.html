@@ -42,14 +42,15 @@
 
   <meta property="og:url" content="{{ .Permalink }}">
 
-  {{ with .Params.featureImage }}
-    <meta property="og:image" content="{{ . | absURL }}">
-  {{ else }}
-    {{ with .Site.Params.defaultSocialImage }}
-      {{ with index . 0 }}
-        <meta property="og:image" content="{{ . | absURL }}">
-      {{ end }}
-    {{ end }}
+  {{ $socialImagePath := .Params.socialImage | default .Site.Params.defaultSocialImage }}
+  {{ $socialImage := resources.Get $socialImagePath }}
+
+  {{ with $socialImage }}
+    {{ $social := .Fill "1200x630 webp q82" }}
+
+    <meta property="og:image" content="{{ $social.Permalink }}">
+    <meta property="og:image:width" content="{{ $social.Width }}">
+    <meta property="og:image:height" content="{{ $social.Height }}">
   {{ end }}
 
   <!-- Critical CSS -->
