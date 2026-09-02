@@ -14,88 +14,88 @@
 		
 			<atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
 			<item>
-				<title>Kindesschutzrecht</title>
+				<title>Child protection</title>
 				<link>http://localhost:1313/en/family/child-protection-law/</link>
 				<pubDate>Mon, 31 Aug 2026 11:23:00 +0200</pubDate>
 				<guid>http://localhost:1313/en/family/child-protection-law/</guid>
-				<description>&lt;h1 id=&#34;kindesschutzrecht&#34;&gt;Kindesschutzrecht&lt;/h1&gt;</description>
+				<description>&lt;p&gt;Child protection matters are among the most emotionally challenging areas of family law. They concern the welfare and integrity of a child while often also affecting the fundamental relationship between parents and their children. The stakes are therefore particularly high.&lt;/p&gt;&#xA;&lt;p&gt;The situation can become especially difficult when authorities become involved: following a report of a potential risk to a child, during investigations by the Child and Adult Protection Authority (KESB), or where the appointment of a deputy or more extensive child protection measures are being considered. In such situations, I consider it particularly important to seek legal advice at an early stage.&lt;/p&gt;</description>
 			</item>
 			<item>
-				<title>Rechte von Vätern</title>
-				<link>http://localhost:1313/en/family/fathers-rights/</link>
-				<pubDate>Mon, 31 Aug 2026 11:23:00 +0200</pubDate>
-				<guid>http://localhost:1313/en/family/fathers-rights/</guid>
-				<description>&lt;h1 id=&#34;rechte-von-vätern&#34;&gt;Rechte von Vätern&lt;/h1&gt;</description>
-			</item>
-			<item>
-				<title>Scheidungen</title>
+				<title>Divorces</title>
 				<link>http://localhost:1313/en/family/divorce/</link>
 				<pubDate>Mon, 31 Aug 2026 11:23:00 +0200</pubDate>
 				<guid>http://localhost:1313/en/family/divorce/</guid>
-				<description>&lt;h1 id=&#34;scheidungen&#34;&gt;Scheidungen&lt;/h1&gt;</description>
+				<description>&lt;p&gt;There are many good reasons to get married. But there can also be good reasons to end a marriage. Once you have made that decision, I can guide you through the process from the initial decision to divorce through to the final divorce judgment.&lt;/p&gt;&#xA;&lt;p&gt;How complex – and therefore how costly – a divorce becomes depends largely on the issues on which the spouses are still able to agree. Where the divorce and its consequences have largely been settled, the spouses can file a joint petition for divorce in Switzerland and submit an appropriate divorce agreement in a relatively straightforward procedure. Even in such cases, it can be advisable to have the agreement drafted or at least reviewed by a lawyer. Matters concerning maintenance, children, assets or occupational pensions should not merely appear reasonable today, but should be regulated in a legally sound and sustainable manner for the future.&lt;/p&gt;</description>
 			</item>
 			<item>
-				<title>Unterhaltsfragen</title>
+				<title>Fathers’ rights</title>
+				<link>http://localhost:1313/en/family/fathers-rights/</link>
+				<pubDate>Mon, 31 Aug 2026 11:23:00 +0200</pubDate>
+				<guid>http://localhost:1313/en/family/fathers-rights/</guid>
+				<description>&lt;p&gt;“Fathers’ rights” are not a separate category of family law. And, in principle, there should be no need for such a category at all. Swiss law does not distinguish between first- and second-class parents. As parents, fathers and mothers have equal rights under the law.&lt;/p&gt;&#xA;&lt;p&gt;Experience shows, however, that legal equality does not automatically eliminate every inequality in practice. Unexamined or supposedly self-evident assumptions about who is primarily responsible for a child, who determines the child’s everyday life or which parent is initially considered more trustworthy in a conflict can still play a role today. Fathers therefore continue to experience situations in which they bear all the responsibilities of parenthood while their actual role as a parent is less readily recognised.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Maintenance</title>
 				<link>http://localhost:1313/en/family/maintenance/</link>
 				<pubDate>Mon, 31 Aug 2026 11:23:00 +0200</pubDate>
 				<guid>http://localhost:1313/en/family/maintenance/</guid>
-				<description>&lt;h1 id=&#34;unterhaltsfragen&#34;&gt;Unterhaltsfragen&lt;/h1&gt;</description>
+				<description>&lt;p&gt;In cases of separation and between parents who live apart, the question of appropriate maintenance is one of the most common sources of conflict. Maintenance is neither a matter of personal preference nor a voluntary or discretionary payment. Maintenance contributions are based on legal rights and obligations arising, in particular, from marriage and parenthood.&lt;/p&gt;&#xA;&lt;p&gt;The appropriate amount of maintenance is therefore not simply a matter of free negotiation. Whether child maintenance, spousal maintenance or post-divorce maintenance is concerned, the parties’ actual financial circumstances are decisive. Income, financial needs, childcare arrangements and the ability to pay must be carefully assessed and balanced in accordance with the principles developed by the courts.&lt;/p&gt;</description>
 			</item>
 			<item>
-				<title>Arbeitsverträge</title>
-				<link>http://localhost:1313/en/labour/employment-contracts/</link>
-				<pubDate>Mon, 31 Aug 2026 10:42:03 +0200</pubDate>
-				<guid>http://localhost:1313/en/labour/employment-contracts/</guid>
-				<description>&lt;h1 id=&#34;arbeitsverträge&#34;&gt;Arbeitsverträge&lt;/h1&gt;</description>
-			</item>
-			<item>
-				<title>Arbeitszeugnisse</title>
-				<link>http://localhost:1313/en/labour/employment-references/</link>
-				<pubDate>Mon, 31 Aug 2026 10:42:03 +0200</pubDate>
-				<guid>http://localhost:1313/en/labour/employment-references/</guid>
-				<description>&lt;h1 id=&#34;arbeitszeugnisse&#34;&gt;Arbeitszeugnisse&lt;/h1&gt;</description>
-			</item>
-			<item>
-				<title>Austrittsverhandlungen</title>
-				<link>http://localhost:1313/en/labour/exit-negotiations/</link>
-				<pubDate>Mon, 31 Aug 2026 10:42:03 +0200</pubDate>
-				<guid>http://localhost:1313/en/labour/exit-negotiations/</guid>
-				<description>&lt;h1 id=&#34;austrittsverhandlungen&#34;&gt;Austrittsverhandlungen&lt;/h1&gt;</description>
-			</item>
-			<item>
-				<title>Gleichstellungsrecht</title>
-				<link>http://localhost:1313/en/labour/equality/</link>
-				<pubDate>Mon, 31 Aug 2026 10:42:03 +0200</pubDate>
-				<guid>http://localhost:1313/en/labour/equality/</guid>
-				<description>&lt;h1 id=&#34;gleichstellungsrecht&#34;&gt;Gleichstellungsrecht&lt;/h1&gt;</description>
-			</item>
-			<item>
-				<title>Grenzgängerfragen</title>
+				<title>Cross-border and international employment</title>
 				<link>http://localhost:1313/en/labour/cross-border-employment/</link>
 				<pubDate>Mon, 31 Aug 2026 10:42:03 +0200</pubDate>
 				<guid>http://localhost:1313/en/labour/cross-border-employment/</guid>
-				<description>&lt;h1 id=&#34;grenzgängerfragen&#34;&gt;Grenzgängerfragen&lt;/h1&gt;</description>
+				<description>&lt;p&gt;The labour market in Northwestern Switzerland is strongly shaped by the tri-border region and cross-border cooperation. For many companies, employees residing in Germany or France are as much a part of everyday business as internationally recruited professionals. This creates particular legal requirements when structuring employment relationships.&lt;/p&gt;&#xA;&lt;p&gt;Cross-border employment issues regularly involve employment law, tax law and social security law. Which rules apply depends, among other factors, on the employee’s place of residence, place of work, the extent of work performed abroad and nationality. An arrangement suitable for an employee residing in Germany therefore cannot simply be applied to an employee residing in France.&lt;/p&gt;</description>
 			</item>
 			<item>
-				<title>Mobbing</title>
-				<link>http://localhost:1313/en/labour/mobbing/</link>
+				<title>Employment Contracts</title>
+				<link>http://localhost:1313/en/labour/employment-contracts/</link>
 				<pubDate>Mon, 31 Aug 2026 10:42:03 +0200</pubDate>
-				<guid>http://localhost:1313/en/labour/mobbing/</guid>
-				<description>&lt;h1 id=&#34;mobbing&#34;&gt;Mobbing&lt;/h1&gt;</description>
+				<guid>http://localhost:1313/en/labour/employment-contracts/</guid>
+				<description>&lt;p&gt;Under Swiss law, employment contracts are generally not subject to any particular formal requirements. Nevertheless, it is advisable to set out the essential rights and obligations in writing, clearly and in a manner tailored to the specific employment relationship. Careful contract drafting creates certainty for both parties and provides a reliable basis if differing interpretations arise at a later stage.&lt;/p&gt;&#xA;&lt;p&gt;Many employment law disputes can be traced back to unclear, contradictory or incomplete agreements. Anyone entering into a new employment relationship should therefore consider not only salary, position and working hours, but also provisions on bonuses, overtime, holidays, notice periods, non-compete clauses, place of work and home office arrangements.&lt;/p&gt;</description>
 			</item>
 			<item>
-				<title>Sozialversicherungsrecht</title>
+				<title>Employment references</title>
+				<link>http://localhost:1313/en/labour/employment-references/</link>
+				<pubDate>Mon, 31 Aug 2026 10:42:03 +0200</pubDate>
+				<guid>http://localhost:1313/en/labour/employment-references/</guid>
+				<description>&lt;p&gt;Employment references are among the most common issues in employment law. A purely linguistic review can nowadays usually be carried out with relatively little effort. The key issue, however, is not merely to identify problematic wording, but to ensure that justified amendments are actually accepted by the employer.&lt;/p&gt;&#xA;&lt;p&gt;An employment reference must be truthful, complete and at the same time formulated in a favourable manner. In practice, disputes frequently arise over whether duties and responsibilities have been accurately described, performance has been appropriately recognised, or the reasons for departure and assessments of conduct have been correctly worded. In reviewing an employment reference, I consider not only its wording, but also your actual role, the history of the employment relationship and the changes that are important for your future career.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Exit negotiations</title>
+				<link>http://localhost:1313/en/labour/exit-negotiations/</link>
+				<pubDate>Mon, 31 Aug 2026 10:42:03 +0200</pubDate>
+				<guid>http://localhost:1313/en/labour/exit-negotiations/</guid>
+				<description>&lt;p&gt;The termination of an employment relationship often raises issues that cannot be adequately addressed by notice of termination alone. A termination or separation agreement can be beneficial for employees at all levels, particularly where financial claims, the circumstances of departure or future career prospects need to be settled on a binding basis.&lt;/p&gt;&#xA;&lt;p&gt;Such negotiations may cover matters including severance payments, the termination date, garden leave, outstanding holiday and overtime entitlements, bonus claims, the employment reference, and internal and external communications regarding the departure. For executives and senior professionals, additional issues often include variable compensation, participation or incentive plans, and more complex contractual arrangements.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Gender equality and workplace discrimination</title>
+				<link>http://localhost:1313/en/labour/equality/</link>
+				<pubDate>Mon, 31 Aug 2026 10:42:03 +0200</pubDate>
+				<guid>http://localhost:1313/en/labour/equality/</guid>
+				<description>&lt;p&gt;Gender equality is a principle to which many readily subscribe and which companies are often keen to emphasise. Yet when it comes to concrete decisions – recruitment, promotion, pay, pregnancy or dealing with sexual harassment – the reality can sometimes look quite different. Precisely where equality has practical consequences, what seemed to be a matter of principle can surprisingly quickly become a secondary concern.&lt;/p&gt;&#xA;&lt;p&gt;Equality in the workplace, however, is not a nice-to-have or merely a matter of good corporate culture. It is a legal right.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Social security law</title>
 				<link>http://localhost:1313/en/labour/social-security-law/</link>
 				<pubDate>Mon, 31 Aug 2026 10:42:03 +0200</pubDate>
 				<guid>http://localhost:1313/en/labour/social-security-law/</guid>
-				<description>&lt;h1 id=&#34;sozialversicherungsrecht&#34;&gt;Sozialversicherungsrecht&lt;/h1&gt;</description>
+				<description>&lt;p&gt;Social security law issues are often closely connected with employment relationships. At the same time, social security law is a distinct and complex field in which employment law, insurance law and medical assessments intersect. I have dealt with specialised issues in this area since my university studies, subsequently in an academic context and, for several years, as part of my legal practice.&lt;/p&gt;&#xA;&lt;p&gt;I represent clients in particular in disputes concerning daily sickness allowance benefits, questions relating to the legal assessment of incapacity for work and illness, and matters involving benefits under Swiss disability insurance. Other areas of my practice include occupational pension matters, such as changes of pension fund in connection with a transfer of business, as well as the assessment and enforcement of insurance claims.&lt;/p&gt;</description>
 			</item>
 			<item>
-				<title>Kündigungen</title>
+				<title>Workplace bullying</title>
+				<link>http://localhost:1313/en/labour/mobbing/</link>
+				<pubDate>Mon, 31 Aug 2026 10:42:03 +0200</pubDate>
+				<guid>http://localhost:1313/en/labour/mobbing/</guid>
+				<description>&lt;p&gt;Workplace bullying is among the most difficult forms of conflict in an employment relationship. On the one hand, the term is sometimes used too readily today to describe any treatment perceived as unfair or hurtful. On the other hand, many workplaces still lack sufficient awareness of systematic exclusion, humiliation or harassment. Both tendencies make an objective assessment more difficult.&lt;/p&gt;&#xA;&lt;p&gt;Not every conflict, unjustified criticism or isolated inappropriate remark constitutes workplace bullying in legal terms. The decisive question is whether hostile conduct is repeated over an extended period and, taken as a whole, is directed against a particular person. Such a situation may engage the employer’s duty of care and can have significant legal implications in connection with a termination, illness or other employment-related claims.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Dismissals</title>
 				<link>http://localhost:1313/en/labour/dismissals/</link>
 				<pubDate>Sun, 30 Aug 2026 10:42:03 +0600</pubDate>
 				<guid>http://localhost:1313/en/labour/dismissals/</guid>
-				<description></description>
+				<description>&lt;p&gt;Under Swiss employment law, the principle of freedom of termination generally applies: both employees and employers may terminate an open-ended employment relationship, provided that the contractual or statutory notice periods are observed. There is no general requirement to state a reason for termination. Nevertheless, the circumstances in which notice is given can be highly relevant from a legal perspective.&lt;/p&gt;&#xA;&lt;p&gt;A termination may, in particular, be abusive if it is intended to prevent legitimate claims arising from the employment relationship or is given because an employee has asserted such claims. Terminations relating to an employee’s age, following many years of service, or arising from a conflict in which the employer may not have adequately fulfilled its duty of care also require careful assessment. The specific circumstances and events leading up to the termination are always crucial.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Independent Contractor or Employee? Distinguishing New Forms of Work</title>

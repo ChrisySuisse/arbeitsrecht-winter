@@ -15,17 +15,17 @@
                 href="http://localhost:1313/en/family/child-protection-law/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/</loc>
+    <loc>http://localhost:1313/en/family/divorce/</loc>
     <lastmod>2026-08-31T11:23:00+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de-CH"
-                href="http://localhost:1313/"
+                href="http://localhost:1313/family/divorce/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/"
+                href="http://localhost:1313/en/family/divorce/"
                 />
   </url><url>
     <loc>http://localhost:1313/en/family/fathers-rights/</loc>
@@ -41,17 +41,17 @@
                 href="http://localhost:1313/en/family/fathers-rights/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/family/divorce/</loc>
+    <loc>http://localhost:1313/en/</loc>
     <lastmod>2026-08-31T11:23:00+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de-CH"
-                href="http://localhost:1313/family/divorce/"
+                href="http://localhost:1313/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/family/divorce/"
+                href="http://localhost:1313/en/"
                 />
   </url><url>
     <loc>http://localhost:1313/en/family/maintenance/</loc>
@@ -65,6 +65,19 @@
                 rel="alternate"
                 hreflang="en-US"
                 href="http://localhost:1313/en/family/maintenance/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/labour/cross-border-employment/</loc>
+    <lastmod>2026-08-31T10:42:03+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-CH"
+                href="http://localhost:1313/labour/cross-border-employment/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/en/labour/cross-border-employment/"
                 />
   </url><url>
     <loc>http://localhost:1313/en/labour/employment-contracts/</loc>
@@ -119,17 +132,17 @@
                 href="http://localhost:1313/en/labour/equality/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/labour/cross-border-employment/</loc>
+    <loc>http://localhost:1313/en/labour/social-security-law/</loc>
     <lastmod>2026-08-31T10:42:03+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de-CH"
-                href="http://localhost:1313/labour/cross-border-employment/"
+                href="http://localhost:1313/labour/social-security-law/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/labour/cross-border-employment/"
+                href="http://localhost:1313/en/labour/social-security-law/"
                 />
   </url><url>
     <loc>http://localhost:1313/en/labour/mobbing/</loc>
@@ -143,19 +156,6 @@
                 rel="alternate"
                 hreflang="en-US"
                 href="http://localhost:1313/en/labour/mobbing/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/en/labour/social-security-law/</loc>
-    <lastmod>2026-08-31T10:42:03+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de-CH"
-                href="http://localhost:1313/labour/social-security-law/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/en/labour/social-security-law/"
                 />
   </url><url>
     <loc>http://localhost:1313/en/labour/dismissals/</loc>

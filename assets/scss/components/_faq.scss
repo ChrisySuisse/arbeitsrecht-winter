@@ -1,5 +1,6 @@
 .faq {
   padding: 100px 0;
+  background: $bg-color;
   @include desktop {
     text-align: center;
     padding: 0 0 50px 0;
@@ -44,6 +45,10 @@
     a {
       text-decoration: underline;
       font-size: 14px;
+      color: $primary-color;
+      &:hover {
+        color: $secondary-color;
+      }
     }
   }
 }

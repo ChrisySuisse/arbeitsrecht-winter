@@ -1,5 +1,5 @@
 .service {
-  background: #f7f8fc;
+  background: $bg-color;
   padding: 50px 0;
   @include mobile {
     padding: 20px 0;
@@ -8,7 +8,7 @@
     background: $white;
     padding: 50px 30px 50px;
     text-align: center;
-    border: 1px solid #0000001c;
+    border: 1px solid $border-color;
     border-radius: 6px;
     margin-bottom: 30px;
     transition: all 0.3s ease-in-out;
@@ -29,7 +29,7 @@
     }
     p {
       font-size: 14px;
-      color: #666666;
+      color: $text-color;
       line-height: 26px;
       margin-bottom: 0;
     }

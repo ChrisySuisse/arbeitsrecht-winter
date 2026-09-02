@@ -14,32 +14,32 @@
 		
 			<atom:link href="http://localhost:1313/en/family/index.xml" rel="self" type="application/rss+xml" />
 			<item>
-				<title>Kindesschutzrecht</title>
+				<title>Child protection</title>
 				<link>http://localhost:1313/en/family/child-protection-law/</link>
 				<pubDate>Mon, 31 Aug 2026 11:23:00 +0200</pubDate>
 				<guid>http://localhost:1313/en/family/child-protection-law/</guid>
-				<description>&lt;h1 id=&#34;kindesschutzrecht&#34;&gt;Kindesschutzrecht&lt;/h1&gt;</description>
+				<description>&lt;p&gt;Child protection matters are among the most emotionally challenging areas of family law. They concern the welfare and integrity of a child while often also affecting the fundamental relationship between parents and their children. The stakes are therefore particularly high.&lt;/p&gt;&#xA;&lt;p&gt;The situation can become especially difficult when authorities become involved: following a report of a potential risk to a child, during investigations by the Child and Adult Protection Authority (KESB), or where the appointment of a deputy or more extensive child protection measures are being considered. In such situations, I consider it particularly important to seek legal advice at an early stage.&lt;/p&gt;</description>
 			</item>
 			<item>
-				<title>Rechte von Vätern</title>
-				<link>http://localhost:1313/en/family/fathers-rights/</link>
-				<pubDate>Mon, 31 Aug 2026 11:23:00 +0200</pubDate>
-				<guid>http://localhost:1313/en/family/fathers-rights/</guid>
-				<description>&lt;h1 id=&#34;rechte-von-vätern&#34;&gt;Rechte von Vätern&lt;/h1&gt;</description>
-			</item>
-			<item>
-				<title>Scheidungen</title>
+				<title>Divorces</title>
 				<link>http://localhost:1313/en/family/divorce/</link>
 				<pubDate>Mon, 31 Aug 2026 11:23:00 +0200</pubDate>
 				<guid>http://localhost:1313/en/family/divorce/</guid>
-				<description>&lt;h1 id=&#34;scheidungen&#34;&gt;Scheidungen&lt;/h1&gt;</description>
+				<description>&lt;p&gt;There are many good reasons to get married. But there can also be good reasons to end a marriage. Once you have made that decision, I can guide you through the process from the initial decision to divorce through to the final divorce judgment.&lt;/p&gt;&#xA;&lt;p&gt;How complex – and therefore how costly – a divorce becomes depends largely on the issues on which the spouses are still able to agree. Where the divorce and its consequences have largely been settled, the spouses can file a joint petition for divorce in Switzerland and submit an appropriate divorce agreement in a relatively straightforward procedure. Even in such cases, it can be advisable to have the agreement drafted or at least reviewed by a lawyer. Matters concerning maintenance, children, assets or occupational pensions should not merely appear reasonable today, but should be regulated in a legally sound and sustainable manner for the future.&lt;/p&gt;</description>
 			</item>
 			<item>
-				<title>Unterhaltsfragen</title>
+				<title>Fathers’ rights</title>
+				<link>http://localhost:1313/en/family/fathers-rights/</link>
+				<pubDate>Mon, 31 Aug 2026 11:23:00 +0200</pubDate>
+				<guid>http://localhost:1313/en/family/fathers-rights/</guid>
+				<description>&lt;p&gt;“Fathers’ rights” are not a separate category of family law. And, in principle, there should be no need for such a category at all. Swiss law does not distinguish between first- and second-class parents. As parents, fathers and mothers have equal rights under the law.&lt;/p&gt;&#xA;&lt;p&gt;Experience shows, however, that legal equality does not automatically eliminate every inequality in practice. Unexamined or supposedly self-evident assumptions about who is primarily responsible for a child, who determines the child’s everyday life or which parent is initially considered more trustworthy in a conflict can still play a role today. Fathers therefore continue to experience situations in which they bear all the responsibilities of parenthood while their actual role as a parent is less readily recognised.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Maintenance</title>
 				<link>http://localhost:1313/en/family/maintenance/</link>
 				<pubDate>Mon, 31 Aug 2026 11:23:00 +0200</pubDate>
 				<guid>http://localhost:1313/en/family/maintenance/</guid>
-				<description>&lt;h1 id=&#34;unterhaltsfragen&#34;&gt;Unterhaltsfragen&lt;/h1&gt;</description>
+				<description>&lt;p&gt;In cases of separation and between parents who live apart, the question of appropriate maintenance is one of the most common sources of conflict. Maintenance is neither a matter of personal preference nor a voluntary or discretionary payment. Maintenance contributions are based on legal rights and obligations arising, in particular, from marriage and parenthood.&lt;/p&gt;&#xA;&lt;p&gt;The appropriate amount of maintenance is therefore not simply a matter of free negotiation. Whether child maintenance, spousal maintenance or post-divorce maintenance is concerned, the parties’ actual financial circumstances are decisive. Income, financial needs, childcare arrangements and the ability to pay must be carefully assessed and balanced in accordance with the principles developed by the courts.&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>

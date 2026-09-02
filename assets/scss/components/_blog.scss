@@ -31,9 +31,9 @@
   }
   &-content {
     padding: 30px 20px;
-    border-left: 1px solid #ececec;
-    border-right: 1px solid #ececec;
-    border-bottom: 1px solid #ececec;
+    border-left: 1px solid $border-color;
+    border-right: 1px solid $border-color;
+    border-bottom: 1px solid $border-color;
     border-radius: 0px 5px 5px 5px;
 
     h3 {
@@ -65,6 +65,7 @@
       font-family: $primary-font;
       text-transform: capitalize;
       transition: 0.3s $site-ease;
+      color: $primary-color;
 
       span {
         display: inline-block;
@@ -74,6 +75,7 @@
       &:hover {
         text-decoration: none;
         letter-spacing: 1px;
+        color: $secondary-color;
       }
     }
   }
@@ -149,6 +151,10 @@
     p {
       a {
         text-decoration: underline;
+        color: $primary-color;
+        &:hover {
+          color: $secondary-color;
+        }
       }
     }
   }
@@ -170,6 +176,14 @@
       margin-bottom: 30px;
       @include mobile-xs {
         font-size: 15px;
+      }
+      a {
+        text-decoration: none;
+        color: $primary-color;
+        &:hover {
+          text-decoration: underline;
+          color: $secondary-color;
+        }
       }
     }
 
@@ -214,7 +228,7 @@
   p{
     .tags{
       font-size: 14px;
-      color: #666;
+      color: $text-color;
       font-weight: 500;
       transition: all .3s ease-in-out;
       display: inline-block;
@@ -226,7 +240,7 @@
         margin-right: 5px;
       }
       &:hover{
-        color: #0056b3;
+        color: $primary-color;
         text-decoration: underline;
       }
     } 

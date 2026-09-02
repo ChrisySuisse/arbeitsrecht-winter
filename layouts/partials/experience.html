@@ -1,0 +1,59 @@
+{{ $startYear := 2021 }}
+{{ $currentYear := now.Year }}
+{{ $experience := sub $currentYear $startYear }}
+
+{{ $rating := site.Data.google_rating.rating }}
+{{ $percentage := mul $rating 20 }}
+
+<section class="experience">
+  <div class="container">
+    <div class="experience-grid">
+
+      <div class="experience-item">
+        <div class="experience-value">{{ $experience }}+</div>
+        <div class="experience-label">
+          Jahre Erfahrung
+        </div>
+      </div>
+
+      <div class="experience-item">
+        <div class="experience-value">200+</div>
+        <div class="experience-label">
+          Mandate
+        </div>
+      </div>
+
+      <a
+        class="experience-item experience-google"
+        href="https://maps.app.goo.gl/dpNn72Z9mqf4rcdi9"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Google Rezensionen ansehen"
+      >
+        <div
+          class="experience-stars"
+          aria-label="{{ $rating }} von 5 Sternen"
+          title="{{ $rating }} von 5 Sternen"
+        >
+          <span class="experience-stars__background" aria-hidden="true">
+            ★★★★★
+          </span>
+
+          <span
+            class="experience-stars__foreground"
+            style="width: {{ $percentage }}%;"
+            aria-hidden="true"
+          >
+            ★★★★★
+          </span>
+        </div>
+
+        <div class="experience-google-rating">
+          {{ $rating }}/5 bei Google
+          · {{ site.Data.google_rating.reviews }} Rezensionen
+        </div>
+      </a>
+
+    </div>
+  </div>
+</section>

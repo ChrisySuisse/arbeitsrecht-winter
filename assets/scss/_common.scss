@@ -26,7 +26,7 @@
 
     h2 {
       font-size: 40px;
-      color: #252525;
+      color: $text-color-dark;
       margin-bottom: 15px;
 
       @include tablet {
@@ -68,7 +68,7 @@
 
   h2 {
     font-size: 40px;
-    color: #252525;
+    color: $text-color-dark;
     margin-bottom: 15px;
 
     @include tablet {
@@ -136,6 +136,9 @@
     a {
       font-weight: 600;
       color: $primary-color;
+      &:hover {
+        color: $secondary-color;
+      }
     }
   }
 }

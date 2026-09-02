@@ -37,12 +37,6 @@ defaultContentLanguageInSubdir = false
 
 # Main Menu German
 
-[[menu.Main]]
-name = "Leistungen"
-url = "#service"
-weight = 1
-
-
 # Arbeitsrecht
 
 [[menu.Main]]
@@ -136,13 +130,13 @@ weight = 34
 # Weitere Menüpunkte
 
 [[menu.Main]]
-name = "Medien"
+name = "Publikationen"
 url = "/blog/"
 weight = 4
 
 [[menu.Main]]
-name = "Über mich"
-url = "/about/"
+name = "Kontakt"
+url = "/contact/"
 weight = 5
 
 [[menu.Main]]
@@ -151,11 +145,9 @@ url = "#faq"
 weight = 6
 
 [[menu.Main]]
-name = "Kontakt"
-url = "/contact/"
+name = "Über mich"
+url = "/about/"
 weight = 7
-
-
 
 # ============================================================
 # Main Menu English
