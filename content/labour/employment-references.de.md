@@ -7,8 +7,14 @@ description: "Beratung zu Arbeitszeugnissen im Schweizer Arbeitsrecht – von de
 
 Arbeitszeugnisse gehören zu den häufigsten Themen im Arbeitsrecht. Eine rein sprachliche Analyse ist heute meist mit überschaubarem Aufwand möglich. Entscheidend ist jedoch nicht allein, problematische Formulierungen zu erkennen, sondern berechtigte Korrekturen gegenüber dem Arbeitgeber tatsächlich zu erreichen.
 
+### Anforderungen an ein Arbeitszeugnis
+
 Ein Arbeitszeugnis muss wahr, vollständig und zugleich wohlwollend formuliert sein. In der Praxis entstehen Auseinandersetzungen häufig darüber, ob Aufgaben und Verantwortungsbereiche zutreffend wiedergegeben, Leistungen angemessen gewürdigt oder Austrittsgründe und Verhaltensbeurteilungen korrekt formuliert wurden. Dabei berücksichtige ich nicht nur den Wortlaut des Zeugnisses, sondern auch Ihre konkrete Tätigkeit, die Vorgeschichte des Arbeitsverhältnisses und die Änderungen, die Ihnen für Ihren weiteren Berufsweg wichtig sind.
 
+### Arbeitszeugnisse prüfen und korrigieren
+
 Ich prüfe Ihr Arbeitszeugnis, erarbeite mit Ihnen einen sachgerechten Formulierungsvorschlag und übernehme auf Wunsch die Verhandlungen mit dem Arbeitgeber. In den meisten Fällen lässt sich auf diesem Weg eine tragfähige Lösung erreichen. Wo dies nicht gelingt, können Zeugnisansprüche auch gerichtlich durchgesetzt werden.
+
+### Arbeitszeugnisse rechtssicher erstellen
 
 Arbeitgeber unterstütze ich bei der Erstellung rechtssicherer Arbeitszeugnisse. Gerade bei belasteten oder konfliktbehafteten Arbeitsverhältnissen ist es anspruchsvoll, der Wahrheitspflicht gerecht zu werden und zugleich unnötig schädigende Formulierungen zu vermeiden. Eine sorgfältige Gestaltung schafft hier Klarheit und reduziert das Risiko späterer Auseinandersetzungen.

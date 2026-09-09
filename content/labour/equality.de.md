@@ -9,11 +9,22 @@ Gleichstellung ist ein Begriff, zu dem sich viele schnell bekennen und den Unter
 
 Dabei ist Gleichstellung im Arbeitsleben kein Nice-to-have und keine blosse Frage einer guten Unternehmenskultur. Sie ist Recht.
 
+### Schutz vor Diskriminierung im Arbeitsverhältnis
+
 Das schweizerische Gleichstellungsgesetz verbietet direkte und indirekte Benachteiligungen aufgrund des Geschlechts. Das betrifft nicht nur die Entlöhnung, sondern den gesamten Verlauf eines Arbeitsverhältnisses – von der Anstellung über Arbeitsbedingungen, Weiterbildung und Beförderung bis zur Kündigung. Auch Benachteiligungen im Zusammenhang mit Schwangerschaft, Zivilstand oder familiärer Situation können rechtlich relevant sein. Sexuelle Belästigung am Arbeitsplatz gilt ausdrücklich als Diskriminierung.
+
+### Diskriminierung erkennen und nachweisen
 
 Solche Fälle sind häufig komplex. Diskriminierung wird selten offen ausgesprochen. Entscheidend können deshalb Vergleichsfälle, zeitliche Abläufe, interne Kommunikation oder die tatsächliche Anwendung vermeintlich neutraler Regeln sein. Für bestimmte Diskriminierungstatbestände sieht das Gleichstellungsgesetz deshalb eine Beweislasterleichterung vor.
 
+### Konsequente Vertretung bei Diskriminierung
+
 Ich befasse mich seit Jahren auch mit anspruchsvollen Gleichstellungsfällen und habe entsprechende Ansprüche erfolgreich gerichtlich geltend gemacht. Wo sich Anhaltspunkte für eine Diskriminierung ergeben, behandle ich diese nicht als blosses Begleitthema eines arbeitsrechtlichen Konflikts, sondern prüfe und vertrete sie eigenständig – in Verhandlungen ebenso wie vor Gericht.
 
+### Beratung und interne Untersuchungen für Arbeitgeber
+
 Umgekehrt ist nicht jeder Diskriminierungsvorwurf begründet. Auch Arbeitgeber, die mit solchen Vorwürfen konfrontiert werden und an einer professionellen Aufklärung interessiert sind, begleite ich bei der rechtlichen Einordnung und bei internen Untersuchungen.
+
+### Gleichstellung ist ein rechtlicher Anspruch
+
 Gleichstellung, Schutz vor Diskriminierung und Schutz der sexuellen Integrität sind keine symbolischen Anliegen. Sie gehören zu den konkreten Pflichten eines Arbeitgebers – und zu den Rechten, auf deren Einhaltung Arbeitnehmerinnen und Arbeitnehmer bestehen können.

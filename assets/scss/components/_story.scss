@@ -51,10 +51,41 @@
   }
 }
 .story-image {
+  margin-top: 50px;
+  margin-left: 30px;
   img {
     display: block;
     width: 100%;
     height: auto;
     border-radius: 6px;
+  }
+}
+
+.page-header {
+  text-align: center;
+}
+
+.page-header-title {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &::after {
+    content: "";
+    width: 80%;
+    max-width: 450px;
+    height: 2px;
+    background: $text-color;
+
+    position: relative;
+    top: -4px;
+  }
+
+  h2 {
+    position: relative;
+    z-index: 1;
+    padding: 0 30px;
+    background: $white;
   }
 }
