@@ -10,7 +10,7 @@
           {{ with .logo }}
             <img
               class="hero-logo"
-              src="{{ . }}"
+              src="{{ . | relURL }}"
               alt="Arbeitsrecht Winter">
           {{ end }}
 
