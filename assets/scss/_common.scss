@@ -1,5 +1,6 @@
 .section {
   padding: 100px 0;
+
   @include desktop {
     padding: 50px 0;
   }
@@ -8,6 +9,7 @@
     text-align: center;
     margin-bottom: 100px;
     position: relative;
+
     @include mobile {
       margin-bottom: 70px;
     }
@@ -25,13 +27,8 @@
     }
 
     h2 {
-      font-size: 40px;
       color: $text-color-dark;
       margin-bottom: 15px;
-
-      @include tablet {
-        font-size: 25px;
-      }
     }
 
     p {
@@ -56,24 +53,23 @@
     }
   }
 }
+
+
 .page-header {
   text-align: center;
   padding-bottom: 100px;
+
   @include desktop-lg {
     padding-bottom: 60px;
   }
+
   @include tablet {
     padding-bottom: 50px;
   }
 
   h2 {
-    font-size: 40px;
     color: $text-color-dark;
     margin-bottom: 15px;
-
-    @include tablet {
-      font-size: 30px;
-    }
   }
 
   p {
@@ -97,27 +93,36 @@
     }
   }
 }
+
+
 .about {
   padding-top: 150px;
+
   @include mobile {
     padding-top: 120px;
   }
 }
-// bloge page-title
+
+
+// blog page-title
 .page-title {
   padding: 200px 0 50px;
   text-align: center;
+
   @include desktop-lg {
     padding: 130px 0 50px;
   }
+
   @include desktop {
     padding: 140px 0 50px;
   }
+
   @include mobile {
     padding: 110px 0 30px;
   }
+
   @include mobile-xs {
-    padding: 110px 0 0px;
+    padding: 110px 0 0;
   }
 
   h1 {
@@ -136,6 +141,7 @@
     a {
       font-weight: 600;
       color: $primary-color;
+
       &:hover {
         color: $secondary-color;
       }
@@ -143,28 +149,35 @@
   }
 }
 
+
 .privacy-policy {
   background-color: $white;
   padding: 150px 0;
+
   @include mobile {
     padding-bottom: 40px;
   }
+
   &-content {
     padding: 50px;
     background-color: $white;
     border-radius: 20px;
+
     @include desktop {
       padding: 30px;
     }
   }
+
   &-item {
     margin-bottom: 40px;
+
     h2 {
       margin-bottom: 10px;
       font-weight: 600;
       font-size: 20px;
       line-height: 26px;
     }
+
     p {
       margin-bottom: 20px;
       font-weight: normal;
