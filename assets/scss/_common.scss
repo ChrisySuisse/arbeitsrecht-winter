@@ -92,6 +92,26 @@
       width: 100%;
     }
   }
+  .breadcrumb {
+    margin-top: 20px;
+    margin-bottom: 0;
+    padding: 0;
+    background: transparent;
+    justify-content: center;
+  }
+
+  &-compact {
+    padding-bottom: 50px;
+
+    @include desktop-lg {
+      padding-bottom: 40px;
+    }
+
+    @include tablet {
+      padding-bottom: 30px;
+    }
+  }
+
 }
 
 
@@ -187,3 +207,6 @@
     }
   }
 }
+
+
+  

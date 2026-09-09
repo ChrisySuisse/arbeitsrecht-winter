@@ -1,20 +1,17 @@
 {{ define "main" }}
-<section class="page-title">
+{{ $page := . }}
+
+<section class="about">
   <div class="container">
     <div class="row">
-      <div class="col-12">
-        <h1>{{ .Title }}</h1>
+      <div class="col-lg-12">
+        <div class="page-header page-header-compact">
+          <h2>{{ $page.Title }}</h2>
 
-        <nav aria-label="breadcrumb">
-          <ol class="breadcrumb">
-            <li class="breadcrumb-item">
-              <a href="{{ .Site.BaseURL }}">Home</a>
-            </li>
-            <li class="breadcrumb-item active">
-              {{ .Title }}
-            </li>
-          </ol>
-        </nav>
+          {{ with $page.Params.subTitle }}
+            <p>{{ . }}</p>
+          {{ end }}
+        </div>
       </div>
     </div>
   </div>
@@ -22,11 +19,11 @@
 
 <section class="blog">
   <div class="container">
-    <div class="row">
+    <div class="row justify-content-center">
 
-      {{ range .Paginator.Pages }}
-        {{ $page := . }}
-        {{ $imagePath := $page.Params.featureImage | default $page.Site.Params.defaultBlogImage }}
+      {{ range $page.Paginator.Pages }}
+        {{ $post := . }}
+        {{ $imagePath := $post.Params.featureImage | default $post.Site.Params.defaultBlogImage }}
         {{ $image := resources.Get $imagePath }}
 
         <div class="col-lg-4 col-md-6">
@@ -46,32 +43,38 @@
                 sizes="(max-width: 991px) 100vw, 33vw"
                 width="{{ $medium.Width }}"
                 height="{{ $medium.Height }}"
-                alt="{{ $page.Title }}"
+                alt="{{ $post.Title }}"
                 loading="lazy">
             {{ end }}
 
             <div class="blog-content">
               <h3>
-                <a href="{{ $page.Permalink }}">{{ $page.Title }}</a>
+                <a href="{{ $post.Permalink }}">
+                  {{ $post.Title }}
+                </a>
               </h3>
 
-              <p>{{ truncate 100 $page.Summary }}</p>
+              <p>{{ truncate 100 $post.Summary }}</p>
 
-              <a class="more" href="{{ $page.Permalink }}">
+              <a class="more" href="{{ $post.Permalink }}">
                 {{ i18n "readMore" }}<span>⟶</span>
               </a>
             </div>
+
           </article>
         </div>
       {{ end }}
 
       <div class="col-12">
         <div class="blog-pagination">
-          {{ partial "pagination.html" . }}
+          {{ partial "pagination.html" $page }}
         </div>
       </div>
 
     </div>
   </div>
 </section>
+
+{{ partial "contactAddress.html" . }}
+
 {{ end }}
