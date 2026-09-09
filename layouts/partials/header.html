@@ -1,11 +1,22 @@
 <!-- Mark up for Site Navigation Section-->
+
 <header class="header">
+
   <nav class="main-nav navbar navbar-expand-lg {{ if not $.IsHome }}main-nav-colored{{ end }}">
+
     <div class="container-fluid">
-      <a href="{{.Site.BaseURL}}" class="navbar-brand">
-        <img src="{{ .Site.Params.logo | absURL}}" alt="site-logo" />
+
+      <a href="{{ .Site.BaseURL }}" class="navbar-brand">
+        <img src="{{ .Site.Params.logo | absURL }}" alt="site-logo" />
       </a>
-      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#mainNav" aria-expanded="false">
+
+      <button
+        class="navbar-toggler collapsed"
+        type="button"
+        data-toggle="collapse"
+        data-target="#mainNav"
+        aria-expanded="false"
+      >
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -15,34 +26,85 @@
         class="collapse navbar-collapse nav-list"
         id="mainNav"
       >
+
         <ul class="navbar-nav ml-auto">
+
           {{ $currentPage := . }}
-          {{ $menu := .Site.Menus.main}}
+          {{ $menu := .Site.Menus.main }}
+
           {{ range $index, $element := $menu }}
 
           <li class="nav-item {{ if .HasChildren }}has-dropdown{{ end }} {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}active{{ end }}">
 
-            <a class="nav-link {{ if not .HasChildren }}scroll-to{{ end }}"
-              href="{{ .URL | relURL }}">
-              {{ .Name }}
-            </a>
-
             {{ if .HasChildren }}
-            <ul class="nav-dropdown">
-              {{ range .Children }}
-              <li class="nav-dropdown-item">
-                <a class="nav-dropdown-link" href="{{ .URL | relURL }}">
-                  {{ .Name }}
-                </a>
-              </li>
-              {{ end }}
-            </ul>
+
+              <!-- Desktop link -->
+              <a
+                class="nav-link nav-link-desktop"
+                href="{{ .URL | relURL }}"
+              >
+                {{ .Name }}
+              </a>
+
+              <!-- Mobile dropdown trigger -->
+              <button
+                class="nav-link nav-dropdown-trigger"
+                type="button"
+                aria-expanded="false"
+              >
+                {{ .Name }}
+              </button>
+
+              <ul class="nav-dropdown">
+
+                <!-- Overview page -->
+                <li class="nav-dropdown-item nav-dropdown-overview">
+                  <a
+                    class="nav-dropdown-link"
+                    href="{{ .URL | relURL }}"
+                  >
+                    {{ .Name }} –
+                    {{ if eq $currentPage.Lang "de" }}
+                      Übersicht
+                    {{ else }}
+                      Overview
+                    {{ end }}
+                  </a>
+                </li>
+
+                {{ range .Children }}
+
+                <li class="nav-dropdown-item">
+                  <a
+                    class="nav-dropdown-link"
+                    href="{{ .URL | relURL }}"
+                  >
+                    {{ .Name }}
+                  </a>
+                </li>
+
+                {{ end }}
+
+              </ul>
+
+            {{ else }}
+
+              <a
+                class="nav-link scroll-to"
+                href="{{ .URL | relURL }}"
+              >
+                {{ .Name }}
+              </a>
+
             {{ end }}
 
           </li>
 
           {{ end }}
+
         </ul>
+
+
         {{ if hugo.IsMultilingual }}
 
         <ul class="navbar-nav ml-auto language-list">
@@ -58,22 +120,30 @@
               {{ $targetPage := false }}
 
               {{ range $currentPage.AllTranslations }}
+
                 {{ if eq .Lang $targetLang }}
                   {{ $targetPage = . }}
                 {{ end }}
+
               {{ end }}
 
               <li class="nav-item">
 
                 {{ if $targetPage }}
 
-                  <a class="nav-link" href="{{ $targetPage.RelPermalink }}">
+                  <a
+                    class="nav-link"
+                    href="{{ $targetPage.RelPermalink }}"
+                  >
                     {{ $targetPage.Site.Params.flag }}
                   </a>
 
                 {{ else }}
 
-                  <a class="nav-link" href="{{ $targetSite.Home.RelPermalink }}">
+                  <a
+                    class="nav-link"
+                    href="{{ $targetSite.Home.RelPermalink }}"
+                  >
                     {{ $targetSite.Params.flag }}
                   </a>
 
@@ -88,7 +158,11 @@
         </ul>
 
         {{ end }}
+
       </div>
+
     </div>
+
   </nav>
+
 </header>

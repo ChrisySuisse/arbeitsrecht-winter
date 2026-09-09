@@ -362,3 +362,18 @@ $(window).on("scroll", function () {
    google.maps.event.addDomListener(window, "load", initialize);
  }
 
+document.querySelectorAll(".nav-dropdown-trigger").forEach(function (trigger) {
+
+  trigger.addEventListener("click", function () {
+
+    const item = trigger.closest(".has-dropdown");
+    const isOpen = item.classList.toggle("is-open");
+
+    trigger.setAttribute(
+      "aria-expanded",
+      isOpen ? "true" : "false"
+    );
+
+  });
+
+});
