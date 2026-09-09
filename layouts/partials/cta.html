@@ -27,7 +27,7 @@
           {{ end }}
 
           {{ with .secondaryButton }}
-            <a href="{{ .url }}" class="btn btn-primary">
+            <a href="{{ .url | safeURL }}" class="btn btn-primary">
               {{ with .icon }}<i class="{{ . }}"></i>{{ end }}
               {{ .text }}
             </a>
