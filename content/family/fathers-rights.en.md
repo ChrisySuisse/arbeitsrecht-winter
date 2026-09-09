@@ -1,6 +1,7 @@
 ---
 title: "Fathers’ rights"
 date: 2026-08-31T11:23:00+02:00
+sideImage: "images/unsplash/thomas-TFfqUyWo1jM-unsplash.jpg"
 description: "Advice and representation for fathers under Swiss family law – including parental responsibility, custody, childcare arrangements, contact and child protection."
 ---
 

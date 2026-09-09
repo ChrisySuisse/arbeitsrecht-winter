@@ -1,6 +1,7 @@
 ---
 title: "Austrittsverhandlungen"
 date: 2026-08-31T10:42:03+02:00
+sideImage: "images/unsplash/elliott-stallion-wweHSdXdAgA-unsplash.jpg"
 description: "Beratung und Vertretung bei Austritts- und Aufhebungsvereinbarungen – von Abfindung und Freistellung bis zu Konkurrenzverboten und variabler Vergütung."
 ---
 

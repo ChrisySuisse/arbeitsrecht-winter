@@ -1,6 +1,7 @@
 ---
 title: "Employment references"
 date: 2026-08-31T10:42:03+02:00
+sideImage: "images/unsplash/marianne-bos-4eBOAeFfY0w-unsplash.jpg"
 description: "Advice on employment references under Swiss law – from review and revision to negotiations with employers and enforcement through court proceedings."
 ---
 

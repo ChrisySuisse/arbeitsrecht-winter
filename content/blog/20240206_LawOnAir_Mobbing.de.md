@@ -1,11 +1,12 @@
 ---
-title: 'Pocast Law On Air: Mobbing am Arbeitsplatz'
+title: 'Podcast Law On Air: Mobbing am Arbeitsplatz'
 date: 2024-02-06T21:35:41+01:00
-featureImage: images/blog/sebastian-pandelache-microphone-unsplash.jpg
+featureImage: images/sebastian-pandelache-microphone-unsplash.jpg
 tags: [ "Arbeitsrecht", "Mobbing"]
-draft: true
 ---
 
-Ein etwas älterer, aber immer noch aktueller Podcast mit mir zum Thema Mobbing am Arbeitsplatz.
+Ein etwas älterer, aber immer noch aktueller Podcast mit mir zum Thema Mobbing am Arbeitsplatz. Ich habe dort mit der Unternehmenspsychologin Astrid Geschwentner darüber gesprochen, was Mobbing eigentlich genau ist, welche Auswirkungen es auf die Betroffenen hat und wie Unternehmen auf Fälle von Mobbing reagieren können. Die ganze Folge finden Sie hier:
 
-<iframe title="Mobbing am Arbeitsplatz | Episode 14" height="150" width="100%" style="border: none;" scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.eu/player-v2/?i=njfdk-d4d6f2-pb&from=pb6admin&pbad=0&share=1&download=1&rtl=0&fonts=Arial&skin=f6f6f6&font-color=auto&logo_link=episode_page&btn-skin=ec6602" allowfullscreen=""></iframe>
+{{<icon class="fa-solid fa-podcast">}}&nbsp;[Weiterleitung zu Podbean: Law on Air | Episode 14: Mobbing am Arbeitsplatz](https://www.podbean.eu/player-v2/?i=njfdk-d4d6f2-pb)
+
+Kontaktieren Sie mich gern, wenn Sie von Mobbing am Arbeitsplatz betroffen sind oder mit derartigen Vorfällen in Ihrem Unternehmen umgehen müssen. {{<icon class="fa-solid fa-arrow-right-long">}}&nbsp;[Zur Kontaktseite](../../contact)

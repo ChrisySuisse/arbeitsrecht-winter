@@ -1,6 +1,7 @@
 ---
 title: "Mobbing"
 date: 2026-08-31T10:42:03+02:00
+sideImage: "images/unsplash/klim-musalimov-e6Xtof7S_ys-unsplash.jpg"
 description: "Beratung und Vertretung bei Mobbing am Arbeitsplatz – für Arbeitnehmer sowie Arbeitgeber, einschliesslich unabhängiger externer Untersuchungen."
 ---
 

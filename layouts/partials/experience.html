@@ -2,7 +2,7 @@
 {{ $currentYear := now.Year }}
 {{ $experience := sub $currentYear $startYear }}
 
-{{ $rating := site.Data.google_rating.rating }}
+{{ $rating := hugo.Data.google_rating.rating }}
 {{ $percentage := mul $rating 20 }}
 
 <section class="experience">
@@ -50,7 +50,7 @@
 
         <div class="experience-google-rating">
           {{ $rating }}/5 bei Google
-          · {{ site.Data.google_rating.reviews }} Rezensionen
+          · {{ hugo.Data.google_rating.reviews }} Rezensionen
         </div>
       </a>
 

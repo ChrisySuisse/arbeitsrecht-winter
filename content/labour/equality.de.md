@@ -1,6 +1,7 @@
 ---
 title: "Gleichstellung und Diskriminierung am Arbeitsplatz"
 date: 2026-08-31T10:42:03+02:00
+sideImage: "images/unsplash/ta-veren-pOsaWDtLcbE-unsplash.jpg"
 description: "Beratung und Vertretung bei Gleichstellung und Diskriminierung im Arbeitsverhältnis – insbesondere bei Lohndiskriminierung, Schwangerschaft und sexueller Belästigung."
 ---
 

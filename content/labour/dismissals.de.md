@@ -1,6 +1,7 @@
 ---
 title: "Kündigungen"
 date: 2026-08-30T10:42:03+06:00
+sideImage: "images/unsplash/kyle-reed-b_UtP7rm_po-unsplash.jpg"
 description: "Beratung zu Kündigung, missbräuchlicher und fristloser Kündigung im Schweizer Arbeitsrecht – für Arbeitnehmer und Arbeitgeber."
 ---
 

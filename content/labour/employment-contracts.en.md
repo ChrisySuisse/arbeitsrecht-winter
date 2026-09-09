@@ -1,6 +1,7 @@
 ---
 title: "Employment Contracts"
 date: 2026-08-31T10:42:03+02:00
+sideImage: "images/unsplash/steve-a-johnson-f2PXTJWrnrM-unsplash.jpg"
 description: "Advice and contract drafting for employment agreements under Swiss law, including cross-border employment relationships and international home office arrangements."
 ---
 

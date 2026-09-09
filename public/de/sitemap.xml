@@ -232,6 +232,22 @@
                 href="http://localhost:1313/en/tags/"
                 />
   </url><url>
+    <loc>http://localhost:1313/tags/mobbing/</loc>
+    <lastmod>2024-02-06T21:35:41+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/20240206_lawonair_mobbing/</loc>
+    <lastmod>2024-02-06T21:35:41+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-CH"
+                href="http://localhost:1313/blog/20240206_lawonair_mobbing/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/en/blog/20240206_lawonair_mobbing/"
+                />
+  </url><url>
     <loc>http://localhost:1313/labour/</loc>
     <lastmod>2023-11-08T10:41:03+06:00</lastmod>
     <xhtml:link

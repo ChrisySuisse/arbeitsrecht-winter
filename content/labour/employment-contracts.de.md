@@ -1,6 +1,7 @@
 ---
 title: "Arbeitsverträge"
 date: 2026-08-31T10:42:03+02:00
+sideImage: "images/unsplash/steve-a-johnson-f2PXTJWrnrM-unsplash.jpg"
 description: "Beratung und Vertragsgestaltung zu Arbeitsverträgen im Schweizer Arbeitsrecht – inklusive grenzüberschreitender Arbeitsverhältnisse und Homeoffice mit Auslandsbezug."
 ---
 

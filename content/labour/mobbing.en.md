@@ -1,6 +1,7 @@
 ---
 title: "Workplace bullying"
 date: 2026-08-31T10:42:03+02:00
+sideImage: "images/unsplash/klim-musalimov-e6Xtof7S_ys-unsplash.jpg"
 description: "Advice and representation in workplace bullying cases, including employee claims, employer guidance and independent external investigations."
 ---
 

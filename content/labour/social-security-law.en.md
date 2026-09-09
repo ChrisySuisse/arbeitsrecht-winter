@@ -1,6 +1,7 @@
 ---
 title: "Social security law"
 date: 2026-08-31T10:42:03+02:00
+sideImage: "images/unsplash/kyle-reed-b_UtP7rm_po-unsplash.jpg"
 description: "Advice and representation in Swiss social security and insurance law, particularly regarding daily sickness allowance, incapacity for work, disability insurance and occupational pensions."
 ---
 

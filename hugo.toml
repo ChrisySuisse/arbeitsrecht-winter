@@ -301,12 +301,14 @@ weight = 7
 #  googleAnalytics = "G-JZ95FEWF9K"
   logo = "logo/logo_only.png"
   footerlogo = "logo/logo.png"
-  footerDescription = "Kanzlei Christina Winter"
+  footerDescription = "Kanzlei Arbeitsrecht Winter"
   description = "Arbeitsrechtliche Beratung und Vertretung für Arbeitnehmer, Führungskräfte und Arbeitgeber."
   defaultBlogImage = "images/AR_Winter_default_blog_image.jpg"
   defaultSocialImage = "images/AR_Winter_default_social_image.jpg"
 
   [params.address]
+  name = "Christina Winter"
+  company = "Kanzlei Arbeitsrecht Winter"
   address = "Steinenbachgässlein 27 <br> CH-4051 Basel"
   email = "christina.winter@arbeitsrecht-winter.ch"
 #  openingDesc = "Kontaktieren Sie uns gern"

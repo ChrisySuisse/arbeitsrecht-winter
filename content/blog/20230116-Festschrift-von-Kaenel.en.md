@@ -8,6 +8,6 @@ An article by Christian Gersbach and myself has been published in Festschrift fo
 in which we trace current developments in social plans in Swiss Law. You can access a preview here 
 (article in German):
 
-{{<icon class="fa fa-envelope">}}&nbsp;[Gersbach/Winter: Sozialpläne – Aktuelle Entwicklungen](../../documents/12_FS_von_Kaenel_GERSBACH_WINTER_Vorschau.pdf)
+{{<icon class="fa-solid fa-file-pdf">}}&nbsp;[Gersbach/Winter: Sozialpläne – Aktuelle Entwicklungen](../../documents/12_FS_von_Kaenel_GERSBACH_WINTER_Vorschau.pdf)
 
 If you have any questions about employment law in general or social compensation plans in particular, [feel free to contact me!](../../#contact)

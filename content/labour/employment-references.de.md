@@ -1,6 +1,7 @@
 ---
 title: "Arbeitszeugnisse"
 date: 2026-08-31T10:42:03+02:00
+sideImage: "images/unsplash/marianne-bos-4eBOAeFfY0w-unsplash.jpg"
 description: "Beratung zu Arbeitszeugnissen im Schweizer Arbeitsrecht – von der Prüfung und Korrektur bis zur Verhandlung und gerichtlichen Durchsetzung."
 ---
 

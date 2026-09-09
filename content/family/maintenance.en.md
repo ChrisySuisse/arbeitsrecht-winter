@@ -1,6 +1,7 @@
 ---
 title: "Maintenance"
 date: 2026-08-31T11:23:00+02:00
+sideImage: "images/unsplash/shraga-kopstein-nMB20KMaklY-unsplash.jpg"
 description: "Advice and representation on maintenance under Swiss family law – including child, spousal and post-divorce maintenance and the adjustment of existing payments."
 ---
 

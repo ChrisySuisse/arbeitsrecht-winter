@@ -10,6 +10,6 @@ Neue Arbeitsformen wie Freelancing, Plattformarbeit, Homeoffice und flexible For
 
 In meinem Beitrag für den Newsletter *Lohn & Sozialversicherungen* zeige ich, anhand welcher Kriterien ein Auftrags- von einem Arbeitsverhältnis abgegrenzt werden kann und weshalb die klassischen Abgrenzungskriterien durch die Veränderungen der Arbeitswelt zunehmend unter Druck geraten.
 
-{{<icon class="fa fa-file-pdf">}}&nbsp;[Christina Winter: Abgrenzung zwischen einem Auftrags- und einem Arbeitsverhältnis in neuen Arbeitsformen](../../documents/1_Auftrag_vs_Arbeitsverhaeltnis.pdf)
+{{<icon class="fa-solid fa-file-pdf">}}&nbsp;[Christina Winter: Abgrenzung zwischen einem Auftrags- und einem Arbeitsverhältnis in neuen Arbeitsformen](../../documents/1_Auftrag_vs_Arbeitsverhaeltnis.pdf)
 
 Wenn Sie Fragen zur Abgrenzung zwischen Auftrag und Arbeitsverhältnis oder zu anderen Themen des Arbeitsrechts haben, [kontaktieren Sie mich gern!](../../#contact)

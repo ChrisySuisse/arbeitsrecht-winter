@@ -1,6 +1,7 @@
 ---
 title: "Kindesschutzrecht"
 date: 2026-08-31T11:23:00+02:00
+sideImage: "images/unsplash/ivett-m-EvL4VEc-am0-unsplash.jpg"
 description: "Beratung und Vertretung im Kindesschutzrecht – insbesondere in Verfahren vor der KESB, bei Beistandschaften und anderen Kindesschutzmassnahmen."
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "Cross-border and international employment"
 date: 2026-08-31T10:42:03+02:00
+sideImage: "images/unsplash/nanda-gopal-lakshman-R_NBFQlQuiU-unsplash.jpg"
 description: "Advice on cross-border and international employment – including employment law, taxation, social security, home office arrangements and work permits."
 ---
 

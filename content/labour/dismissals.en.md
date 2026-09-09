@@ -1,6 +1,7 @@
 ---
 title: "Dismissals"
 date: 2026-08-30T10:42:03+06:00
+sideImage: "images/unsplash/kyle-reed-b_UtP7rm_po-unsplash.jpg"
 description: "Advice on termination, abusive dismissal and termination with immediate effect under Swiss employment law – for employees and employers."
 ---
 

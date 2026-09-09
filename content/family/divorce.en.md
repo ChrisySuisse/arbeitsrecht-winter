@@ -1,6 +1,7 @@
 ---
 title: "Divorces"
 date: 2026-08-31T11:23:00+02:00
+sideImage: "images/unsplash/klim-musalimov-e6Xtof7S_ys-unsplash.jpg"
 description: "Advice and representation in divorce proceedings in Switzerland – from amicable divorce and divorce agreements to contested court proceedings."
 ---
 

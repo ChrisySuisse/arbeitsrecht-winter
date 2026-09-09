@@ -1,6 +1,7 @@
 ---
 title: "Grenzgängerfragen & Internationale Arbeitsverhältnisse"
 date: 2026-08-31T10:42:03+02:00
+sideImage: "images/unsplash/nanda-gopal-lakshman-R_NBFQlQuiU-unsplash.jpg"
 description: "Beratung zu Grenzgängern und internationalen Arbeitsverhältnissen – Arbeitsrecht, Steuern, Sozialversicherungen, Homeoffice und Bewilligungen aus einer Hand."
 ---
 

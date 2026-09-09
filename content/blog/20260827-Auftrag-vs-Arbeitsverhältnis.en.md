@@ -10,6 +10,6 @@ New forms of work such as freelancing, platform work, working from home and flex
 
 In my article for the *Lohn & Sozialversicherungen* newsletter, I explain the criteria used to distinguish an independent contractor relationship from an employment relationship and why the traditional criteria for making this distinction are increasingly being challenged by changes in the world of work.
 
-{{<icon class="fa fa-file-pdf">}} [Christina Winter: Abgrenzung zwischen einem Auftrags- und einem Arbeitsverhältnis in neuen Arbeitsformen (article in German)](../../documents/1_Auftrag_vs_Arbeitsverhaeltnis.pdf)
+{{<icon class="fa-solid fa-file-pdf">}} [Christina Winter: Abgrenzung zwischen einem Auftrags- und einem Arbeitsverhältnis in neuen Arbeitsformen (article in German)](../../documents/1_Auftrag_vs_Arbeitsverhaeltnis.pdf)
 
 If you have any questions about the distinction between independent contractor and employment relationships or other employment law matters, [please feel free to contact me!](../../#contact)

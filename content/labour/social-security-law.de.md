@@ -1,6 +1,7 @@
 ---
 title: "Sozialversicherungsrecht und Krankentaggeld"
 date: 2026-08-31T10:42:03+02:00
+sideImage: "images/unsplash/kyle-reed-b_UtP7rm_po-unsplash.jpg"
 description: "Beratung und Vertretung im Sozialversicherungsrecht – insbesondere bei Krankentaggeld, Arbeitsunfähigkeit, Invalidenversicherung und beruflicher Vorsorge."
 ---
 

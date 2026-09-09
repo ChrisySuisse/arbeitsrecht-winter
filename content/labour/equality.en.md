@@ -1,6 +1,7 @@
 ---
 title: "Gender equality and workplace discrimination"
 date: 2026-08-31T10:42:03+02:00
+sideImage: "images/unsplash/ta-veren-pOsaWDtLcbE-unsplash.jpg"
 description: "Beratung und Vertretung bei Fragen der Gleichstellung und Diskriminierung im Arbeitsverhältnis."
 ---
 

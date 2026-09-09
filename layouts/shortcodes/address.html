@@ -1,0 +1,8 @@
+<address class="contact-address">
+  {{ with site.Params.address }}
+    {{ .name }}<br>
+    {{ with .company }}{{ . }}<br>{{ end }}
+    {{ .address | safeHTML }}<br>
+    <a href="mailto:{{ .email }}">{{ .email }}</a>
+  {{ end }}
+</address>

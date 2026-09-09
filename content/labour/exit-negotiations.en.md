@@ -1,6 +1,7 @@
 ---
 title: "Exit negotiations"
 date: 2026-08-31T10:42:03+02:00
+sideImage: "images/unsplash/elliott-stallion-wweHSdXdAgA-unsplash.jpg"
 description: "Advice and representation in termination and separation agreements, including severance, garden leave, non-compete clauses and variable compensation."
 ---
 

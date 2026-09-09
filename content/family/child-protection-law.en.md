@@ -1,6 +1,7 @@
 ---
 title: "Child protection"
 date: 2026-08-31T11:23:00+02:00
+sideImage: "images/unsplash/ivett-m-EvL4VEc-am0-unsplash.jpg"
 description: "Advice and representation in Swiss child protection law – including KESB proceedings, deputyships, child protection measures and appeals."
 ---
 

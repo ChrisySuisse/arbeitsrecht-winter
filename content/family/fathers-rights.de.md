@@ -1,6 +1,7 @@
 ---
 title: "Rechte von Vätern"
 date: 2026-08-31T11:23:00+02:00
+sideImage: "images/unsplash/thomas-TFfqUyWo1jM-unsplash.jpg"
 description: "Beratung und Vertretung von Vätern im Schweizer Familienrecht – bei elterlicher Sorge, Obhut, Betreuung, Kontakt zum Kind und Kindesschutz."
 ---
 
