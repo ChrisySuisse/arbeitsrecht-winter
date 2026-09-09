@@ -1,43 +1,124 @@
 .service {
-  background: $bg-color;
-  padding: 50px 0;
+  background: $white;
+  padding: 80px 0;
+
   @include mobile {
-    padding: 20px 0;
+    padding: 50px 0;
   }
-  &-item {
-    background: $white;
-    padding: 50px 30px 50px;
-    text-align: center;
-    border: 1px solid $border-color;
-    border-radius: 6px;
-    margin-bottom: 30px;
-    transition: all 0.3s ease-in-out;
+
+  &-intro {
+  max-width: 850px;
+  margin: 0 auto;
+  text-align: center;
+
+  h2 {
+    margin-bottom: 20px;
+  }
+}
+
+  &-subtitle {
+    font-size: 18px;
+    line-height: 1.8;
+    color: $text-color;
+    margin-bottom: 0;
+
     @include mobile {
-      padding: 20px;
-      margin-bottom: 20px;
+      font-size: 16px;
     }
-    i {
-      font-size: 40px;
-      margin-bottom: 40px;
-      color: $text-color-dark;
-      display: inline-block;
-      transition: all 0.3s ease-in-out;
+  }
+
+  &-divider {
+    position: relative;
+    width: 60%;
+    height: 2px;
+    margin: 45px auto 40px;
+
+    // Metallischer Effekt aus den vorhandenen Silber-Variablen
+    background: linear-gradient(
+      90deg,
+      rgba($silver-color, 0) 0%,
+      $silver-color 15%,
+      $silver-color 32%,
+      $silver-color 50%,
+      $silver-color 68%,
+      $silver-color 85%,
+      rgba($silver-color, 0) 100%
+    );
+
+    @include mobile {
+      margin: 35px 0 30px;
     }
+  }
+
+  &-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+
+    @include mobile {
+      gap: 60px;
+    }
+  }
+
+  &-entry {
+    width: 100%;
+    max-width: 720px;
+    text-align: center;
+
     h3 {
-      text-transform: capitalize;
-      line-height: 26px;
-    }
-    p {
-      font-size: 14px;
-      color: $text-color;
-      line-height: 26px;
-      margin-bottom: 0;
-    }
-    &:hover {
-      transform: scale(1.05);
-      i {
-        color: $primary-color;
+      margin-bottom: 12px;
+      line-height: 1.4;
+      font-weight: 500;
+      color: $text-color-dark;
+
+      a {
+        color: inherit;
+        transition: color 0.2s $site-ease;
+
+        &:hover {
+          color: $primary-color;
+        }
       }
     }
+
+    p {
+      margin: 0 auto;
+      max-width: 650px;
+
+      font-size: 15px;
+      line-height: 1.8;
+      color: $text-color;
+    }
+  }
+}
+
+.reveal-service {
+  animation-name: service-reveal;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-timing-function: $site-ease;
+
+  animation-timeline: view();
+  animation-range: entry 15% cover 35%;
+}
+
+@keyframes service-reveal {
+  from {
+    opacity: 0;
+    transform: translateY(24px) rotate(-0.6deg);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) rotate(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal-service {
+    animation: none;
+    opacity: 1;
+    transform: none;
   }
 }

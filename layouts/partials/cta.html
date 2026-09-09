@@ -1,19 +1,42 @@
-{{ with index hugo.Data .Language.Lang "cta"}}
+{{ with index hugo.Data .Language.Lang "cta" }}
 {{ if .enable }}
-<section class="cta">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12">
-        <div class="cta-content">
-          <h2>{{.title}}</h2>
-          <a href="{{.buttonTarget | absURL }}" class="btn btn-primary mb-3">
-              Schedule your day
-          </a>
-          <p style="font-size: 12px;">or check out <a class="scroll-to" href="{{ $.Site.BaseURL }}{{ .priceLink }}">pricing plans</a></p>
+
+  {{ $image := resources.Get .image }}
+  {{ $imageOptimized := $image.Resize "1920x webp q85" }}
+
+  <section
+    class="contact-cta"
+    style="background-image: url('{{ $imageOptimized.RelPermalink }}');">
+
+    <div class="container">
+      <div class="contact-cta__content">
+
+        <h2 class="contact-cta__title">
+          {{ .title }}
+        </h2>
+
+        <p class="contact-cta__text">
+          {{ .text }}
+        </p>
+
+        <div class="contact-cta__actions">
+          {{ with .primaryButton }}
+            <a href="{{ .url | relLangURL }}" class="btn btn-primary">
+              {{ .text }}
+            </a>
+          {{ end }}
+
+          {{ with .secondaryButton }}
+            <a href="{{ .url }}" class="btn btn-primary">
+              {{ with .icon }}<i class="{{ . }}"></i>{{ end }}
+              {{ .text }}
+            </a>
+          {{ end }}
         </div>
+
       </div>
     </div>
-  </div>
-</section>
-{{end}}
-{{end}}
+  </section>
+
+{{ end }}
+{{ end }}

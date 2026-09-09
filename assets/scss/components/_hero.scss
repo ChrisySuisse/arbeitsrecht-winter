@@ -1,123 +1,68 @@
 .hero {
-  padding: 250px 0 200px;
   position: relative;
-  background-position: center;
-  background-size: cover;
+  background: $bg-color;
+  padding: 220px 0 150px;
 
   @include desktop-lg {
-    padding: 150px 0 120px;
-  }
-  @include desktop {
-    padding: 200px 0 120px;
-  }
-  @include tablet {
-    padding: 150px 0 100px;
-  }
-  @include mobile {
-    padding: 120px 0 80px;
+    padding: 190px 0 130px;
   }
 
+  @include desktop {
+    padding: 170px 0 110px;
+  }
+
+  @include tablet {
+    padding: 140px 0 90px;
+  }
+
+  @include mobile {
+    padding: 120px 0 75px;
+  }
+
+  // Dezenter Abschluss des Hero-Bereichs
   &::after {
     content: "";
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba($color: $black, $alpha: 0.5);
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    height: 2px;
+    background: linear-gradient(
+      90deg,
+      rgba($silver-color, 0) 0%,
+      $silver-color 15%,
+      $silver-color 32%,
+      $silver-color 50%,
+      $silver-color 68%,
+      $silver-color 85%,
+      rgba($silver-color, 0) 100%
+    );
   }
 
   &-content {
-    text-align: center;
-    position: relative;
-    z-index: 1;
-
-    h1 {
-      color: $white;
-      margin-bottom: 15px;
-      font-size: 50px;
-      line-height: 70px;
-
-      @include tablet {
-        font-size: 40px;
-        line-height: 55px;
-      }
-      @include mobile {
-        font-size: 30px;
-        line-height: 45px;
-      }
-
-      @include mobile-xs {
-        font-size: 24px;
-        line-height: 40px;
-      }
-    }
-
-    p {
-      color: $white;
-      font-size: 19px;
-      line-height: 32px;
-      width: 83%;
-      margin: 0 auto 50px;
-
-      @include desktop {
-        width: 100%;
-      }
-      @include mobile {
-        margin: 0;
-      }
-    }
-  }
-
-  &-video-player {
-    margin-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
-    flex-direction: column;
+    text-align: center;
+  }
+
+  &-logo {
+    display: block;
+    width: 80%;
+    max-width: 920px;
+    height: auto;
 
     @include desktop {
-      margin-top: 60px;
+      width: 65%;
     }
+
+    @include tablet {
+      width: 75%;
+    }
+
     @include mobile {
-      margin-top: 30px;
-    }
-    .hero-video-player-icon {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      a {
-        display: block;
-        position: relative;
-        background: $white;
-        width: 80px;
-        height: 80px;
-        border-radius: 50%;
-        color: $black;
-        margin-bottom: 20px;
-        transition: 0.3s ease-in-out;
-
-        &:hover {
-          transform: scale(1.2);
-          i {
-            color: $primary-color;
-            font-size: 20px;
-          }
-        }
-        i {
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          transition: all 0.3s ease-in-out;
-        }
-      }
-    }
-
-    span {
-      color: $white;
-      font-family: $primary-font;
+      width: 90%;
     }
   }
 }

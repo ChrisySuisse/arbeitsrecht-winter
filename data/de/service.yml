@@ -1,23 +1,22 @@
 ---
 enable: true
-title: "Meine Leistungen"
+title: "Arbeitsrecht. Familienrecht. Persönliche Vertretung."
 subtitle: >
-          Ich berate Sie gern in allen Fragen des Arbeits- und Familienrechts, kompetent und individuell.
+          Ich berate und vertrete Arbeitnehmerinnen und Arbeitnehmer ebenso wie Arbeitgeber – vom Arbeitsvertrag über Konflikte im laufenden Arbeitsverhältnis bis zu Kündigung und Austritt.
 services:
   - name: "Arbeitsrecht"
     description: >
-                Arbeitsverträge, Reglemente, Kündigungen, Aufhebungsvereinbarungen, Mobbing am Arbeitsplatz, Arbeitsunfähigkeit, strittige Arbeitszeugnissen, Berufsunfälle oder anderen Schwierigkeiten – beratend und prozessierend.
+                Arbeitsrecht ist seit Beginn meiner juristischen Laufbahn mein fachlicher Schwerpunkt. Ich verbinde spezialisierte anwaltliche Praxis mit kontinuierlicher wissenschaftlicher Arbeit und vertrete meine Mandantinnen und Mandanten aussergerichtlich, in Verhandlungen und vor Gericht.
     icon: "ti-agenda"
-    link: "/labour"
-  - name: "New Work"
-    description: >
-                Rechtliche Ausgestaltung eines Arbeitsplatzes mit Zukunft
-    icon: "ti-direction-alt"
     link: "/labour"
   - name: "Familienrecht"
     description: >
-                Ehe- und Familienrecht, aber auch Rechtsbeistand gegenüber Kindes- und Erwachsenenschutzbehörden. Ich berate und prozessiere
-                in allen genannten Aspekten.
+                Im Familienrecht begleite ich Menschen in Situationen, in denen rechtliche und persönliche Fragen besonders eng miteinander verbunden sind – insbesondere bei Scheidung, Unterhalt, elterlicher Sorge und Obhut sowie im Kindesschutzrecht.
     icon: "ti-user"
     link: "/family"
+  - name: "Persönlich und spezialisiert"
+    description: >
+                Meine Kanzlei ist bewusst persönlich organisiert. Jedes Mandat führe ich selbst – von der ersten Einschätzung bis zum Abschluss. Das bedeutet klare Verantwortung, kurze Wege und eine Beratung, die nicht nur die Akten, sondern auch die konkrete Situation und die Ziele meiner Mandantinnen und Mandanten im Blick behält.
+    icon: "ti-direction-alt"
+    link: "/contact"
 ---

@@ -1,6 +1,7 @@
 .faq {
   padding: 100px 0;
   background: $bg-color;
+
   @include desktop {
     text-align: center;
     padding: 0 0 50px 0;
@@ -11,6 +12,7 @@
       @include tablet {
         margin-bottom: 40px;
       }
+
       @include mobile-xs {
         font-size: 20px;
         margin-bottom: 0;
@@ -18,20 +20,36 @@
     }
   }
 
+  .faq-columns {
+    column-count: 2;
+    column-gap: 50px;
+
+    @include tablet {
+      column-count: 1;
+    }
+  }
+
   &-content {
     margin: 0 auto 30px;
+    break-inside: avoid;
+    page-break-inside: avoid;
+
     @include tablet {
       text-align: center;
     }
+
     @include mobile {
       width: 100%;
     }
+
     @include mobile-xs {
       margin-bottom: 15px;
     }
+
     h3 {
       font-weight: 500;
       margin: 0 0 10px;
+
       @include desktop {
         margin-top: 0;
       }
@@ -46,6 +64,7 @@
       text-decoration: underline;
       font-size: 14px;
       color: $primary-color;
+
       &:hover {
         color: $secondary-color;
       }

@@ -1,0 +1,16 @@
+enable: true
+
+image: "images/Foto_CW_Frontpage3.jpg"
+
+title: "Persönliche Beratung im Arbeitsrecht"
+
+text: "Sie möchten Ihre arbeitsrechtliche Situation besprechen? Kontaktieren Sie mich für eine persönliche Einschätzung."
+
+primaryButton:
+  text: "Termin vereinbaren →"
+  url: "/contact/"
+
+secondaryButton:
+  text: "+41 76 778 97 01"
+  url: "tel:+41767789701"
+  icon: "fa fa-phone"
