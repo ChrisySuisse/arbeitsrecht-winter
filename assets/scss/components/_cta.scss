@@ -7,7 +7,7 @@
   display: flex;
   align-items: center;
 
-  // Türkise Fläche über dem Bild
+  // Silberne Fläche über dem Bild
   &::before {
     content: "";
     position: absolute;
@@ -58,10 +58,11 @@
     &::before {
       background: linear-gradient(
         90deg,
-        rgba($secondary-color, 0.97) 0%,
-        rgba($secondary-color, 0.92) 55%,
-        rgba($secondary-color, 0.45) 80%,
-        rgba($secondary-color, 0.15) 100%
+        rgba($silver-color-dark, 0.98) 0%,
+        rgba($silver-color-dark, 0.95) 40%,
+        rgba($silver-color-dark, 0.80) 65%,
+        rgba($silver-color-dark, 0.45) 82%,
+        rgba($silver-color-dark, 0.15) 100%
       );
     }
 
@@ -73,10 +74,13 @@
   @include mobile {
     min-height: 420px;
 
-    // Auf kleinen Displays wird das Bild bewusst stärker
-    // zurückgenommen, damit der CTA lesbar bleibt.
     &::before {
-      background: rgba($primary-color, 0.92);
+      background: linear-gradient(
+        90deg,
+        rgba($silver-color-dark, 0.96) 0%,
+        rgba($silver-color-dark, 0.93) 55%,
+        rgba($silver-color-dark, 0.86) 100%
+      );
     }
 
     &__content {
