@@ -1,6 +1,6 @@
 {{ with index hugo.Data .Language.Lang "blogSection" }}
 {{ if .enable }}
-<section class="blog" id="blog">
+<section class="blog" id="publications">
   <div class="container">
     <div class="row">
       <div class="col-12">
@@ -14,7 +14,7 @@
     </div>
 
     <div class="row justify-content-center">
-      {{ range first 3 (where $.Site.RegularPages "Type" "blog") }}
+      {{ range first 3 (where $.Site.RegularPages "Type" "publications") }}
         {{ $page := . }}
 
         {{ $imagePath := $page.Params.featureImage | default $.Site.Params.defaultBlogImage }}

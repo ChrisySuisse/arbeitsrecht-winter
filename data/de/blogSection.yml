@@ -3,5 +3,5 @@ enable: true
 title: "Medien und Publikationen"
 subtitle: >
           Hier finden Sie einige meiner Beiträge und Publikationen.
-buttonTarget: blog
+buttonTarget: publications
 ---

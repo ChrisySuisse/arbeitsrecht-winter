@@ -1,7 +1,7 @@
 ---
 title: "Scheidungen"
 date: 2026-08-31T11:23:00+02:00
-sideImage: "images/unsplash/klim-musalimov-e6Xtof7S_ys-unsplash.jpg"
+sideImage: "images/unsplash/lukas-kaufmann-t5I0KSnvtoo-unsplash.jpg"
 description: "Beratung und Vertretung bei Scheidungen in der Schweiz – von der einvernehmlichen Scheidung und Scheidungsvereinbarung bis zum streitigen Verfahren."
 ---
 

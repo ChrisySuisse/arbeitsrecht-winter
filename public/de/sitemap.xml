@@ -177,33 +177,33 @@
     <loc>http://localhost:1313/tags/arbeitsvertrag/</loc>
     <lastmod>2026-08-27T11:00:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/20260827-auftrag-vs-arbeitsverh%C3%A4ltnis/</loc>
+    <loc>http://localhost:1313/publications/20260827-auftrag-vs-arbeitsverh%C3%A4ltnis/</loc>
     <lastmod>2026-08-27T11:00:00+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de-CH"
-                href="http://localhost:1313/blog/20260827-auftrag-vs-arbeitsverh%C3%A4ltnis/"
+                href="http://localhost:1313/publications/20260827-auftrag-vs-arbeitsverh%C3%A4ltnis/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/blog/20260827-auftrag-vs-arbeitsverh%C3%A4ltnis/"
+                href="http://localhost:1313/en/publications/20260827-auftrag-vs-arbeitsverh%C3%A4ltnis/"
                 />
   </url><url>
     <loc>http://localhost:1313/tags/auftragsrecht/</loc>
     <lastmod>2026-08-27T11:00:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/</loc>
+    <loc>http://localhost:1313/publications/</loc>
     <lastmod>2026-08-27T11:00:00+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de-CH"
-                href="http://localhost:1313/blog/"
+                href="http://localhost:1313/publications/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/blog/"
+                href="http://localhost:1313/en/publications/"
                 />
   </url><url>
     <loc>http://localhost:1313/tags/new-work/</loc>
@@ -235,17 +235,17 @@
     <loc>http://localhost:1313/tags/mobbing/</loc>
     <lastmod>2024-02-06T21:35:41+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/20240206_lawonair_mobbing/</loc>
+    <loc>http://localhost:1313/publications/20240206_lawonair_mobbing/</loc>
     <lastmod>2024-02-06T21:35:41+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de-CH"
-                href="http://localhost:1313/blog/20240206_lawonair_mobbing/"
+                href="http://localhost:1313/publications/20240206_lawonair_mobbing/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/blog/20240206_lawonair_mobbing/"
+                href="http://localhost:1313/en/publications/20240206_lawonair_mobbing/"
                 />
   </url><url>
     <loc>http://localhost:1313/labour/</loc>
@@ -264,17 +264,17 @@
     <loc>http://localhost:1313/tags/sozialplan/</loc>
     <lastmod>2023-01-16T11:16:38+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/20230116-festschrift-von-kaenel/</loc>
+    <loc>http://localhost:1313/publications/20230116-festschrift-von-kaenel/</loc>
     <lastmod>2023-01-16T11:16:38+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de-CH"
-                href="http://localhost:1313/blog/20230116-festschrift-von-kaenel/"
+                href="http://localhost:1313/publications/20230116-festschrift-von-kaenel/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/blog/20230116-festschrift-von-kaenel/"
+                href="http://localhost:1313/en/publications/20230116-festschrift-von-kaenel/"
                 />
   </url><url>
     <loc>http://localhost:1313/family/</loc>

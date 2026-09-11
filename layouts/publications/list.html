@@ -9,9 +9,14 @@
           <h2>{{ $page.Title }}</h2>
 
           {{ with $page.Params.subTitle }}
-            <p>{{ . }}</p>
+            <p>{{ . | markdownify }}</p>
           {{ end }}
         </div>
+        {{ with $page.Content }}
+          <div class="publication-intro">
+            {{ . }}
+          </div>
+        {{ end }}
       </div>
     </div>
   </div>

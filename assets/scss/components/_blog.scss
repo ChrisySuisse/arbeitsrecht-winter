@@ -247,3 +247,24 @@
     } 
   }
 }
+
+.publication-intro {
+  text-align: center;
+  margin: 30px auto 0;
+
+  p {
+    margin-bottom: 0;
+  }
+
+  a {
+    display: inline-block;
+    color: $primary-color;
+        &:hover {
+          color: $secondary-color;
+        }
+  }
+
+  i {
+    margin-right: 4px;
+  }
+}

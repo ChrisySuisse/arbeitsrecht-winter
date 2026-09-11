@@ -131,7 +131,7 @@ weight = 34
 
 [[menu.Main]]
 name = "Publikationen"
-url = "/blog/"
+url = "/publications/"
 weight = 4
 
 [[menu.Main]]
@@ -253,7 +253,7 @@ weight = 34
 
 [[languages.en.menu.Main]]
 name = "Media"
-url = "/en/blog/"
+url = "/en/publications/"
 weight = 4
 
 [[languages.en.menu.Main]]
@@ -294,7 +294,7 @@ weight = 7
 
 [params]
   # theme_overrides = "css/overrides.css"
-  aboutPageURL = "blog"
+  aboutPageURL = "publications"
   contactLink = "contact"
   copyright = "© {year} Arbeitsrecht Winter"
 #  fabFormURL =  "https://fabform.io/f/u00kv3-"

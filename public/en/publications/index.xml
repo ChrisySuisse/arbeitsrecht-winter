@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Media and Publications on Legal Winter</title>
+		<link>http://localhost:1313/en/publications/</link>
+		<description>Recent content in Media and Publications on Legal Winter</description>
+		<generator>Hugo</generator>
+		<language>en-US</language>
+		
+		
+		
+		
+			<lastBuildDate>Thu, 27 Aug 2026 11:00:00 +0200</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/en/publications/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Independent Contractor or Employee? Distinguishing New Forms of Work</title>
+				<link>http://localhost:1313/en/publications/20260827-auftrag-vs-arbeitsverh%C3%A4ltnis/</link>
+				<pubDate>Thu, 27 Aug 2026 11:00:00 +0200</pubDate>
+				<guid>http://localhost:1313/en/publications/20260827-auftrag-vs-arbeitsverh%C3%A4ltnis/</guid>
+				<description>&lt;p&gt;New forms of work such as freelancing, platform work, working from home and flexible forms of collaboration are increasingly blurring the boundaries between independent contractor relationships and employment relationships. From a legal perspective, however, the distinction remains highly significant.&lt;/p&gt;&#xA;&lt;p&gt;In my article for the &lt;em&gt;Lohn &amp;amp; Sozialversicherungen&lt;/em&gt; newsletter, I explain the criteria used to distinguish an independent contractor relationship from an employment relationship and why the traditional criteria for making this distinction are increasingly being challenged by changes in the world of work.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Podcast Law On Air: Workplace Bullying</title>
+				<link>http://localhost:1313/en/publications/20240206_lawonair_mobbing/</link>
+				<pubDate>Tue, 06 Feb 2024 21:35:41 +0100</pubDate>
+				<guid>http://localhost:1313/en/publications/20240206_lawonair_mobbing/</guid>
+				<description>&lt;p&gt;A slightly older, but still highly relevant podcast featuring me on the topic of workplace bullying. In this episode, I spoke with organisational psychologist Astrid Geschwentner about what exactly constitutes workplace bullying, how it affects those concerned, and how companies can respond to cases of workplace bullying. You can listen to the full episode here:&lt;/p&gt;&#xA;&lt;p&gt;&lt;i class=&#34;fa-solid fa-podcast&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://www.podbean.eu/player-v2/?i=njfdk-d4d6f2-pb&#34;&gt;Listen on Podbean: Law on Air | Episode 14: Workplace Bullying (in German)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Please feel free to contact me if you are affected by workplace bullying or need to deal with such incidents within your company. &lt;i class=&#34;fa-solid fa-arrow-right-long&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://localhost:1313/en/contact/&#34;&gt;Go to contact page&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>&#39;Sozialpläne&#39; in Swiss Law – Recent Developments</title>
+				<link>http://localhost:1313/en/publications/20230116-festschrift-von-kaenel/</link>
+				<pubDate>Mon, 16 Jan 2023 11:16:38 +0600</pubDate>
+				<guid>http://localhost:1313/en/publications/20230116-festschrift-von-kaenel/</guid>
+				<description>&lt;p&gt;An article by Christian Gersbach and myself has been published in Festschrift for Adrian von Kaenel,&#xA;in which we trace current developments in social plans in Swiss Law. You can access a preview here&#xA;(article in German):&lt;/p&gt;&#xA;&lt;p&gt;&lt;i class=&#34;fa-solid fa-file-pdf&#34;&gt;&lt;/i&gt; &lt;a href=&#34;../../documents/12_FS_von_Kaenel_GERSBACH_WINTER_Vorschau.pdf&#34;&gt;Gersbach/Winter: Sozialpläne – Aktuelle Entwicklungen&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;If you have any questions about employment law in general or social compensation plans in particular, &lt;a href=&#34;http://localhost:1313/en/#contact&#34;&gt;feel free to contact me!&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>
