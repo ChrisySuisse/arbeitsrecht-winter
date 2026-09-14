@@ -23,22 +23,48 @@
         {{ $image := resources.Get $imagePath }}
 
         {{ with $image }}
-          {{ $medium := .Resize "900x webp q80" }}
-          {{ $large := .Resize "1400x webp q80" }}
-          {{ $xlarge := .Resize "1800x webp q80" }}
 
-          <div class="post-image">
-            <img
-              src="{{ $large.RelPermalink }}"
-              srcset="
-                {{ $medium.RelPermalink }} 900w,
-                {{ $large.RelPermalink }} 1400w,
-                {{ $xlarge.RelPermalink }} 1800w"
-              sizes="(max-width: 991px) 100vw, 83vw"
-              width="{{ $large.Width }}"
-              height="{{ $large.Height }}"
-              alt="{{ $page.Title }}">
-          </div>
+          {{ if $page.Params.featureImageCrop }}
+            {{ $anchor := $page.Params.featureImageAnchor | default "Center" }}
+
+            {{ $medium := .Fill (printf "900x500 webp q80 %s" $anchor) }}
+            {{ $large := .Fill (printf "1400x780 webp q80 %s" $anchor) }}
+            {{ $xlarge := .Fill (printf "1800x1000 webp q80 %s" $anchor) }}
+
+            <div class="post-image">
+              <img
+                src="{{ $large.RelPermalink }}"
+                srcset="
+                  {{ $medium.RelPermalink }} 900w,
+                  {{ $large.RelPermalink }} 1400w,
+                  {{ $xlarge.RelPermalink }} 1800w"
+                sizes="(max-width: 991px) 100vw, 83vw"
+                width="{{ $large.Width }}"
+                height="{{ $large.Height }}"
+                alt="{{ $page.Title }}">
+            </div>
+
+          {{ else }}
+
+            {{ $medium := .Resize "900x webp q80" }}
+            {{ $large := .Resize "1400x webp q80" }}
+            {{ $xlarge := .Resize "1800x webp q80" }}
+
+            <div class="post-image">
+              <img
+                src="{{ $large.RelPermalink }}"
+                srcset="
+                  {{ $medium.RelPermalink }} 900w,
+                  {{ $large.RelPermalink }} 1400w,
+                  {{ $xlarge.RelPermalink }} 1800w"
+                sizes="(max-width: 991px) 100vw, 83vw"
+                width="{{ $large.Width }}"
+                height="{{ $large.Height }}"
+                alt="{{ $page.Title }}">
+            </div>
+
+          {{ end }}
+
         {{ end }}
 
         <div class="post-body">

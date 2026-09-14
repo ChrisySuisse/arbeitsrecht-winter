@@ -15,9 +15,16 @@
 			<atom:link href="http://localhost:1313/en/tags/personnel-file/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>The Battle over the Personnel File</title>
-				<link>http://localhost:1313/en/publications/20240203-auftrag-vs-arbeitsverh%C3%A4ltnis/</link>
+				<link>http://localhost:1313/en/publications/20240203-kampf-ums-personaldossier/</link>
 				<pubDate>Sat, 03 Feb 2024 11:00:00 +0100</pubDate>
-				<guid>http://localhost:1313/en/publications/20240203-auftrag-vs-arbeitsverh%C3%A4ltnis/</guid>
+				<guid>http://localhost:1313/en/publications/20240203-kampf-ums-personaldossier/</guid>
+				<description>&lt;p&gt;The personnel file contains a wide range of employees’ personal data and therefore raises important questions of employment law and data protection. What data may an employer process? What rights of access and information do employees have, and under what circumstances may these rights be restricted?&lt;/p&gt;&#xA;&lt;p&gt;In our article for the newsletter &lt;em&gt;Lohn &amp;amp; Sozialversicherungen&lt;/em&gt; (in German), Selin Cinar and I provide an overview of the legal framework governing personnel files, with a particular focus on employees’ rights under the revised Data Protection Act and the limits of those rights.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>The Battle over the Personnel File</title>
+				<link>http://localhost:1313/en/publications/20241026-eltern-kind-entfremdung/</link>
+				<pubDate>Sat, 03 Feb 2024 11:00:00 +0100</pubDate>
+				<guid>http://localhost:1313/en/publications/20241026-eltern-kind-entfremdung/</guid>
 				<description>&lt;p&gt;The personnel file contains a wide range of employees’ personal data and therefore raises important questions of employment law and data protection. What data may an employer process? What rights of access and information do employees have, and under what circumstances may these rights be restricted?&lt;/p&gt;&#xA;&lt;p&gt;In our article for the newsletter &lt;em&gt;Lohn &amp;amp; Sozialversicherungen&lt;/em&gt; (in German), Selin Cinar and I provide an overview of the legal framework governing personnel files, with a particular focus on employees’ rights under the revised Data Protection Act and the limits of those rights.&lt;/p&gt;</description>
 			</item>
 	</channel>

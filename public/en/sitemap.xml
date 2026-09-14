@@ -241,17 +241,30 @@
     <loc>http://localhost:1313/en/tags/personnel-file/</loc>
     <lastmod>2024-02-03T11:00:00+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/publications/20240203-auftrag-vs-arbeitsverh%C3%A4ltnis/</loc>
+    <loc>http://localhost:1313/en/publications/20240203-kampf-ums-personaldossier/</loc>
     <lastmod>2024-02-03T11:00:00+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de-CH"
-                href="http://localhost:1313/publications/20240203-auftrag-vs-arbeitsverh%C3%A4ltnis/"
+                href="http://localhost:1313/publications/20240203-kampf-ums-personaldossier/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/publications/20240203-auftrag-vs-arbeitsverh%C3%A4ltnis/"
+                href="http://localhost:1313/en/publications/20240203-kampf-ums-personaldossier/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/publications/20241026-eltern-kind-entfremdung/</loc>
+    <lastmod>2024-02-03T11:00:00+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-CH"
+                href="http://localhost:1313/publications/20241026-eltern-kind-entfremdung/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/en/publications/20241026-eltern-kind-entfremdung/"
                 />
   </url><url>
     <loc>http://localhost:1313/en/publications/20230116-festschrift-von-kaenel/</loc>
