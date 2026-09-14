@@ -1,5 +1,4 @@
 .main-nav {
-
   padding: 30px 35px 20px;
   transition: all 0.5s ease-in-out;
   position: fixed;
@@ -13,24 +12,24 @@
   }
 
   @include mobile {
-    padding: 15px 30px;
-    width: 95%;
-    left: 50%;
-    transform: translateX(-50%);
-    top: 10px;
+    width: 100%;
+    min-height: 38px;
+    padding: 0 18px;
+    left: 0;
+    top: 0;
+    transform: none;
+
+    background: $primary-color;
+    border: 0;
+    box-shadow: none;
   }
 
-
   .navbar-nav {
-
     .nav-item {
-
       position: relative;
-
 
       // Standard navigation link
       .nav-link {
-
         color: $text-color-dark;
         padding-left: 20px;
         padding-right: 20px;
@@ -48,7 +47,6 @@
 
         // Subtle underline in primary color
         &::after {
-
           content: "";
           position: absolute;
           left: 20px;
@@ -56,319 +54,246 @@
           bottom: 2px;
           height: 1px;
           background: $primary-color;
-
           transform: scaleX(0);
           transform-origin: center;
-
           transition: transform 0.2s $site-ease;
-
         }
 
         &:hover,
         &:focus {
-
           color: $primary-color !important;
 
           &::after {
             transform: scaleX(1);
           }
-
         }
-
       }
-
 
       // Desktop parent link
       .nav-link-desktop {
         display: inline-block;
       }
 
-
       // Mobile dropdown trigger
       .nav-dropdown-trigger {
         display: none;
       }
 
-
       // Dropdown
       .nav-dropdown {
-
         position: absolute;
         top: 100%;
         left: 0;
-
         min-width: 260px;
-
         margin: 0;
         padding: 10px 0;
-
         list-style: none;
-
         background: $white;
-
         box-shadow: 0 8px 24px rgba($black, 0.12);
-
         opacity: 0;
         visibility: hidden;
-
         transform: translateY(8px);
-
         transition:
           opacity 0.2s ease,
           transform 0.2s ease,
           visibility 0.2s ease;
-
         z-index: 1100;
-
       }
-
 
       .nav-dropdown-overview {
         display: none;
       }
 
       @include desktop {
-
         .nav-dropdown-overview {
           display: block;
         }
-
       }
-
 
       .nav-dropdown-item {
         width: 100%;
       }
 
-
       .nav-dropdown-link {
-
         display: block;
-
         padding: 10px 20px;
-
         color: $text-color-dark;
-
         font-family: $primary-font;
         font-size: 14px;
         font-weight: 500;
         letter-spacing: 0.5px;
-
         white-space: nowrap;
-
         transition:
           color 0.2s ease,
           background 0.2s ease;
 
         &:hover,
         &:focus {
-
           color: $primary-color;
           text-decoration: none;
-
           background: rgba($silver-color, 0.2);
-
         }
-
       }
-
 
       // Desktop dropdown behaviour
       &.has-dropdown:hover > .nav-dropdown,
       &.has-dropdown:focus-within > .nav-dropdown {
-
         opacity: 1;
         visibility: visible;
         transform: translateY(0);
-
       }
-
 
       // Mobile / collapsed navigation
       @include desktop {
-
         // Hide the normal parent link
         .nav-link-desktop {
           display: none;
         }
 
-
         // Show dropdown trigger instead
         .nav-dropdown-trigger {
-
           display: block;
-
           width: 100%;
-
           padding-left: 20px;
           padding-right: 20px;
-
           border: 0;
           background: transparent;
-
           color: $text-color-dark;
-
           font-family: $primary-font;
           font-size: 14px;
           font-weight: 500;
           letter-spacing: 1px;
-
           text-align: left;
-
           cursor: pointer;
-
         }
-
 
         // Dropdown becomes part of normal document flow
         .nav-dropdown {
-
           position: static;
-
           display: none;
-
           width: 100%;
           min-width: 0;
-
           margin: 0;
-
           padding: 5px 0 10px 20px;
-
           background: transparent;
-
           box-shadow: none;
-
           opacity: 1;
           visibility: visible;
-
           transform: none;
-
           transition: none;
-
         }
-
 
         // JS adds .is-open to the parent <li>
         &.has-dropdown.is-open > .nav-dropdown {
           display: block;
         }
 
-
         // Disable desktop hover opening on collapsed navigation
         &.has-dropdown:hover > .nav-dropdown,
         &.has-dropdown:focus-within > .nav-dropdown {
-
           opacity: 1;
           visibility: visible;
           transform: none;
-
         }
-
       }
-
     }
-
 
     // Arrow before parent navigation item
     .has-dropdown > .nav-link::before {
-
       content: "";
-
       display: inline-block;
-
       width: 6px;
       height: 6px;
-
       margin-right: 8px;
-
       border-right: 1.5px solid currentColor;
       border-bottom: 1.5px solid currentColor;
-
       background: transparent !important;
-
       transform: rotate(315deg) translateY(-2px);
-
       transition: transform 0.25s ease;
-
     }
-
 
     // Desktop arrow animation
     .has-dropdown:hover > .nav-link::before,
     .has-dropdown:focus-within > .nav-link::before {
-
       transform: rotate(405deg) translate(-2px, -2px);
-
     }
 
-
     @include desktop {
-
       align-items: center;
-
 
       // On mobile the arrow follows aria-expanded instead of hover
       .has-dropdown > .nav-dropdown-trigger::before {
-
         transform: rotate(315deg) translateY(-2px);
-
       }
 
       .has-dropdown > .nav-dropdown-trigger[aria-expanded="true"]::before {
-
         transform: rotate(405deg) translate(-2px, -2px);
-
       }
-
     }
-
   }
 
-
   .navbar-brand {
+    @include mobile {
+      display: none;
+    }
 
     .logo-main {
-
       display: none;
 
       @include desktop {
         display: block;
       }
-
     }
 
     .logo-white {
-
       display: block;
 
       @include desktop {
         display: none;
       }
-
     }
 
     img {
       width: 100px;
     }
-
   }
 
-
   .navbar-toggler {
-
     outline: 0;
     padding: 0;
 
-    .icon-bar {
+    @include mobile {
+      position: absolute;
+      top: 0;
+      right: 16px;
 
+      width: 52px;
+      height: 52px;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      border: 0;
+      border-radius: 0 0 0 6px;
+      background: $primary-color;
+
+      z-index: 1200;
+    }
+
+    .icon-bar {
       width: 25px;
       height: 2px;
-
       background: $secondary-color;
-
       transition: all 0.2s;
-
       display: block;
+
+      @include mobile {
+        width: 23px;
+        height: 1px;
+        background: $white;
+      }
 
       &:not(:last-child) {
         margin-bottom: 5px;
@@ -388,14 +313,10 @@
         transform: rotate(-45deg);
         transform-origin: 10% 90%;
       }
-
     }
 
-
     &.collapsed {
-
       .icon-bar {
-
         &:nth-child(1) {
           transform: rotate(0);
         }
@@ -408,35 +329,63 @@
         &:nth-child(3) {
           transform: rotate(0);
         }
-
       }
-
     }
-
   }
 
+  @include mobile {
+    .navbar-collapse {
+      position: absolute;
+      top: 38px;
+      left: 0;
+
+      width: 100%;
+      padding: 26px 20px 20px;
+
+      background: $white;
+      border-bottom: 1px solid $silver-color;
+      box-shadow: 0 8px 20px rgba($black, 0.08);
+    }
+
+    .navbar-nav {
+      width: 100%;
+
+      .nav-item {
+        width: 100%;
+
+        .nav-link {
+          color: $text-color-dark;
+          padding-top: 10px;
+          padding-bottom: 10px;
+        }
+      }
+    }
+  }
 
   &.nav-bg {
-
     background: $white;
-
     padding: 20px;
-
     border: none;
     border-bottom: 1px solid $silver-color;
-
     box-shadow: 0 4px 12px rgba($black, 0.04);
-
     top: 0;
 
     @include mobile {
-      top: 10px;
-      padding: 20px;
+      top: 0;
+      width: 100%;
+      min-height: 38px;
+      padding: 0 18px;
+
+      background: $primary-color;
+      border-bottom: 0;
+      box-shadow: none;
+
+      .navbar-brand {
+        display: none;
+      }
     }
 
-
     .navbar-brand {
-
       .logo-main {
         display: block;
       }
@@ -444,39 +393,25 @@
       .logo-white {
         display: none;
       }
-
     }
-
 
     .nav-link {
       color: $text-color-dark !important;
     }
 
-
     .account-list {
-
       li {
-
         a {
-
           color: $white;
           background: $secondary-color;
           box-shadow: none;
-
         }
-
       }
-
     }
-
   }
-
 
   &-colored {
-
     @extend .nav-bg;
     box-shadow: none;
-
   }
-
 }
