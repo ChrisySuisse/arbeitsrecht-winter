@@ -1,8 +1,9 @@
 ---
 title: 'Podcast Law On Air: Workplace Bullying'
 date: 2024-02-06T21:35:41+01:00
-featureImage: images/sebastian-pandelache-microphone-unsplash.jpg
+featureImage: images/unsplash/sebastian-pandelache-microphone-unsplash.jpg
 tags: [ "Employment Law", "Workplace Bullying"]
+draft: true
 ---
 
 A slightly older, but still highly relevant podcast featuring me on the topic of workplace bullying. In this episode, I spoke with organisational psychologist Astrid Geschwentner about what exactly constitutes workplace bullying, how it affects those concerned, and how companies can respond to cases of workplace bullying. You can listen to the full episode here:

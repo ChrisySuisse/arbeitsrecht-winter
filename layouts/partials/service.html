@@ -1,41 +1,109 @@
 {{ with index hugo.Data .Language.Lang "service" }}
 {{ if .enable }}
+
 <section class="service" id="service">
   <div class="container">
 
-    <div class="row">
-      <div class="col-lg-12">
-        <div class="service-intro">
-          <h2>{{ .title }}</h2>
+    <div class="row align-items-center">
 
-          <p class="service-subtitle">
-            {{ .subtitle }}
-          </p>
+      <!-- Portrait -->
+      <div class="col-lg-5">
+        <div class="service-portrait">
+          {{ $image := resources.Get .image }}
+          {{ $imageAlt := .imageAlt }}
+
+          {{ with $image }}
+            {{ $small := .Resize "600x webp q85" }}
+            {{ $large := .Resize "1000x webp q85" }}
+
+            <img
+              src="{{ $large.RelPermalink }}"
+              srcset="
+                {{ $small.RelPermalink }} 600w,
+                {{ $large.RelPermalink }} 1000w
+              "
+              sizes="(max-width: 991px) 100vw, 42vw"
+              width="{{ $large.Width }}"
+              height="{{ $large.Height }}"
+              alt="{{ $imageAlt }}"
+              loading="lazy"
+            >
+          {{ end }}
         </div>
       </div>
-    </div>
 
-    <div class="service-divider" aria-hidden="true"></div>
+      <!-- Inhalt -->
+      <div class="col-lg-7">
+        <div class="service-content">
 
-    <div class="service-list">
-      {{ range .services }}
-      <div class="service-entry reveal-service">
-        <h3>
-          {{ if .link }}
-          <a href="{{ .link }}">{{ .name }}</a>
-          {{ else }}
-          {{ .name }}
+          <div class="service-intro">
+            <span class="service-kicker">{{ .kicker }}</span>
+
+            <h2>{{ .title }}</h2>
+
+            <p class="service-subtitle">
+              {{ .subtitle }}
+            </p>
+          </div>
+
+          <div class="service-list">
+
+            {{ range .services }}
+            <article class="service-entry">
+
+              <div class="service-entry-content">
+                <h3>
+                  {{ if .link }}
+                  <a href="{{ .link }}">
+                    {{ .name }}
+                  </a>
+                  {{ else }}
+                  {{ .name }}
+                  {{ end }}
+                </h3>
+
+                {{ with .topics }}
+                <p class="service-topics">
+                  {{ delimit . " · " }}
+                </p>
+                {{ end }}
+
+                {{ with .description }}
+                <p class="service-description">
+                  {{ . }}
+                </p>
+                {{ end }}
+              </div>
+
+              {{ if .link }}
+              <div class="service-entry-link">
+                <a
+                  href="{{ .link }}"
+                  aria-label="{{ .name }} – mehr erfahren"
+                >
+                  <span aria-hidden="true">→</span>
+                </a>
+              </div>
+              {{ end }}
+
+            </article>
+            {{ end }}
+
+          </div>
+
+          {{ with .personal }}
+          <p class="service-personal">
+            {{ . }}
+          </p>
           {{ end }}
-        </h3>
 
-        <p>
-          {{ .description }}
-        </p>
+        </div>
       </div>
-      {{ end }}
+
     </div>
 
   </div>
 </section>
+
 {{ end }}
 {{ end }}

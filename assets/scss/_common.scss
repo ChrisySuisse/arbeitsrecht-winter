@@ -17,10 +17,18 @@
     &::before {
       content: "";
       position: absolute;
-      width: 100px;
-      height: 5px;
-      background: $text-color;
-      border-radius: 5px;
+      width: 30%;
+      height: 1px;
+      background: linear-gradient(
+      90deg,
+      rgba($silver-color, 0) 0%,
+      $silver-color 15%,
+      $silver-color 32%,
+      $silver-color 50%,
+      $silver-color 68%,
+      $silver-color 85%,
+      rgba($silver-color, 0) 100%
+    );
       bottom: -25px;
       left: 50%;
       transform: translateX(-50%);

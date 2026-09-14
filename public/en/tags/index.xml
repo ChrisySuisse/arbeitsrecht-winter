@@ -42,10 +42,24 @@
 				<description></description>
 			</item>
 			<item>
-				<title>Workplace Bullying</title>
-				<link>http://localhost:1313/en/tags/workplace-bullying/</link>
-				<pubDate>Tue, 06 Feb 2024 21:35:41 +0100</pubDate>
-				<guid>http://localhost:1313/en/tags/workplace-bullying/</guid>
+				<title>Data Protection</title>
+				<link>http://localhost:1313/en/tags/data-protection/</link>
+				<pubDate>Sat, 03 Feb 2024 11:00:00 +0100</pubDate>
+				<guid>http://localhost:1313/en/tags/data-protection/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Employee Rights</title>
+				<link>http://localhost:1313/en/tags/employee-rights/</link>
+				<pubDate>Sat, 03 Feb 2024 11:00:00 +0100</pubDate>
+				<guid>http://localhost:1313/en/tags/employee-rights/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Personnel File</title>
+				<link>http://localhost:1313/en/tags/personnel-file/</link>
+				<pubDate>Sat, 03 Feb 2024 11:00:00 +0100</pubDate>
+				<guid>http://localhost:1313/en/tags/personnel-file/</guid>
 				<description></description>
 			</item>
 			<item>

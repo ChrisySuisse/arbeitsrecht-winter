@@ -232,21 +232,27 @@
                 href="http://localhost:1313/en/tags/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/publications/20240206_lawonair_mobbing/</loc>
-    <lastmod>2024-02-06T21:35:41+01:00</lastmod>
+    <loc>http://localhost:1313/en/tags/data-protection/</loc>
+    <lastmod>2024-02-03T11:00:00+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/tags/employee-rights/</loc>
+    <lastmod>2024-02-03T11:00:00+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/tags/personnel-file/</loc>
+    <lastmod>2024-02-03T11:00:00+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/publications/20240203-auftrag-vs-arbeitsverh%C3%A4ltnis/</loc>
+    <lastmod>2024-02-03T11:00:00+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de-CH"
-                href="http://localhost:1313/publications/20240206_lawonair_mobbing/"
+                href="http://localhost:1313/publications/20240203-auftrag-vs-arbeitsverh%C3%A4ltnis/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/publications/20240206_lawonair_mobbing/"
+                href="http://localhost:1313/en/publications/20240203-auftrag-vs-arbeitsverh%C3%A4ltnis/"
                 />
-  </url><url>
-    <loc>http://localhost:1313/en/tags/workplace-bullying/</loc>
-    <lastmod>2024-02-06T21:35:41+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/publications/20230116-festschrift-von-kaenel/</loc>
     <lastmod>2023-01-16T11:16:38+06:00</lastmod>

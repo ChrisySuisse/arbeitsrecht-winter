@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Personnel File on Legal Winter</title>
+		<link>http://localhost:1313/en/tags/personnel-file/</link>
+		<description>Recent content in Personnel File on Legal Winter</description>
+		<generator>Hugo</generator>
+		<language>en-US</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 03 Feb 2024 11:00:00 +0100</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/en/tags/personnel-file/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>The Battle over the Personnel File</title>
+				<link>http://localhost:1313/en/publications/20240203-auftrag-vs-arbeitsverh%C3%A4ltnis/</link>
+				<pubDate>Sat, 03 Feb 2024 11:00:00 +0100</pubDate>
+				<guid>http://localhost:1313/en/publications/20240203-auftrag-vs-arbeitsverh%C3%A4ltnis/</guid>
+				<description>&lt;p&gt;The personnel file contains a wide range of employees’ personal data and therefore raises important questions of employment law and data protection. What data may an employer process? What rights of access and information do employees have, and under what circumstances may these rights be restricted?&lt;/p&gt;&#xA;&lt;p&gt;In our article for the newsletter &lt;em&gt;Lohn &amp;amp; Sozialversicherungen&lt;/em&gt; (in German), Selin Cinar and I provide an overview of the legal framework governing personnel files, with a particular focus on employees’ rights under the revised Data Protection Act and the limits of those rights.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

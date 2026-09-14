@@ -2,7 +2,7 @@
   other = 'Read More '
   
 [viewBlogPage]
-  other = 'View media page'
+  other = 'View publications page'
   
 [BookingRequest]
   other = 'Booking Request'

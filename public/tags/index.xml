@@ -42,10 +42,24 @@
 				<description></description>
 			</item>
 			<item>
-				<title>Mobbing</title>
-				<link>http://localhost:1313/tags/mobbing/</link>
-				<pubDate>Tue, 06 Feb 2024 21:35:41 +0100</pubDate>
-				<guid>http://localhost:1313/tags/mobbing/</guid>
+				<title>Arbeitnehmerrechte</title>
+				<link>http://localhost:1313/tags/arbeitnehmerrechte/</link>
+				<pubDate>Sat, 03 Feb 2024 11:00:00 +0100</pubDate>
+				<guid>http://localhost:1313/tags/arbeitnehmerrechte/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Datenschutz</title>
+				<link>http://localhost:1313/tags/datenschutz/</link>
+				<pubDate>Sat, 03 Feb 2024 11:00:00 +0100</pubDate>
+				<guid>http://localhost:1313/tags/datenschutz/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Personaldossier</title>
+				<link>http://localhost:1313/tags/personaldossier/</link>
+				<pubDate>Sat, 03 Feb 2024 11:00:00 +0100</pubDate>
+				<guid>http://localhost:1313/tags/personaldossier/</guid>
 				<description></description>
 			</item>
 			<item>

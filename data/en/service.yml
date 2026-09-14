@@ -1,23 +1,33 @@
----
 enable: true
-title: "My Services"
+
+image: "images/about/Foto-über mich.jpg"
+imageAlt: "Christina Winter, Attorney-at-Law"
+
+kicker: "Attorney-at-Law in Basel"
+
+title: "Employment Law. Family Law. Personal Counsel."
+
 subtitle: >
-          I offer tailored legal solutions and consulting in all questions regarding labour and family law.
+  I advise and represent both employees and employers and assist
+  clients in family law matters.
+
 services:
-  - name: "Labour law"
-    description: >
-                Employment contracts, regulations, dismissals, termination agreements, workplace bullying, incapacity for work, disputed employment references, occupational accidents or other difficulties - in an advisory and litigation capacity.
-    icon: "ti-agenda"
+  - name: "Employment Law"
+    topics:
+      - "Employment Contracts"
+      - "Workplace Disputes"
+      - "Termination"
+      - "Negotiations"
     link: "/en/labour"
-  - name: "New Work"
-    description: >
-                Legal structure of a workplace with a future
-    icon: "ti-direction-alt"
-    link: "/en/labour"
-  - name: "Family law"
-    description: >
-                Marriage and family law, but also legal advice for dealing with child and adult protection authorities. I advise and litigate
-                in all the aspects mentioned.
-    icon: "ti-user"
+
+  - name: "Family Law"
+    topics:
+      - "Divorce"
+      - "Maintenance"
+      - "Children"
+      - "Child Protection"
     link: "/en/family"
----
+
+personal: >
+  I handle every matter personally – from the initial consultation
+  through to its conclusion.

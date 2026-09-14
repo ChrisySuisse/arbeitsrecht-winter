@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Personaldossier on Arbeitsrecht Winter</title>
+		<link>http://localhost:1313/tags/personaldossier/</link>
+		<description>Recent content in Personaldossier on Arbeitsrecht Winter</description>
+		<generator>Hugo</generator>
+		<language>de-CH</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 03 Feb 2024 11:00:00 +0100</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/personaldossier/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Der Kampf um das Personaldossier</title>
+				<link>http://localhost:1313/publications/20240203-auftrag-vs-arbeitsverh%C3%A4ltnis/</link>
+				<pubDate>Sat, 03 Feb 2024 11:00:00 +0100</pubDate>
+				<guid>http://localhost:1313/publications/20240203-auftrag-vs-arbeitsverh%C3%A4ltnis/</guid>
+				<description>&lt;p&gt;Das Personaldossier enthält zahlreiche persönliche Daten von Arbeitnehmerinnen und Arbeitnehmern und wirft entsprechend wichtige arbeits- und datenschutzrechtliche Fragen auf. Welche Daten darf der Arbeitgeber bearbeiten? Welche Auskunfts- und Einsichtsrechte bestehen und unter welchen Voraussetzungen können diese eingeschränkt werden? :contentReference[oaicite:0]{index=0}&lt;/p&gt;&#xA;&lt;p&gt;In unserem Beitrag für den Newsletter &lt;em&gt;Lohn &amp;amp; Sozialversicherungen&lt;/em&gt; geben Selin Cinar und ich einen Überblick über die rechtlichen Grundlagen des Personaldossiers und zeigen insbesondere auf, welche Rechte Arbeitnehmerinnen und Arbeitnehmer nach dem revidierten Datenschutzgesetz haben und wo deren Grenzen liegen.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>
