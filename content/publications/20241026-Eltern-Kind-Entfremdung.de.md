@@ -4,7 +4,7 @@ description: "Rückblick auf die Podiumsdiskussion des Vereins für elterliche V
 date: 2024-10-26T11:00:00+02:00
 featureImage: images/unsplash/thomas-TFfqUyWo1jM-unsplash.jpg
 featureImageCrop: true
-tags: [ "Arbeitsrecht", "Veranstaltungen", "Podiumsdiskussion" ]
+tags: [ "Familienrecht", "Veranstaltungen", "Eltern" ]
 ---
 
 Am 24. Oktober 2024 durfte ich in Baden an einer Podiumsdiskussion des **Vereins für elterliche Verantwortung (VeV)** zum Thema «Was können Fachstellen tun? Best Practice bei Eltern-Kind-Entfremdung» teilnehmen. Gemeinsam mit Vertreterinnen und Vertretern aus Politik, Familiengericht und KESB, Beratung und Beistandschaft wurde diskutiert, wie Fachstellen mit Fällen von Eltern-Kind-Entfremdung umgehen können. 
