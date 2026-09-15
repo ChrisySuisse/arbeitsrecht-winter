@@ -12,15 +12,18 @@
   }
 
   @include mobile {
-    width: 100%;
-    min-height: 38px;
+    width: auto;
+    min-height: 28px;
     padding: 0 18px;
-    left: 0;
+    
+    left: 15px;
+    right: 0;
     top: 0;
     transform: none;
 
     background: $primary-color;
     border: 0;
+    border-radius: 0 0 0 10px;
     box-shadow: none;
   }
 
@@ -263,11 +266,11 @@
     padding: 0;
 
     @include mobile {
-      position: absolute;
+      position: fixed;
       top: 0;
-      right: 16px;
+      right: 0px;
 
-      width: 52px;
+      width: 56px;
       height: 52px;
 
       display: flex;
@@ -276,10 +279,26 @@
       justify-content: center;
 
       border: 0;
-      border-radius: 0 0 0 6px;
+      border-radius: 0 0 0 8px;
       background: $primary-color;
 
       z-index: 1200;
+
+      &::before {
+        content: "";
+        position: absolute;
+
+        left: -10px;
+        top: 28px;
+
+        width: 10px;
+        height: 10px;
+
+        background: transparent;
+        border-radius: 0 6px 0 0;
+        box-shadow: 5px -5px 0 5px $primary-color;
+      }
+
     }
 
     .icon-bar {
@@ -336,13 +355,14 @@
   @include mobile {
     .navbar-collapse {
       position: absolute;
-      top: 38px;
+      top: 28px;
       left: 0;
 
       width: 100%;
       padding: 26px 20px 20px;
 
       background: $white;
+      border-radius: 10px 0 0 0;
       border-bottom: 1px solid $silver-color;
       box-shadow: 0 8px 20px rgba($black, 0.08);
     }
@@ -373,7 +393,7 @@
     @include mobile {
       top: 0;
       width: 100%;
-      min-height: 38px;
+      min-height: 28px;
       padding: 0 18px;
 
       background: $primary-color;
