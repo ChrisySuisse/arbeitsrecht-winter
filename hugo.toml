@@ -20,7 +20,7 @@ defaultContentLanguageInSubdir = false
     weight = 1
 
     [languages.de.params]
-      flag = "DE"
+      flag = "🇨🇭 DE"
 
   [languages.en]
     contentDir = 'content'
@@ -32,7 +32,7 @@ defaultContentLanguageInSubdir = false
     weight = 2
 
     [languages.en.params]
-      flag = "ENG"
+      flag = "🇬🇧 ENG"
  
 
 # Main Menu German
@@ -130,34 +130,28 @@ weight = 34
 # Weitere Menüpunkte
 
 [[menu.Main]]
+name = "Über mich"
+url = "/about/"
+weight = 4
+
+[[menu.Main]]
 name = "Publikationen"
 url = "/publications/"
-weight = 4
+weight = 5
 
 [[menu.Main]]
 name = "Kontakt"
 url = "/contact/"
-weight = 5
+weight = 6
 
 [[menu.Main]]
 name = "FAQ"
 url = "#faq"
-weight = 6
-
-[[menu.Main]]
-name = "Über mich"
-url = "/about/"
 weight = 7
 
 # ============================================================
 # Main Menu English
 # ============================================================
-
-[[languages.en.menu.Main]]
-name = "Services"
-url = "/en/#service"
-weight = 1
-
 
 # Labour Law
 
@@ -252,23 +246,23 @@ weight = 34
 # Other menu items
 
 [[languages.en.menu.Main]]
-name = "Media"
-url = "/en/publications/"
+name = "About"
+url = "/en/about/"
 weight = 4
 
 [[languages.en.menu.Main]]
-name = "About"
-url = "/en/about/"
+name = "Publications"
+url = "/en/publications/"
 weight = 5
-
-[[languages.en.menu.Main]]
-name = "FAQ"
-url = "/en/#faq"
-weight = 6
 
 [[languages.en.menu.Main]]
 name = "Contact"
 url = "/en/contact/"
+weight = 6
+
+[[languages.en.menu.Main]]
+name = "FAQ"
+url = "/en/#faq"
 weight = 7
 
   # Sitemap Menu
@@ -297,8 +291,6 @@ weight = 7
   aboutPageURL = "publications"
   contactLink = "contact"
   copyright = "© {year} Arbeitsrecht Winter"
-#  fabFormURL =  "https://fabform.io/f/u00kv3-"
-#  googleAnalytics = "G-JZ95FEWF9K"
   logo = "logo/logo_only.png"
   footerlogo = "logo/logo_neu.png"
   footerDescription = "Kanzlei Arbeitsrecht Winter"

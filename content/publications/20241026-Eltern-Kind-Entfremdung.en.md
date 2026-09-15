@@ -1,14 +1,16 @@
 ---
-title: "The Battle over the Personnel File"
-description: "What data may be processed in a personnel file, and what rights do employees have? This article examines access, information rights, and data protection in the employment relationship."
-date: 2024-02-03T11:00:00+01:00
+title: "Panel Discussion on Parent–Child Alienation"
+description: "A look back at the panel discussion hosted by the Verein für elterliche Verantwortung (VeV) on best practices in cases of parent–child alienation."
+date: 2024-10-26T11:00:00+02:00
 featureImage: images/unsplash/thomas-TFfqUyWo1jM-unsplash.jpg
 featureImageCrop: true
-tags: [ "Employment Law", "Data Protection", "Personnel File", "Employee Rights" ]
+tags: [ "Family Law", "Events", "Parents" ]
 ---
 
-The personnel file contains a wide range of employees’ personal data and therefore raises important questions of employment law and data protection. What data may an employer process? What rights of access and information do employees have, and under what circumstances may these rights be restricted?
+On 24 October 2024, I had the opportunity to take part in a panel discussion in Baden hosted by the **Verein für elterliche Verantwortung (VeV)** on the topic “What Can Professional Services Do? Best Practices in Cases of Parent–Child Alienation”. Together with representatives from politics, the family courts and child and adult protection authorities (KESB), as well as professionals working in counselling and guardianship, we discussed how professional services can approach cases of parent–child alienation.
 
-In our article for the newsletter *Lohn & Sozialversicherungen* (in German), Selin Cinar and I provide an overview of the legal framework governing personnel files, with a particular focus on employees’ rights under the revised Data Protection Act and the limits of those rights.
+The event was aimed in particular at professionals, representatives of public authorities and policymakers dealing with family conflicts.
 
-{{<icon class="fa fa-file-pdf">}}&nbsp;[Christina Winter / Selin Cinar: Der Kampf um das Personaldossier (in German)](../../documents/5_Personaldossier.pdf)
+Further information about the association and its work is available on the website of the **Verein für elterliche Verantwortung (VeV)**:
+
+{{<icon class="fa fa-external-link">}}&nbsp;[Verein für elterliche Verantwortung (VeV)](https://vev.ch/)

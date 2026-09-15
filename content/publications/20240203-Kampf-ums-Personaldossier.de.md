@@ -6,7 +6,7 @@ featureImage: images/hero_background_winter.jpg
 tags: [ "Arbeitsrecht", "Datenschutz", "Personaldossier", "Arbeitnehmerrechte" ]
 ---
 
-Das Personaldossier enthält zahlreiche persönliche Daten von Arbeitnehmerinnen und Arbeitnehmern und wirft entsprechend wichtige arbeits- und datenschutzrechtliche Fragen auf. Welche Daten darf der Arbeitgeber bearbeiten? Welche Auskunfts- und Einsichtsrechte bestehen und unter welchen Voraussetzungen können diese eingeschränkt werden? :contentReference[oaicite:0]{index=0}
+Das Personaldossier enthält zahlreiche persönliche Daten von Arbeitnehmerinnen und Arbeitnehmern und wirft entsprechend wichtige arbeits- und datenschutzrechtliche Fragen auf. Welche Daten darf der Arbeitgeber bearbeiten? Welche Auskunfts- und Einsichtsrechte bestehen und unter welchen Voraussetzungen können diese eingeschränkt werden?
 
 In unserem Beitrag für den Newsletter *Lohn & Sozialversicherungen* geben Selin Cinar und ich einen Überblick über die rechtlichen Grundlagen des Personaldossiers und zeigen insbesondere auf, welche Rechte Arbeitnehmerinnen und Arbeitnehmer nach dem revidierten Datenschutzgesetz haben und wo deren Grenzen liegen.
 
