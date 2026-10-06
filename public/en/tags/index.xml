@@ -42,6 +42,27 @@
 				<description></description>
 			</item>
 			<item>
+				<title>Events</title>
+				<link>http://localhost:1313/en/tags/events/</link>
+				<pubDate>Sat, 26 Oct 2024 11:00:00 +0200</pubDate>
+				<guid>http://localhost:1313/en/tags/events/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Family Law</title>
+				<link>http://localhost:1313/en/tags/family-law/</link>
+				<pubDate>Sat, 26 Oct 2024 11:00:00 +0200</pubDate>
+				<guid>http://localhost:1313/en/tags/family-law/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Parents</title>
+				<link>http://localhost:1313/en/tags/parents/</link>
+				<pubDate>Sat, 26 Oct 2024 11:00:00 +0200</pubDate>
+				<guid>http://localhost:1313/en/tags/parents/</guid>
+				<description></description>
+			</item>
+			<item>
 				<title>Data Protection</title>
 				<link>http://localhost:1313/en/tags/data-protection/</link>
 				<pubDate>Sat, 03 Feb 2024 11:00:00 +0100</pubDate>

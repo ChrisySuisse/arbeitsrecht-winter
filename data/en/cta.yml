@@ -1,0 +1,16 @@
+enable: true
+
+image: "images/Foto_CW_Frontpage3.jpg"
+
+title: "Personal Employment Law Advice"
+
+text: "Do you have questions about your employment situation? Get in touch to discuss your matter and receive a tailored legal assessment."
+
+primaryButton:
+  text: "Schedule a Consultation →"
+  url: "/contact/"
+
+secondaryButton:
+  text: "+41 76 778 97 01"
+  url: "tel:+41767789701"
+  icon: "fa fa-phone"

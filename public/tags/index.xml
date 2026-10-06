@@ -42,10 +42,17 @@
 				<description></description>
 			</item>
 			<item>
-				<title>Podiumsdiskussion</title>
-				<link>http://localhost:1313/tags/podiumsdiskussion/</link>
+				<title>Eltern</title>
+				<link>http://localhost:1313/tags/eltern/</link>
 				<pubDate>Sat, 26 Oct 2024 11:00:00 +0200</pubDate>
-				<guid>http://localhost:1313/tags/podiumsdiskussion/</guid>
+				<guid>http://localhost:1313/tags/eltern/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Familienrecht</title>
+				<link>http://localhost:1313/tags/familienrecht/</link>
+				<pubDate>Sat, 26 Oct 2024 11:00:00 +0200</pubDate>
+				<guid>http://localhost:1313/tags/familienrecht/</guid>
 				<description></description>
 			</item>
 			<item>

@@ -1,0 +1,469 @@
+local_backend: true
+
+backend:
+  name: github
+  repo: ChrisySuisse/arbeitsrecht-winter
+  branch: main
+
+media_folder: "assets/images"
+public_folder: "images"
+
+i18n:
+  structure: multiple_files
+  locales: [de, en]
+  default_locale: de
+
+collections:
+
+  - name: "labour"
+    label: "Arbeitsrecht"
+    folder: "content/labour"
+    create: true
+    i18n: true
+    format: "frontmatter"
+    extension: "md"
+
+    fields:
+      - label: "Titel"
+        name: "title"
+        widget: "string"
+        i18n: true
+
+      - label: "Datum"
+        name: "date"
+        widget: "datetime"
+        i18n: duplicate
+
+      - label: "Entwurf"
+        name: "draft"
+        widget: "boolean"
+        default: true
+        required: false
+        i18n: duplicate
+
+      - label: "Seitenbild"
+        name: "sideImage"
+        widget: "image"
+        required: false
+        i18n: duplicate
+
+      - label: "Beschreibung"
+        name: "description"
+        widget: "text"
+        i18n: true
+
+      - label: "Inhalt"
+        name: "body"
+        widget: "markdown"
+        i18n: true
+
+
+  - name: "family"
+    label: "Familienrecht"
+    folder: "content/family"
+    create: true
+    i18n: true
+    format: "frontmatter"
+    extension: "md"
+
+    fields:
+      - label: "Titel"
+        name: "title"
+        widget: "string"
+        i18n: true
+
+      - label: "Datum"
+        name: "date"
+        widget: "datetime"
+        i18n: duplicate
+
+      - label: "Entwurf"
+        name: "draft"
+        widget: "boolean"
+        default: true
+        required: false
+        i18n: duplicate
+
+      - label: "Seitenbild"
+        name: "sideImage"
+        widget: "image"
+        required: false
+        i18n: duplicate
+
+      - label: "Beschreibung"
+        name: "description"
+        widget: "text"
+        i18n: true
+
+      - label: "Inhalt"
+        name: "body"
+        widget: "markdown"
+        i18n: true
+
+
+  - name: "publications"
+    label: "Publikationen"
+    folder: "content/publications"
+    create: true
+    i18n: true
+    format: "frontmatter"
+    extension: "md"
+
+    fields:
+      - label: "Titel"
+        name: "title"
+        widget: "string"
+        i18n: true
+
+      - label: "Beschreibung"
+        name: "description"
+        widget: "text"
+        i18n: true
+
+      - label: "Datum"
+        name: "date"
+        widget: "datetime"
+        i18n: duplicate
+
+      - label: "Entwurf"
+        name: "draft"
+        widget: "boolean"
+        default: true
+        required: false
+        i18n: duplicate
+
+      - label: "Beitragsbild"
+        name: "featureImage"
+        widget: "image"
+        required: false
+        i18n: duplicate
+
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        required: false
+        i18n: true
+
+      - label: "Inhalt"
+        name: "body"
+        widget: "markdown"
+        i18n: true
+
+  # =========================================================
+  # LANDING PAGE – DEUTSCH
+  # =========================================================
+
+  - name: "landing_de"
+    label: "Landing Page (DE)"
+
+    files:
+      # -------------------------------------------------------
+      # CALL TO ACTION
+      # -------------------------------------------------------
+
+      - name: "cta_de"
+        label: "Kontakt / Call to Action"
+        file: "data/de/cta.yml"
+
+        fields:
+          - label: "Aktiv"
+            name: "enable"
+            widget: "boolean"
+            default: true
+
+          - label: "Bild"
+            name: "image"
+            widget: "image"
+            required: false
+
+          - label: "Titel"
+            name: "title"
+            widget: "string"
+
+          - label: "Text"
+            name: "text"
+            widget: "text"
+
+          - label: "Primärer Button"
+            name: "primaryButton"
+            widget: "object"
+            fields:
+              - label: "Text"
+                name: "text"
+                widget: "string"
+
+              - label: "URL"
+                name: "url"
+                widget: "string"
+
+          - label: "Sekundärer Button"
+            name: "secondaryButton"
+            widget: "object"
+            required: false
+            fields:
+              - label: "Text"
+                name: "text"
+                widget: "string"
+
+              - label: "URL"
+                name: "url"
+                widget: "string"
+
+              - label: "Icon"
+                name: "icon"
+                widget: "string"
+                required: false
+
+
+      # -------------------------------------------------------
+      # FAQ
+      # -------------------------------------------------------
+
+      - name: "faq_de"
+        label: "FAQ"
+        file: "data/de/faq.yml"
+
+        fields:
+          - label: "Aktiv"
+            name: "enable"
+            widget: "boolean"
+            default: true
+
+          - label: "Titel"
+            name: "title"
+            widget: "string"
+
+          - label: "Fragen"
+            name: "faq"
+            widget: "list"
+            summary: "{{fields.question}}"
+            fields:
+              - label: "Frage"
+                name: "question"
+                widget: "string"
+
+              - label: "Antwort"
+                name: "answer"
+                widget: "markdown"
+
+
+      # -------------------------------------------------------
+      # LEISTUNGSÜBERSICHT
+      # -------------------------------------------------------
+
+      - name: "service_de"
+        label: "Leistungsübersicht"
+        file: "data/de/service.yml"
+
+        fields:
+          - label: "Aktiv"
+            name: "enable"
+            widget: "boolean"
+            default: true
+
+          - label: "Bild"
+            name: "image"
+            widget: "image"
+            required: false
+
+          - label: "Bildbeschreibung"
+            name: "imageAlt"
+            widget: "string"
+            required: false
+
+          - label: "Kicker"
+            name: "kicker"
+            widget: "string"
+
+          - label: "Titel"
+            name: "title"
+            widget: "string"
+
+          - label: "Untertitel"
+            name: "subtitle"
+            widget: "text"
+
+          - label: "Leistungen"
+            name: "services"
+            widget: "list"
+            summary: "{{fields.name}}"
+            fields:
+              - label: "Name"
+                name: "name"
+                widget: "string"
+
+              - label: "Themen"
+                name: "topics"
+                widget: "list"
+                field:
+                  label: "Thema"
+                  name: "topic"
+                  widget: "string"
+
+              - label: "Link"
+                name: "link"
+                widget: "string"
+
+          - label: "Persönlicher Hinweis"
+            name: "personal"
+            widget: "text"
+
+
+  # =========================================================
+  # LANDING PAGE – ENGLISH
+  # =========================================================
+
+  - name: "landing_en"
+    label: "Landing Page (EN)"
+
+    files:
+      # -------------------------------------------------------
+      # CALL TO ACTION
+      # -------------------------------------------------------
+
+      - name: "cta_en"
+        label: "Contact / Call to Action"
+        file: "data/en/cta.yml"
+
+        fields:
+          - label: "Enabled"
+            name: "enable"
+            widget: "boolean"
+            default: true
+
+          - label: "Image"
+            name: "image"
+            widget: "image"
+            required: false
+
+          - label: "Title"
+            name: "title"
+            widget: "string"
+
+          - label: "Text"
+            name: "text"
+            widget: "text"
+
+          - label: "Primary Button"
+            name: "primaryButton"
+            widget: "object"
+            fields:
+              - label: "Text"
+                name: "text"
+                widget: "string"
+
+              - label: "URL"
+                name: "url"
+                widget: "string"
+
+          - label: "Secondary Button"
+            name: "secondaryButton"
+            widget: "object"
+            required: false
+            fields:
+              - label: "Text"
+                name: "text"
+                widget: "string"
+
+              - label: "URL"
+                name: "url"
+                widget: "string"
+
+              - label: "Icon"
+                name: "icon"
+                widget: "string"
+                required: false
+
+
+      # -------------------------------------------------------
+      # FAQ
+      # -------------------------------------------------------
+
+      - name: "faq_en"
+        label: "FAQ"
+        file: "data/en/faq.yml"
+
+        fields:
+          - label: "Enabled"
+            name: "enable"
+            widget: "boolean"
+            default: true
+
+          - label: "Title"
+            name: "title"
+            widget: "string"
+
+          - label: "Questions"
+            name: "faq"
+            widget: "list"
+            summary: "{{fields.question}}"
+            fields:
+              - label: "Question"
+                name: "question"
+                widget: "string"
+
+              - label: "Answer"
+                name: "answer"
+                widget: "markdown"
+
+
+      # -------------------------------------------------------
+      # SERVICES
+      # -------------------------------------------------------
+
+      - name: "service_en"
+        label: "Services Overview"
+        file: "data/en/service.yml"
+
+        fields:
+          - label: "Enabled"
+            name: "enable"
+            widget: "boolean"
+            default: true
+
+          - label: "Image"
+            name: "image"
+            widget: "image"
+            required: false
+
+          - label: "Image description"
+            name: "imageAlt"
+            widget: "string"
+            required: false
+
+          - label: "Kicker"
+            name: "kicker"
+            widget: "string"
+
+          - label: "Title"
+            name: "title"
+            widget: "string"
+
+          - label: "Subtitle"
+            name: "subtitle"
+            widget: "text"
+
+          - label: "Services"
+            name: "services"
+            widget: "list"
+            summary: "{{fields.name}}"
+            fields:
+              - label: "Name"
+                name: "name"
+                widget: "string"
+
+              - label: "Topics"
+                name: "topics"
+                widget: "list"
+                field:
+                  label: "Topic"
+                  name: "topic"
+                  widget: "string"
+
+              - label: "Link"
+                name: "link"
+                widget: "string"
+
+          - label: "Personal note"
+            name: "personal"
+            widget: "text"
