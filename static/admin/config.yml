@@ -8,6 +8,10 @@ backend:
 media_folder: "assets/images"
 public_folder: "images"
 
+logo:
+  src: /logo/logo.png
+  show_in_header: true
+
 i18n:
   structure: multiple_files
   locales: [de, en]
