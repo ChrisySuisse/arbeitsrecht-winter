@@ -4,6 +4,7 @@ backend:
   name: github
   repo: ChrisySuisse/arbeitsrecht-winter
   branch: staging
+  site_domain: arbeitsrecht-winter-cms.netlify.app
 
 media_folder: "assets/images/cms"
 public_folder: "images/cms"
