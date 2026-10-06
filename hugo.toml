@@ -291,12 +291,12 @@ weight = 7
   aboutPageURL = "publications"
   contactLink = "contact"
   copyright = "© {year} Arbeitsrecht Winter"
-  logo = "logo/logo_only.png"
-  footerlogo = "logo/logo_neu.png"
+  logo = "logo/AR_Winter_Logo_plain.png"
+  footerlogo = "logo/AR_Winter_logo_Text_rechts.png"
   footerDescription = "Kanzlei Arbeitsrecht Winter"
   description = "Arbeitsrechtliche Beratung und Vertretung für Arbeitnehmer, Führungskräfte und Arbeitgeber."
-  defaultBlogImage = "images/AR_Winter_default_blog_image.jpg"
-  defaultSocialImage = "images/AR_Winter_default_social_image.jpg"
+  defaultBlogImage = "images/cms/AR_Winter_default_blog_image.jpg"
+  defaultSocialImage = "images/cms/AR_Winter_default_social_image.jpg"
 
   [params.address]
   name = "Christina Winter"

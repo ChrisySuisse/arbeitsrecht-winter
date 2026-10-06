@@ -1,7 +1,7 @@
 ---
 title: "Family Law"
 date: 2022-01-08T10:41:03+06:00
-sideImage: "images/Zusammenarbeitsbild.jpg"
+sideImage: "images/cms/CW_Zusammenarbeit.jpg"
 ---
 
 Nothing is more stressful and painful than ruptures, irreconcilable conflicts and the associated uncertainties in the family environment. Sensitive life situations require sensitive, prudent and at the same time professional and swift action. Precisely because family conflicts are often existentially very stressful, it is worth placing your own interests in experienced and level-headed hands.

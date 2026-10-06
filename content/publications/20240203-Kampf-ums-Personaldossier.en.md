@@ -2,7 +2,7 @@
 title: "The Battle over the Personnel File"
 description: "What data may be processed in a personnel file, and what rights do employees have? This article examines access, information rights, and data protection in the employment relationship."
 date: 2024-02-03T11:00:00+01:00
-featureImage: images/hero_background_winter.jpg
+featureImage: images/cms/CW_Hand_Arbeitsrecht.jpg
 tags: [ "Employment Law", "Data Protection", "Personnel File", "Employee Rights" ]
 ---
 

@@ -2,7 +2,7 @@
 title: "Podiumsdiskussion zur Eltern-Kind-Entfremdung"
 description: "Rückblick auf die Podiumsdiskussion des Vereins für elterliche Verantwortung (VeV) zu Best Practice bei Eltern-Kind-Entfremdung."
 date: 2024-10-26T11:00:00+02:00
-featureImage: images/unsplash/thomas-TFfqUyWo1jM-unsplash.jpg
+featureImage: images/cms/thomas-TFfqUyWo1jM-unsplash.jpg
 featureImageCrop: true
 tags: [ "Familienrecht", "Veranstaltungen", "Eltern" ]
 ---
