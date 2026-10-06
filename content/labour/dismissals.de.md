@@ -1,8 +1,9 @@
 ---
-title: "Kündigungen"
+title: Kündigungen
 date: 2026-08-30T10:42:03+06:00
 sideImage: "images/cms/kyle-reed-b_UtP7rm_po-unsplash.jpg"
-description: "Beratung zu Kündigung, missbräuchlicher und fristloser Kündigung im Schweizer Arbeitsrecht – für Arbeitnehmer und Arbeitgeber."
+description: Beratung zu Kündigung, missbräuchlicher und fristloser Kündigung im
+  Schweizer Arbeitsrecht – für Arbeitnehmer und Arbeitgeber.
 ---
 
 Im schweizerischen Arbeitsrecht gilt grundsätzlich die Kündigungsfreiheit: Sowohl Arbeitnehmerinnen und Arbeitnehmer als auch Arbeitgeber können ein unbefristetes Arbeitsverhältnis unter Einhaltung der vertraglichen oder gesetzlichen Fristen beenden. Ein Kündigungsgrund muss nicht von sich aus angegeben werden. Dennoch sind die Umstände, unter denen eine Kündigung ausgesprochen wird, rechtlich keineswegs bedeutungslos.

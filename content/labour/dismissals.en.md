@@ -1,8 +1,9 @@
 ---
-title: "Dismissals"
+title: Dismissals
 date: 2026-08-30T10:42:03+06:00
 sideImage: "images/cms/kyle-reed-b_UtP7rm_po-unsplash.jpg"
-description: "Advice on termination, abusive dismissal and termination with immediate effect under Swiss employment law – for employees and employers."
+description: Advice on termination, abusive dismissal and termination with
+  immediate effect under Swiss employment law – for employees and employers.
 ---
 
 Under Swiss employment law, the principle of freedom of termination generally applies: both employees and employers may terminate an open-ended employment relationship, provided that the contractual or statutory notice periods are observed. There is no general requirement to state a reason for termination. Nevertheless, the circumstances in which notice is given can be highly relevant from a legal perspective.

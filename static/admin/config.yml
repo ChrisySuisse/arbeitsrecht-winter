@@ -3,10 +3,10 @@ local_backend: true
 backend:
   name: github
   repo: ChrisySuisse/arbeitsrecht-winter
-  branch: main
+  branch: staging
 
-media_folder: "assets/images"
-public_folder: "images"
+media_folder: "assets/images/cms"
+public_folder: "images/cms"
 
 logo:
   src: /logo/AR_Winter_logo_Text_unten.png
@@ -41,8 +41,8 @@ collections:
       - label: "Entwurf"
         name: "draft"
         widget: "boolean"
-        default: true
-        required: false
+        default: false
+        required: true
         i18n: duplicate
 
       - label: "Seitenbild"
@@ -84,8 +84,8 @@ collections:
       - label: "Entwurf"
         name: "draft"
         widget: "boolean"
-        default: true
-        required: false
+        default: false
+        required: true
         i18n: duplicate
 
       - label: "Seitenbild"
@@ -132,8 +132,8 @@ collections:
       - label: "Entwurf"
         name: "draft"
         widget: "boolean"
-        default: true
-        required: false
+        default: false
+        required: true
         i18n: duplicate
 
       - label: "Beitragsbild"
