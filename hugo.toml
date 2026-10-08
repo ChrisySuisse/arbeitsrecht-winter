@@ -20,7 +20,7 @@ defaultContentLanguageInSubdir = false
     weight = 1
 
     [languages.de.params]
-      flag = "images/flags/ch.svg"
+      flag = "/images/flags/ch.svg"
 
   [languages.en]
     contentDir = 'content'
@@ -32,7 +32,7 @@ defaultContentLanguageInSubdir = false
     weight = 2
 
     [languages.en.params]
-      flag = "images/flags/gb.svg"
+      flag = "/images/flags/gb.svg"
  
 
 # Main Menu German
