@@ -1,7 +1,7 @@
 ---
 title: "Über mich"
 date: 2023-01-08T10:41:03+06:00
-sideImage: images/cms/CW_about2.jpg
+sideImage: images/about/CW_about_hell.jpg
 description: "Arbeitsrechtliche Beratung und Vertretung in Basel und der Nordwestschweiz – persönlich, spezialisiert und mit langjähriger wissenschaftlicher und praktischer Erfahrung."
 ---
 

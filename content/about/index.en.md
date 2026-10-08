@@ -1,7 +1,7 @@
 ---
 title: "About"
 date: 2023-01-08T10:41:03+06:00
-sideImage: images/cms/CW_about2.jpg
+sideImage: images/about/CW_about_hell.jpg
 description: "Employment law advice and representation in Basel and Northwestern Switzerland – personal, specialised and backed by extensive academic and practical experience."
 ---
 
