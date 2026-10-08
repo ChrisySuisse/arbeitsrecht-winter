@@ -20,7 +20,7 @@ defaultContentLanguageInSubdir = false
     weight = 1
 
     [languages.de.params]
-      flag = "🇨🇭 DE"
+      flag = "/images/flags/ch.svg"
 
   [languages.en]
     contentDir = 'content'
@@ -32,7 +32,7 @@ defaultContentLanguageInSubdir = false
     weight = 2
 
     [languages.en.params]
-      flag = "🇬🇧 ENG"
+      flag = "/images/flags/gb.svg"
  
 
 # Main Menu German
@@ -287,7 +287,6 @@ weight = 7
 
 
 [params]
-  # theme_overrides = "css/overrides.css"
   aboutPageURL = "publications"
   contactLink = "contact"
   copyright = "© {year} Arbeitsrecht Winter"

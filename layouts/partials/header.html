@@ -107,57 +107,69 @@
 
         {{ if hugo.IsMultilingual }}
 
-        <ul class="navbar-nav ml-auto language-list">
+          <ul class="navbar-nav ml-auto language-list">
 
-          {{ $currentPage := . }}
+            {{ $currentPage := . }}
 
-          {{ range hugo.Sites }}
+            {{ range hugo.Sites }}
 
-            {{ if ne .Language.Lang $currentPage.Lang }}
+              {{ if ne .Language.Lang $currentPage.Lang }}
 
-              {{ $targetLang := .Language.Lang }}
-              {{ $targetSite := . }}
-              {{ $targetPage := false }}
+                {{ $targetLang := .Language.Lang }}
+                {{ $targetSite := . }}
+                {{ $targetPage := false }}
 
-              {{ range $currentPage.AllTranslations }}
+                {{ range $currentPage.AllTranslations }}
 
-                {{ if eq .Lang $targetLang }}
-                  {{ $targetPage = . }}
+                  {{ if eq .Lang $targetLang }}
+                    {{ $targetPage = . }}
+                  {{ end }}
+
                 {{ end }}
+
+                <li class="nav-item">
+
+                  {{ if $targetPage }}
+
+                    <a
+                      class="nav-link language-link"
+                      href="{{ $targetPage.RelPermalink }}"
+                    >
+                      <img
+                        class="language-flag"
+                        src="{{ $targetPage.Site.Params.flag | relURL }}"
+                        alt=""
+                        aria-hidden="true"
+                      >
+                      <span>{{ upper $targetLang }}</span>
+                    </a>
+
+                  {{ else }}
+
+                    <a
+                      class="nav-link language-link"
+                      href="{{ $targetSite.Home.RelPermalink }}"
+                    >
+                      <img
+                        class="language-flag"
+                        src="{{ $targetSite.Params.flag | relURL }}"
+                        alt=""
+                        aria-hidden="true"
+                      >
+                      <span>{{ upper $targetLang }}</span>
+                    </a>
+
+                  {{ end }}
+
+                </li>
 
               {{ end }}
 
-              <li class="nav-item">
-
-                {{ if $targetPage }}
-
-                  <a
-                    class="nav-link"
-                    href="{{ $targetPage.RelPermalink }}"
-                  >
-                    {{ $targetPage.Site.Params.flag }}
-                  </a>
-
-                {{ else }}
-
-                  <a
-                    class="nav-link"
-                    href="{{ $targetSite.Home.RelPermalink }}"
-                  >
-                    {{ $targetSite.Params.flag }}
-                  </a>
-
-                {{ end }}
-
-              </li>
-
             {{ end }}
 
+          </ul>
+
           {{ end }}
-
-        </ul>
-
-        {{ end }}
 
       </div>
 

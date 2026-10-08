@@ -217,4 +217,14 @@
 }
 
 
-  
+.language-link {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.language-flag {
+  display: block;
+  width: 22px;
+  height: auto;
+}
