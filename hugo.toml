@@ -302,9 +302,8 @@ weight = 7
   company = "Kanzlei Arbeitsrecht Winter"
   address = "Steinenbachgässlein 27 <br> CH-4051 Basel"
   email = "christina.winter@arbeitsrecht-winter.ch"
-#  openingDesc = "Kontaktieren Sie uns gern"
-#  openingHours = "We are open from 7am — 7pm week days."
   phone = "+41 76 778 97 01"
+  phoneLink = "+41767789701"
 
   [params.map]
   latitude = 47.552891

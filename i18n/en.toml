@@ -4,5 +4,23 @@
 [viewBlogPage]
   other = 'View publications page'
   
+[PersonalContact]
+other = "Personal contact"
+
+[LetsTalk]
+other = "Let’s talk."
+
+[ContactIntro]
+other = "Do you have a question concerning employment or family law? I would be happy to discuss your matter and the possible next steps with you."
+
+[Phone]
+other = "Phone"
+
+[WriteWhatsApp]
+other = "Message me on WhatsApp →"
+
 [BookingRequest]
-  other = 'Booking Request'
+other = "Schedule an appointment"
+
+[BookingIntro]
+other = "Choose a convenient time for an initial consultation."

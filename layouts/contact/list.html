@@ -1,25 +1,98 @@
-{{define "main"}}
-<section class="contact-section">
+{{ define "main" }}
+
+<section class="about">
   <div class="container">
+
     <div class="row">
       <div class="col-lg-10 mx-auto col-md-12">
-        <div class="page-header">
-          <h2> {{ .Title }}</h2>
-          <p>{{.Params.subTitle | safeHTML}}</p>
+        <div class="page-header page-header-compact">
+          <h2>{{ .Title }}</h2>
         </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col-lg-8 mx-auto">
-        <div class="contact-form">
-          <h2>{{ i18n "BookingRequest" }}</h2>
+
+    <div class="row contact-main">
+
+      <!-- Persönlicher Kontakt -->
+      <div class="col-lg-4 col-md-12">
+        <div class="contact-info">
+
+          <span class="contact-eyebrow">
+            {{ i18n "PersonalContact" }}
+          </span>
+
+          <h3>{{ i18n "LetsTalk" }}</h3>
+
+          <p class="contact-intro">
+            {{ i18n "ContactIntro" }}
+          </p>
+
+          <div class="contact-details">
+
+            <div class="contact-detail">
+              <span class="contact-label">E-Mail</span>
+              <a href="mailto:{{ .Site.Params.address.email }}">
+                {{ .Site.Params.address.email }}
+              </a>
+            </div>
+
+            <div class="contact-detail">
+              <span class="contact-label">
+                {{ i18n "Phone" }}
+              </span>
+              <a href="tel:{{ .Site.Params.address.phoneLink }}">
+                {{ .Site.Params.address.phone }}
+              </a>
+            </div>
+
+            <div class="contact-detail">
+              <span class="contact-label">WhatsApp</span>
+              <a
+                href="https://wa.me/{{ .Site.Params.address.phoneLink }}"
+                target="_blank"
+                rel="noopener"
+              >
+                {{ i18n "WriteWhatsApp" }}
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Terminbuchung -->
+      <div class="col-lg-8 col-md-12">
+        <div class="contact-booking">
+
+          <div class="contact-booking-header">
+            <h3>{{ i18n "BookingRequest" }}</h3>
+
+            <p>
+              {{ i18n "BookingIntro" }}
+            </p>
+          </div>
+
           <!-- Calendly Inline-Widget Beginn -->
-<div class="calendly-inline-widget" data-url="https://calendly.com/arbeitsrecht-winter/30min" style="min-width:320px;height:700px;"></div>
-<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-<!-- Calendly Inline-Widget Ende -->
+          <div
+            class="calendly-inline-widget"
+            data-url="https://calendly.com/arbeitsrecht-winter/30min"
+            style="min-width:320px;height:700px;">
+          </div>
+
+          <script
+            type="text/javascript"
+            src="https://assets.calendly.com/assets/external/widget.js"
+            async>
+          </script>
+          <!-- Calendly Inline-Widget Ende -->
+
         </div>
       </div>
+
     </div>
+
   </div>
 </section>
-{{end}}
+
+{{ end }}
