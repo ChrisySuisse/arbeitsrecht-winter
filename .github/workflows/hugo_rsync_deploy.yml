@@ -24,6 +24,9 @@ jobs:
       - name: Show Hugo version
         run: hugo version
 
+      - name: Remove CMS from production
+        run: rm -rf static/admin
+
       - name: Build website
         run: hugo --minify
 

@@ -2,7 +2,7 @@
 title: "Panel Discussion on Parent–Child Alienation"
 description: "A look back at the panel discussion hosted by the Verein für elterliche Verantwortung (VeV) on best practices in cases of parent–child alienation."
 date: 2024-10-26T11:00:00+02:00
-featureImage: images/unsplash/thomas-TFfqUyWo1jM-unsplash.jpg
+featureImage: images/cms/thomas-TFfqUyWo1jM-unsplash.jpg
 featureImageCrop: true
 tags: [ "Family Law", "Events", "Parents" ]
 ---

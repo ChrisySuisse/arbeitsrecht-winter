@@ -20,3 +20,4 @@ Bild "Mann und Kind" ©&nbsp;[Thomas](https://unsplash.com/photos/TFfqUyWo1jM) (
 Bild "Asphaltstraße in der Nacht" ©&nbsp;[Kyle Reed](https://unsplash.com/photos/b_UtP7rm_po) (Unsplash License)<br/>
 Bild "Berglandschaft mit Eisenbahn, Schweiz" ©&nbsp;[Nanda Gopal Lakshman](https://unsplash.com/photos/R_NBFQlQuiU) (Unsplash License)<br/>
 Bild "Kugelschreiber und Papier" ©&nbsp;[Steve A Johnson](https://unsplash.com/photos/f2PXTJWrnrM) (Unsplash License)<br/>
+[flag-icons](https://github.com/lipis/flag-icons) von Panayiotis Lipiridis, lizenziert unter der MIT License

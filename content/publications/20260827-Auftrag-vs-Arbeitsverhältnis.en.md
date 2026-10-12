@@ -2,7 +2,7 @@
 title: "Independent Contractor or Employee? Distinguishing New Forms of Work"
 description: "When does a working relationship constitute employment, and when is it an independent contractor relationship? This article examines the distinction in the context of freelancing and other new forms of work."
 date: 2026-08-27T11:00:00+02:00
-featureImage: images/Arbeitsvertrag.jpg
+featureImage: images/cms/Arbeitsvertrag.jpg
 tags: [ "Employment Law", "Employment Contract", "Contract Law", "New Work" ]
 ---
 

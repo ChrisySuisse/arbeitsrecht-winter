@@ -1,7 +1,7 @@
 ---
 title: "Maintenance"
 date: 2026-08-31T11:23:00+02:00
-sideImage: "images/unsplash/palden-gyamtso-bX0tQ0HTRLg-unsplash.jpg"
+sideImage: "images/cms/palden-gyamtso-bX0tQ0HTRLg-unsplash.jpg"
 description: "Advice and representation on maintenance under Swiss family law – including child, spousal and post-divorce maintenance and the adjustment of existing payments."
 ---
 

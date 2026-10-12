@@ -1,7 +1,7 @@
 ---
 title: 'Podcast Law On Air: Workplace Bullying'
 date: 2024-02-06T21:35:41+01:00
-featureImage: images/unsplash/sebastian-pandelache-microphone-unsplash.jpg
+featureImage: images/cms/sebastian-pandelache-microphone-unsplash.jpg
 tags: [ "Employment Law", "Workplace Bullying"]
 draft: true
 ---

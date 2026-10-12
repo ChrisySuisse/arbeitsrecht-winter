@@ -1,7 +1,7 @@
 ---
 title: "Labour Law"
 date: 2022-01-08T10:41:03+06:00
-sideImage: "images/Art_321_OR.jpg"
+sideImage: "images/cms/Art_321_OR.jpg"
 ---
 
 ## Labour Law for Employees

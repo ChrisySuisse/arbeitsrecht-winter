@@ -3,6 +3,24 @@
   
 [viewBlogPage]
   other = 'Zur Publikationsübersicht'
-  
+
+[PersonalContact]
+other = "Persönlicher Kontakt"
+
+[LetsTalk]
+other = "Lassen Sie uns ins Gespräch kommen."
+
+[ContactIntro]
+other = "Sie haben eine arbeits- oder familienrechtliche Frage? Gerne bespreche ich mit Ihnen Ihr Anliegen und mögliche nächste Schritte."
+
+[Phone]
+other = "Telefon"
+
+[WriteWhatsApp]
+other = "Per WhatsApp schreiben →"
+
 [BookingRequest]
-  other = 'Buchungsanfrage'
+other = "Termin vereinbaren"
+
+[BookingIntro]
+other = "Wählen Sie einen passenden Termin für ein erstes Gespräch."

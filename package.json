@@ -1,0 +1,23 @@
+{
+  "name": "arbeitsrecht-winter",
+  "version": "1.0.0",
+  "description": "Der Inhalt der Webseite wird hier auf Github verwaltet. Jede Änderung wird sofort automatisch zum Hoster gepusht, sodass nach kurzer Zeit die Änderung veröffentlicht sein sollte. Das geschieht mit einem sog. Workflow (Github Actions). Dieser ist im Ordner `.github/workflows` gespeichert.",
+  "main": "index.js",
+  "scripts": {
+    "cms": "decap-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChrisySuisse/arbeitsrecht-winter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChrisySuisse/arbeitsrecht-winter/issues"
+  },
+  "homepage": "https://github.com/ChrisySuisse/arbeitsrecht-winter#readme",
+  "devDependencies": {
+    "decap-server": "^3.11.3"
+  }
+}

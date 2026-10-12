@@ -2,7 +2,7 @@
 title: "Der Kampf um das Personaldossier"
 description: "Welche Daten dürfen im Personaldossier bearbeitet werden und welche Rechte haben Arbeitnehmer? Der Beitrag beleuchtet Auskunft, Einsicht und Datenschutz im Arbeitsverhältnis."
 date: 2024-02-03T11:00:00+01:00
-featureImage: images/hero_background_winter.jpg
+featureImage: images/cms/CW_Hand_Arbeitsrecht.jpg
 tags: [ "Arbeitsrecht", "Datenschutz", "Personaldossier", "Arbeitnehmerrechte" ]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Unterhaltsfragen"
 date: 2026-08-31T11:23:00+02:00
-sideImage: "images/unsplash/palden-gyamtso-bX0tQ0HTRLg-unsplash.jpg"
+sideImage: "images/cms/palden-gyamtso-bX0tQ0HTRLg-unsplash.jpg"
 description: "Beratung und Vertretung bei Unterhaltsfragen – Kindesunterhalt, ehelicher und nachehelicher Unterhalt sowie Anpassung bestehender Unterhaltsbeiträge."
 ---
 
